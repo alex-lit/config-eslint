@@ -1,0 +1,53 @@
+{
+  "name": "@alexlit/config-eslint",
+  "version": "0.0.1",
+  "private": false,
+  "description": "eslint config",
+  "keywords": [
+    "eslint",
+    "config"
+  ],
+  "homepage": "https://github.com/alex-lit/config-eslint#readme",
+  "bugs": {
+    "url": "https://github.com/alex-lit/config-eslint/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alex-lit/config-eslint.git"
+  },
+  "license": "MIT",
+  "author": "Alexey Litovchenko",
+  "maintainers": [
+    "Alexey Litovchenko <alex.lit@outlook.com> (https://alexlit.gitlab.io)"
+  ],
+  "main": "eslint.config.js",
+  "files": [
+    "eslint.config.js"
+  ],
+  "scripts": {
+    "publish": "./scripts/publish.sh",
+    "semver": "./scripts/semver.sh",
+    "up": "./scripts/up.sh",
+    "version": "./scripts/version.sh"
+  },
+  "dependencies": {
+    "@nuxtjs/eslint-config": "^5.0.0",
+    "@nuxtjs/eslint-config-typescript": "^5.0.0",
+    "@typescript-eslint/eslint-plugin": "^4.11.0",
+    "@typescript-eslint/parser": "^4.11.0",
+    "eslint": "^7.16.0",
+    "eslint-config-prettier": "^7.1.0",
+    "eslint-plugin-jsdoc": "^30.7.9",
+    "eslint-plugin-nuxt": "^2.0.0",
+    "eslint-plugin-prettier": "^3.3.0",
+    "eslint-plugin-simple-import-sort": "^7.0.0",
+    "eslint-plugin-sonarjs": "^0.5.0",
+    "eslint-plugin-vue": "^7.3.0",
+    "eslint-plugin-vuetify": "^1.0.0-beta.7"
+  },
+  "devDependencies": {
+    "@commitlint/cli": "^11.0.0",
+    "@commitlint/config-conventional": "^11.0.0",
+    "conventional-changelog-cli": "^2.1.1"
+  }
+}
