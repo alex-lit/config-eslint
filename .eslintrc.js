@@ -1,5 +1,5 @@
 module.exports = {
-  root: true,
+  root: true, 
 
   env: {
     browser: true,
@@ -17,14 +17,7 @@ module.exports = {
     "prettier/vue",
   ],
 
-  plugins: [
-    "jsdoc",
-    "prettier",
-    "simple-import-sort",
-    "sonarjs",
-    "vue",
-    "vuetify",
-  ],
+  plugins: ["jsdoc", "prettier", "simple-import-sort", "sonarjs", "vue"],
 
   ignorePatterns: [
     "**/.git/**",
@@ -160,10 +153,5 @@ module.exports = {
     "vue/v-on-function-call": ["error", "always"],
     "vue/valid-v-bind-sync": ["error"],
     "vue/valid-v-slot": ["error"],
-
-    // vuetify
-    "vuetify/grid-unknown-attributes": "error",
-    "vuetify/no-deprecated-classes": "error",
-    "vuetify/no-legacy-grid": "error",
   },
 };
