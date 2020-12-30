@@ -1,3 +1,12 @@
+# [0.2.0](https://github.com/alex-lit/config-eslint/compare/v0.1.1...v0.2.0) (2020-12-30)
+
+
+### Bug Fixes
+
+* require assets ([a981719](https://github.com/alex-lit/config-eslint/commit/a981719c9a2edcd6e7bd927788059e2ef45e328f))
+
+
+
 ## [0.1.1](https://github.com/alex-lit/config-eslint/compare/v0.1.0...v0.1.1) (2020-12-30)
 
 
