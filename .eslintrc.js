@@ -1,13 +1,13 @@
 module.exports = {
   extends: [
-    "./configs/nuxt",
-    "./configs/import",
-    "./configs/simple-import-sort",
-    "./configs/jsdoc",
-    "./configs/sonar",
-    "./configs/typescript",
-    "./configs/vue",
-    "./configs/prettier",
+    "./configs/nuxt.js",
+    "./configs/import.js",
+    "./configs/simple-import-sort.js",
+    "./configs/jsdoc.js",
+    "./configs/sonar.js",
+    "./configs/typescript.js",
+    "./configs/vue.js",
+    "./configs/prettier.js",
   ],
 
   root: true,
