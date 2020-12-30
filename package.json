@@ -22,7 +22,8 @@
   ],
   "main": ".eslintrc.js",
   "files": [
-    ".eslintrc.js"
+    ".eslintrc.js",
+    "./configs"
   ],
   "scripts": {
     "publish": "./scripts/publish.sh",
