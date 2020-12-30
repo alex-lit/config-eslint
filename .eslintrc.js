@@ -1,13 +1,13 @@
 module.exports = {
   extends: [
-    require.resolve("./configs/nuxt"),
-    require.resolve("./configs/import"),
-    require.resolve("./configs/simple-import-sort"),
-    require.resolve("./configs/jsdoc"),
-    require.resolve("./configs/sonar"),
-    require.resolve("./configs/typescript"),
-    require.resolve("./configs/vue"),
-    require.resolve("./configs/prettier"),
+    require.resolve("./configs/nuxt.js"),
+    require.resolve("./configs/import.js"),
+    require.resolve("./configs/simple-import-sort.js"),
+    require.resolve("./configs/jsdoc.js"),
+    require.resolve("./configs/sonar.js"),
+    require.resolve("./configs/typescript.js"),
+    require.resolve("./configs/vue.js"),
+    require.resolve("./configs/prettier.js"),
   ],
 
   root: true,
