@@ -48,6 +48,6 @@
     "typescript": "^4"
   },
   "devDependencies": {
-    "@alexlit/config-commitlint": "0.0.2"
+    "@alexlit/config-commitlint": "0.0.3"
   }
 }
