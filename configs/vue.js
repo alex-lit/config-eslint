@@ -16,7 +16,12 @@ module.exports = {
         ignores: [],
       },
     ],
-    "vue/component-tags-order": ["error"],
+    "vue/component-tags-order": [
+      "error",
+      {
+        order: ["script", "template", "style"],
+      },
+    ],
     "vue/eqeqeq": ["error"],
     "vue/html-comment-content-newline": ["warn"],
     "vue/html-comment-content-spacing": ["warn"],
