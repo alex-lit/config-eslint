@@ -11,6 +11,6 @@ npm i @alexlit/config-eslint -D
 ```js
 // .eslintrc.js
 module.exports = {
-  extends: ["./node_modules/@alexlit/config-eslint"],
+  extends: ['./node_modules/@alexlit/config-eslint'],
 };
 ```

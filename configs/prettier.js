@@ -1,9 +1,9 @@
 module.exports = {
-  extends: ["prettier", "prettier/@typescript-eslint", "prettier/vue"],
+  extends: ['prettier', 'prettier/@typescript-eslint', 'prettier/vue'],
 
-  plugins: ["prettier"],
+  plugins: ['prettier'],
 
   rules: {
-    "prettier/prettier": "error",
+    'prettier/prettier': 'error',
   },
 };

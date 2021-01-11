@@ -1,8 +1,8 @@
 module.exports = {
-  plugins: ["simple-import-sort"],
+  plugins: ['simple-import-sort'],
 
   rules: {
-    "simple-import-sort/imports": "warn",
-    "simple-import-sort/exports": "warn",
+    'simple-import-sort/imports': 'warn',
+    'simple-import-sort/exports': 'warn',
   },
 };
