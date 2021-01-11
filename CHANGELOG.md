@@ -1,3 +1,12 @@
+# [0.3.0](https://github.com/alex-lit/config-eslint/compare/v0.2.7...v0.3.0) (2021-01-11)
+
+
+### Features
+
+* extend vue config ([b973225](https://github.com/alex-lit/config-eslint/commit/b973225b37a2f41859e2dc6d76dc7501fec927dc))
+
+
+
 ## [0.2.7](https://github.com/alex-lit/config-eslint/compare/v0.2.6...v0.2.7) (2021-01-10)
 
 
