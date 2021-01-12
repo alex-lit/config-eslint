@@ -1,3 +1,12 @@
+# [0.4.0](https://github.com/alex-lit/config-eslint/compare/v0.3.0...v0.4.0) (2021-01-12)
+
+
+### Features
+
+* lint root configs ([17f4cde](https://github.com/alex-lit/config-eslint/commit/17f4cde18bacffd3da91d92a8e3c3d1d7178fdb4))
+
+
+
 # [0.3.0](https://github.com/alex-lit/config-eslint/compare/v0.2.7...v0.3.0) (2021-01-11)
 
 ### Features
