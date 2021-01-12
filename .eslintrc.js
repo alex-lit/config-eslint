@@ -13,6 +13,7 @@ module.exports = {
     '**/docs/**',
     '**/node_modules/**',
     '**/sw.js',
+    '!/.*.js',
   ],
 
   extends: [
