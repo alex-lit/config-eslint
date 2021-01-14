@@ -24,6 +24,7 @@ module.exports = {
     require.resolve('./configs/sonar.js'),
     require.resolve('./configs/typescript.js'),
     require.resolve('./configs/vue.js'),
+    require.resolve('./configs/testing-library.js'),
     require.resolve('./configs/prettier.js'),
   ],
 
