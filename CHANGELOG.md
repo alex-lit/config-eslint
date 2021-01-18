@@ -1,3 +1,10 @@
+# [0.6.0](https://github.com/alex-lit/config-eslint/compare/v0.5.0...v0.6.0) (2021-01-18)
+
+### Features
+
+- add yaml linter
+  ([8235eed](https://github.com/alex-lit/config-eslint/commit/8235eedba05571b9863806a3c6771fd6dfba1b6a))
+
 # [0.5.0](https://github.com/alex-lit/config-eslint/compare/v0.4.1...v0.5.0) (2021-01-14)
 
 ### Features
