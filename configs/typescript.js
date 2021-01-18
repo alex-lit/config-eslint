@@ -1,5 +1,14 @@
 module.exports = {
+  plugins: ['@typescript-eslint'],
+
+  parserOptions: {
+    parser: '@typescript-eslint/parser',
+  },
+
+  extends: ['plugin:@typescript-eslint/recommended'],
+
   rules: {
+    '@typescript-eslint/no-var-requires': 'off',
     '@typescript-eslint/member-ordering': [
       'warn',
       {
@@ -41,6 +50,10 @@ module.exports = {
           'method',
         ],
       },
+    ],
+    '@typescript-eslint/no-unused-vars': [
+      'error',
+      { args: 'all', argsIgnorePattern: '^_' },
     ],
   },
 };

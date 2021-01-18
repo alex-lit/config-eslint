@@ -4,6 +4,7 @@ module.exports = {
   env: {
     browser: true,
     node: true,
+    jest: true,
   },
 
   ignorePatterns: [
@@ -25,6 +26,7 @@ module.exports = {
     require.resolve('./configs/typescript.js'),
     require.resolve('./configs/vue.js'),
     require.resolve('./configs/testing-library.js'),
+    require.resolve('./configs/yaml.js'),
     require.resolve('./configs/prettier.js'),
   ],
 
