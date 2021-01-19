@@ -20,8 +20,6 @@ YAML Resources:
   YAML Docker Runtimes: https://github.com/yaml/yaml-runtimes
   YAML Cookbook (Ruby): YAML_for_ruby.html\
 
-
-
 Projects:
   C/C++:
     - libfyaml # "C" YAML 1.2 processor                                            | YTS

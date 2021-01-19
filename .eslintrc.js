@@ -23,11 +23,16 @@ module.exports = {
     require.resolve('./configs/simple-import-sort.js'),
     require.resolve('./configs/jsdoc.js'),
     require.resolve('./configs/sonar.js'),
-    require.resolve('./configs/typescript.js'),
     require.resolve('./configs/decorator-position.js'),
+    require.resolve('./configs/typescript.js'),
     require.resolve('./configs/vue.js'),
     require.resolve('./configs/testing-library.js'),
     require.resolve('./configs/yaml.js'),
     require.resolve('./configs/prettier.js'),
   ],
+
+  rules: {
+    'no-console': 'off',
+    'no-use-before-define': 'off',
+  },
 };
