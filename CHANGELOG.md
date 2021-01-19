@@ -1,3 +1,10 @@
+## [0.7.1](https://github.com/alex-lit/config-eslint/compare/v0.7.0...v0.7.1) (2021-01-19)
+
+### Bug Fixes
+
+- revert typescript-eslint version
+  ([f9ceac9](https://github.com/alex-lit/config-eslint/commit/f9ceac91360a8d96c9b9219348e9aacfdfe8ef78))
+
 # [0.7.0](https://github.com/alex-lit/config-eslint/compare/v0.6.0...v0.7.0) (2021-01-19)
 
 ### Features
