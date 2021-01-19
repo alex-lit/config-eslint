@@ -1,3 +1,10 @@
+# [0.7.0](https://github.com/alex-lit/config-eslint/compare/v0.6.0...v0.7.0) (2021-01-19)
+
+### Features
+
+- add decorator-position plugin
+  ([2a4ef49](https://github.com/alex-lit/config-eslint/commit/2a4ef49ebe814ea1c9eb779aefd5c91754a14bf6))
+
 # [0.6.0](https://github.com/alex-lit/config-eslint/compare/v0.5.0...v0.6.0) (2021-01-18)
 
 ### Features
