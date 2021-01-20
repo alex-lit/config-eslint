@@ -1,4 +1,5 @@
 <script lang="ts">
+  /* eslint-disable no-undef */
   const Auth = (a) => a;
   /**
    * @param a
@@ -19,7 +20,7 @@
   })
   export default class AppHeader {
     @Auth('selectedUserId')
-    _selectedUserId;
+    #selectedUserId;
 
     @Auth('user')
     user;

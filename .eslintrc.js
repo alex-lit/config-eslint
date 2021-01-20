@@ -30,6 +30,11 @@ module.exports = {
     require.resolve('./configs/yaml.js'),
     require.resolve('./configs/json.js'),
     require.resolve('./configs/prettier.js'),
+
+    /**
+     * Optional configs
+     */
+    // require.resolve('./configs/optional/vuetify.js'),
   ],
 
   rules: {
