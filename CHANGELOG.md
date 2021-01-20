@@ -1,3 +1,10 @@
+## [0.11.1](https://github.com/alex-lit/config-eslint/compare/v0.11.0...v0.11.1) (2021-01-20)
+
+### Bug Fixes
+
+- no-secrets config
+  ([d8375e5](https://github.com/alex-lit/config-eslint/commit/d8375e5e94c2d1b9d5c4654e777cd65b4f121168))
+
 # [0.11.0](https://github.com/alex-lit/config-eslint/compare/v0.10.0...v0.11.0) (2021-01-20)
 
 ### Features
