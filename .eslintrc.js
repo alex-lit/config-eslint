@@ -32,6 +32,7 @@ module.exports = {
     require.resolve('./configs/no-loops.js'),
     require.resolve('./configs/no-secrets.js'),
     require.resolve('./configs/filenames.js'),
+    require.resolve('./configs/sql.js'),
     require.resolve('./configs/prettier.js'),
 
     /**
