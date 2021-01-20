@@ -1,3 +1,10 @@
+# [0.8.0](https://github.com/alex-lit/config-eslint/compare/v0.7.1...v0.8.0) (2021-01-20)
+
+### Features
+
+- add json plugin
+  ([056ab88](https://github.com/alex-lit/config-eslint/commit/056ab8850d5362011497f14e725f3c8c250b6f98))
+
 ## [0.7.1](https://github.com/alex-lit/config-eslint/compare/v0.7.0...v0.7.1) (2021-01-19)
 
 ### Bug Fixes
