@@ -44,5 +44,15 @@ module.exports = {
   rules: {
     'no-console': 'off',
     'no-use-before-define': 'off',
+    'padding-line-between-statements': [
+      'warn',
+      { blankLine: 'always', prev: '*', next: 'function' },
+      { blankLine: 'always', prev: '*', next: 'switch' },
+      { blankLine: 'always', prev: '*', next: 'return' },
+      { blankLine: 'always', prev: 'block-like', next: '*' },
+      { blankLine: 'always', prev: ['case', 'default'], next: '*' },
+      { blankLine: 'never', prev: 'const', next: 'const' },
+      { blankLine: 'never', prev: 'let', next: 'let' },
+    ],
   },
 };

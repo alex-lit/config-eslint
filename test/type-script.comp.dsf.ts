@@ -1,27 +1,26 @@
-const Auth = (args: any) => args;
-const sql = (...args: any) => args;
-
 const arr = [1, 2, 3];
 
 arr.forEach((item) => item);
 
-const BASE64_CHARS = '1+/=';
+/**
+ *
+ */
+bar();
 
-const a = `
-SELECT
-  ${'foo'}
-FROM
-  ${'bar'}
-`;
+/**
+ *
+ */
+function foo() {
+  bar();
 
-const b = sql`
-SELECT
-  1
-`;
-export default class typeScript {
-  @Auth({ sdf: BASE64_CHARS, b })
-  _selectedUserId;
+  return 2;
+}
 
-  @Auth('user')
-  user = a;
+foo();
+
+/**
+ *
+ */
+function bar() {
+  return 2;
 }
