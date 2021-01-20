@@ -1,5 +1,5 @@
 /**
- * [docs](https://github.com/vuetifyjs/eslint-plugin-vuetify)
+ * [Plugin documentation](https://github.com/vuetifyjs/eslint-plugin-vuetify)
  */
 module.exports = {
   plugins: ['vuetify'],

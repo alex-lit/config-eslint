@@ -1,5 +1,5 @@
 /**
- * [docs](https://github.com/NullVoxPopuli/eslint-plugin-decorator-position/blob/master/docs/rules/decorator-position.md)
+ * [Plugin documentation](https://github.com/NullVoxPopuli/eslint-plugin-decorator-position/blob/master/docs/rules/decorator-position.md)
  */
 module.exports = {
   plugins: ['decorator-position'],

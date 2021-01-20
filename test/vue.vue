@@ -18,7 +18,7 @@
       MenuUser: () => import('src/components/menu-user'),
     },
   })
-  export default class AppHeader {
+  export default class vue {
     @Auth('selectedUserId')
     #selectedUserId;
 
