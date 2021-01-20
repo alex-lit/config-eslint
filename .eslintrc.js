@@ -29,6 +29,7 @@ module.exports = {
     require.resolve('./configs/testing-library.js'),
     require.resolve('./configs/yaml.js'),
     require.resolve('./configs/json.js'),
+    require.resolve('./configs/no-loops.js'),
     require.resolve('./configs/prettier.js'),
 
     /**
