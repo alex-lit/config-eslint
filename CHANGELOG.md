@@ -1,3 +1,14 @@
+# [0.11.0](https://github.com/alex-lit/config-eslint/compare/v0.10.0...v0.11.0) (2021-01-20)
+
+### Features
+
+- add filenames plugin
+  ([2d7258a](https://github.com/alex-lit/config-eslint/commit/2d7258a26a065906057ed5964864a561f2bd834c))
+- add no-secrets plugin
+  ([d89fd95](https://github.com/alex-lit/config-eslint/commit/d89fd9578ce3f9440d7c4a4d3d3049d4aa08ecbe))
+- add sql plugin
+  ([d8373d3](https://github.com/alex-lit/config-eslint/commit/d8373d3e7cc8454761ff65e74b699583243df874))
+
 # [0.10.0](https://github.com/alex-lit/config-eslint/compare/v0.9.0...v0.10.0) (2021-01-20)
 
 ### Features
