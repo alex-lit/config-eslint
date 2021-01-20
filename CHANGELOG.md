@@ -1,3 +1,10 @@
+# [0.10.0](https://github.com/alex-lit/config-eslint/compare/v0.9.0...v0.10.0) (2021-01-20)
+
+### Features
+
+- add no-loops plugin
+  ([3de1504](https://github.com/alex-lit/config-eslint/commit/3de15042a4400c8e7b0aad215110bea805b8f680))
+
 # [0.9.0](https://github.com/alex-lit/config-eslint/compare/v0.8.0...v0.9.0) (2021-01-20)
 
 ### Features
