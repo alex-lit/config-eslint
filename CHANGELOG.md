@@ -1,3 +1,10 @@
+# [0.9.0](https://github.com/alex-lit/config-eslint/compare/v0.8.0...v0.9.0) (2021-01-20)
+
+### Features
+
+- add optional vuetify plugin
+  ([61d6174](https://github.com/alex-lit/config-eslint/commit/61d6174b57fba5f48a143a3a6d675ce05e453d46))
+
 # [0.8.0](https://github.com/alex-lit/config-eslint/compare/v0.7.1...v0.8.0) (2021-01-20)
 
 ### Features
