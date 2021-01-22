@@ -8,11 +8,13 @@ module.exports = {
   },
 
   ignorePatterns: [
-    '**/.git/**',
+    '**/.*/**',
     '**/build/**',
     '**/dist/**',
     '**/docs/**',
     '**/node_modules/**',
+    '**/storybook-static/**',
+    '**/storybook/**',
     '**/sw.js',
     '!/.*.js',
   ],
