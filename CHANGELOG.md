@@ -1,3 +1,10 @@
+## [0.11.3](https://github.com/alex-lit/config-eslint/compare/v0.11.2...v0.11.3) (2021-01-22)
+
+### Bug Fixes
+
+- ignore storybook
+  ([3ee94be](https://github.com/alex-lit/config-eslint/commit/3ee94bed1e53fbf9be9569020b07d1e1fbba19db))
+
 ## [0.11.2](https://github.com/alex-lit/config-eslint/compare/v0.11.1...v0.11.2) (2021-01-22)
 
 ### Features
