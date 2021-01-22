@@ -1,3 +1,10 @@
+## [0.11.2](https://github.com/alex-lit/config-eslint/compare/v0.11.1...v0.11.2) (2021-01-22)
+
+### Features
+
+- extend ignore patterns
+  ([a56e039](https://github.com/alex-lit/config-eslint/commit/a56e039193a39f86e9d6338b15c27d986e78d585))
+
 ## [0.11.1](https://github.com/alex-lit/config-eslint/compare/v0.11.0...v0.11.1) (2021-01-20)
 
 ### Bug Fixes
