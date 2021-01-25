@@ -1,3 +1,5 @@
+## [0.11.5](https://github.com/alex-lit/config-eslint/compare/v0.11.4...v0.11.5) (2021-01-25)
+
 ## [0.11.4](https://github.com/alex-lit/config-eslint/compare/v0.11.3...v0.11.4) (2021-01-25)
 
 ### Bug Fixes
