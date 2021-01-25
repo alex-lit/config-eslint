@@ -8,14 +8,15 @@ module.exports = {
   },
 
   ignorePatterns: [
-    '**/.*/**',
+    '.*',
     '**/build/**',
     '**/dist/**',
     '**/docs/**',
     '**/node_modules/**',
     '**/storybook-*/**',
     '**/sw.js',
-    '!/.*.js',
+    '!.*.js',
+    '!.storybook',
   ],
 
   extends: [

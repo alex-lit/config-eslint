@@ -1,6 +1,7 @@
 <script lang="ts">
   /* eslint-disable no-undef */
   const Auth = (a) => a;
+
   /**
    * @param a
    */
