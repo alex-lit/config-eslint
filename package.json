@@ -38,8 +38,8 @@
   "dependencies": {
     "@nuxtjs/eslint-config": "^5.0.0",
     "@nuxtjs/eslint-config-typescript": "^5.0.0",
-    "@typescript-eslint/eslint-plugin": "^4.14.0",
-    "@typescript-eslint/parser": "^4.14.0",
+    "@typescript-eslint/eslint-plugin": "^4.14.1",
+    "@typescript-eslint/parser": "^4.14.1",
     "eslint": "^7.18.0",
     "eslint-config-prettier": "^7.2.0",
     "eslint-plugin-decorator-position": "^2.2.17",
@@ -60,6 +60,6 @@
     "typescript": "^4.1.3"
   },
   "devDependencies": {
-    "@alexlit/lint-kit": "^0.14.4"
+    "@alexlit/lint-kit": "^0.14.5"
   }
 }
