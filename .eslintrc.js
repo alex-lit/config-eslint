@@ -56,5 +56,7 @@ module.exports = {
       { blankLine: 'never', prev: 'const', next: 'const' },
       { blankLine: 'never', prev: 'let', next: 'let' },
     ],
+    'require-await': 'off',
+    'sort-imports': 'off',
   },
 };

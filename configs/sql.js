@@ -1,5 +1,5 @@
 /**
- * [Plugin documentation](https://github.com/gajus/eslint-plugin-sql)
+ * @see [Plugin documentation](https://github.com/gajus/eslint-plugin-sql)
  */
 module.exports = {
   plugins: ['sql'],
