@@ -1,3 +1,10 @@
+## [0.11.6](https://github.com/alex-lit/config-eslint/compare/v0.11.5...v0.11.6) (2021-01-26)
+
+### Bug Fixes
+
+- disable standart imports order
+  ([a3922d4](https://github.com/alex-lit/config-eslint/commit/a3922d456c351ea0c7492d720b60d5b918d07e87))
+
 ## [0.11.5](https://github.com/alex-lit/config-eslint/compare/v0.11.4...v0.11.5) (2021-01-25)
 
 ## [0.11.4](https://github.com/alex-lit/config-eslint/compare/v0.11.3...v0.11.4) (2021-01-25)
