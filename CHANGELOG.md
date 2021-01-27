@@ -1,3 +1,10 @@
+## [0.11.7](https://github.com/alex-lit/config-eslint/compare/v0.11.6...v0.11.7) (2021-01-27)
+
+### Bug Fixes
+
+- **padding-line-between-statements:** clear def blanklines
+  ([dd00689](https://github.com/alex-lit/config-eslint/commit/dd00689d31f95fe1453b46f0280063e589d883a1))
+
 ## [0.11.6](https://github.com/alex-lit/config-eslint/compare/v0.11.5...v0.11.6) (2021-01-26)
 
 ### Bug Fixes
