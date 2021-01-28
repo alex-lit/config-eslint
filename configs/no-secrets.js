@@ -1,5 +1,5 @@
 /**
- * @see [Plugin documentation](https://github.com/nickdeis/eslint-plugin-no-secrets)
+ * @see [eslint-plugin-no-secrets](https://github.com/nickdeis/eslint-plugin-no-secrets)
  */
 module.exports = {
   plugins: ['no-secrets'],

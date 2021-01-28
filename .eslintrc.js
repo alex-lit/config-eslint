@@ -27,7 +27,6 @@ module.exports = {
     require.resolve('./configs/sonar.js'),
     require.resolve('./configs/decorator-position.js'),
     require.resolve('./configs/typescript.js'),
-    require.resolve('./configs/vue.js'),
     require.resolve('./configs/testing-library.js'),
     require.resolve('./configs/yaml.js'),
     require.resolve('./configs/json.js'),
@@ -35,6 +34,7 @@ module.exports = {
     require.resolve('./configs/no-secrets.js'),
     require.resolve('./configs/filenames.js'),
     require.resolve('./configs/sql.js'),
+    require.resolve('./configs/vue.js'),
     require.resolve('./configs/prettier.js'),
 
     /**
