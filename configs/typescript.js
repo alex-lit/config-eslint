@@ -1,3 +1,6 @@
+/**
+ * @see [typescript-eslint](https://github.com/typescript-eslint/typescript-eslint)
+ */
 module.exports = {
   rules: {
     '@typescript-eslint/member-ordering': [
