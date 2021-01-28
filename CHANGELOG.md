@@ -1,3 +1,10 @@
+## [0.11.8](https://github.com/alex-lit/config-eslint/compare/v0.11.7...v0.11.8) (2021-01-28)
+
+### Features
+
+- **vue:** extend config
+  ([cee4aba](https://github.com/alex-lit/config-eslint/commit/cee4abac016d8b44c84f4edbc63c9261ed2245d1))
+
 ## [0.11.7](https://github.com/alex-lit/config-eslint/compare/v0.11.6...v0.11.7) (2021-01-27)
 
 ### Bug Fixes
