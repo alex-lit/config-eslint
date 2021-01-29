@@ -20,27 +20,27 @@ module.exports = {
   ],
 
   extends: [
-    require.resolve('./configs/nuxt.js'),
-    require.resolve('./configs/import.js'),
-    require.resolve('./configs/simple-import-sort.js'),
-    require.resolve('./configs/jsdoc.js'),
-    require.resolve('./configs/sonar.js'),
-    require.resolve('./configs/decorator-position.js'),
-    require.resolve('./configs/typescript.js'),
-    require.resolve('./configs/testing-library.js'),
-    require.resolve('./configs/yaml.js'),
-    require.resolve('./configs/json.js'),
-    require.resolve('./configs/no-loops.js'),
-    require.resolve('./configs/no-secrets.js'),
-    require.resolve('./configs/filenames.js'),
-    require.resolve('./configs/sql.js'),
-    require.resolve('./configs/vue.js'),
-    require.resolve('./configs/prettier.js'),
+    require.resolve('./plugins/nuxt.js'),
+    require.resolve('./plugins/import.js'),
+    require.resolve('./plugins/simple-import-sort.js'),
+    require.resolve('./plugins/jsdoc.js'),
+    require.resolve('./plugins/sonar.js'),
+    require.resolve('./plugins/decorator-position.js'),
+    require.resolve('./plugins/typescript.js'),
+    require.resolve('./plugins/testing-library.js'),
+    require.resolve('./plugins/yaml.js'),
+    require.resolve('./plugins/json.js'),
+    require.resolve('./plugins/no-loops.js'),
+    require.resolve('./plugins/no-secrets.js'),
+    require.resolve('./plugins/filenames.js'),
+    require.resolve('./plugins/sql.js'),
+    require.resolve('./plugins/vue.js'),
+    require.resolve('./plugins/prettier.js'),
 
     /**
-     * Optional configs
+     * Optional plugins
      */
-    // require.resolve('./configs/optional/vuetify.js'),
+    // require.resolve('./plugins/optional/vuetify.js'),
   ],
 
   rules: {

@@ -15,11 +15,11 @@ module.exports = {
 };
 ```
 
-feat: vueДополнительные плагины:
+Дополнительные плагины:
 
 ```js
 // .eslintrc.js
 module.exports = {
-  extends: ['./node_modules/@alexlit/config-eslint/configs/optional/vuetify'],
+  extends: ['./node_modules/@alexlit/config-eslint/plugins/optional/vuetify'],
 };
 ```
