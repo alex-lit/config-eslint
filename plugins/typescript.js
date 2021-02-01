@@ -96,17 +96,17 @@ module.exports = {
     '@typescript-eslint/naming-convention': [
       'error',
       // {
-      //   "selector": "default",
-      //   "format": ["camelCase"]
+      //   selector: 'default',
+      //   format: ['camelCase'],
       // },
       // {
-      //   "selector": "variable",
-      //   "format": ["camelCase", "UPPER_CASE"]
+      //   selector: 'variable',
+      //   format: ['camelCase', 'UPPER_CASE'],
       // },
       // {
-      //   "selector": "parameter",
-      //   "format": ["camelCase"],
-      //   "leadingUnderscore": "allow"
+      //   selector: 'parameter',
+      //   format: ['camelCase'],
+      //   leadingUnderscore: 'allow',
       // },
       {
         selector: 'memberLike',
@@ -118,14 +118,14 @@ module.exports = {
         selector: 'typeLike',
         format: ['PascalCase'],
       },
-      {
-        selector: 'interface',
-        format: ['PascalCase'],
-        custom: {
-          regex: '^I[A-Z]',
-          match: true,
-        },
-      },
+      // {
+      //   selector: 'interface',
+      //   format: ['PascalCase'],
+      //   custom: {
+      //     regex: '^I[A-Z]',
+      //     match: true,
+      //   },
+      // },
     ],
   },
 };
