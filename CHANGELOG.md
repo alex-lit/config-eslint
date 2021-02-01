@@ -1,3 +1,10 @@
+# [0.14.0](https://github.com/alex-lit/config-eslint/compare/v0.13.0...v0.14.0) (2021-02-01)
+
+### Features
+
+- **typescript:** extend config
+  ([b62c1d7](https://github.com/alex-lit/config-eslint/commit/b62c1d7b23deaa9b98c0b9a9c59b3724c213d9c2))
+
 # [0.13.0](https://github.com/alex-lit/config-eslint/compare/v0.12.0...v0.13.0) (2021-01-31)
 
 # [0.12.0](https://github.com/alex-lit/config-eslint/compare/v0.11.8...v0.12.0) (2021-01-29)
