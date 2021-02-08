@@ -44,6 +44,28 @@ module.exports = {
   ],
 
   rules: {
+    'lines-around-comment': [
+      'warn',
+      {
+        beforeBlockComment: true,
+        afterBlockComment: false,
+
+        beforeLineComment: false,
+        afterLineComment: false,
+
+        allowBlockStart: true,
+        allowBlockEnd: true,
+
+        allowClassStart: true,
+        allowClassEnd: true,
+
+        allowObjectStart: true,
+        allowObjectEnd: true,
+
+        allowArrayStart: true,
+        allowArrayEnd: true,
+      },
+    ],
     'no-console': 'off',
     'no-use-before-define': 'off',
     'padding-line-between-statements': [
