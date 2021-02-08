@@ -95,19 +95,22 @@ module.exports = {
     ],
     '@typescript-eslint/naming-convention': [
       'error',
-      // {
-      //   selector: 'default',
-      //   format: ['camelCase'],
-      // },
-      // {
-      //   selector: 'variable',
-      //   format: ['camelCase', 'UPPER_CASE'],
-      // },
-      // {
-      //   selector: 'parameter',
-      //   format: ['camelCase'],
-      //   leadingUnderscore: 'allow',
-      // },
+      /**
+       * ESLint's camelcase conventions
+       */
+      {
+        selector: 'default',
+        format: ['camelCase'],
+      },
+      {
+        selector: 'variable',
+        format: ['camelCase' /* 'UPPER_CASE' */],
+      },
+      {
+        selector: 'parameter',
+        format: ['camelCase'],
+        leadingUnderscore: 'allow',
+      },
       {
         selector: 'memberLike',
         modifiers: ['private'],
@@ -118,14 +121,27 @@ module.exports = {
         selector: 'typeLike',
         format: ['PascalCase'],
       },
-      // {
-      //   selector: 'interface',
-      //   format: ['PascalCase'],
-      //   custom: {
-      //     regex: '^I[A-Z]',
-      //     match: true,
-      //   },
-      // },
+
+      /**
+       * Custom
+       */
+      {
+        selector: 'variable',
+        format: ['camelCase', 'UPPER_CASE'],
+        modifiers: ['const'],
+      },
+      {
+        selector: 'objectLiteralProperty',
+        format: ['camelCase', 'UPPER_CASE', 'snake_case', 'PascalCase'],
+      },
+      {
+        selector: 'interface',
+        format: ['PascalCase'],
+        custom: {
+          regex: '^I[A-Z]',
+          match: false,
+        },
+      },
     ],
   },
 };

@@ -119,12 +119,14 @@
     @Prop({
       type: [String, Object],
     })
-    mask!: string | Record<string, any>;
+    mask!: Record<string, any> | string;
+
+    uiIconNames = UI_ICON_NAMES;
 
     /**
      * Показать прароль?
      */
-    isShowPassword = false;
+    iqsShowPassword = false;
 
     /**
      * Уникальный идентификатор
