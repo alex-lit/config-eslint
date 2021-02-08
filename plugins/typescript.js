@@ -127,12 +127,12 @@ module.exports = {
        */
       {
         selector: 'variable',
-        format: ['camelCase', 'UPPER_CASE'],
+        format: ['camelCase', 'PascalCase', 'UPPER_CASE'],
         modifiers: ['const'],
       },
       {
         selector: 'objectLiteralProperty',
-        format: ['camelCase', 'UPPER_CASE', 'snake_case', 'PascalCase'],
+        format: ['camelCase', 'PascalCase', 'snake_case', 'UPPER_CASE'],
       },
       {
         selector: 'interface',
