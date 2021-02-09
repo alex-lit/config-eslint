@@ -95,6 +95,7 @@ module.exports = {
     ],
     '@typescript-eslint/naming-convention': [
       'error',
+
       /**
        * ESLint's camelcase conventions
        */
@@ -125,15 +126,8 @@ module.exports = {
       /**
        * Custom
        */
-      {
-        selector: 'variable',
-        format: ['camelCase', 'PascalCase', 'UPPER_CASE'],
-        modifiers: ['const'],
-      },
-      {
-        selector: 'objectLiteralProperty',
-        format: ['camelCase', 'PascalCase', 'snake_case', 'UPPER_CASE'],
-      },
+
+      // interface
       {
         selector: 'interface',
         format: ['PascalCase'],
@@ -142,6 +136,47 @@ module.exports = {
           match: false,
         },
       },
+
+      // objectLiteralProperty
+      {
+        selector: 'objectLiteralProperty',
+        format: ['camelCase', 'PascalCase', 'snake_case', 'UPPER_CASE'],
+        leadingUnderscore: 'allow',
+      },
+
+      // objectLiteralMethod
+      {
+        selector: 'objectLiteralMethod',
+        format: ['camelCase', 'PascalCase', 'UPPER_CASE'],
+      },
+
+      // parameter
+      {
+        selector: 'parameter',
+        format: ['camelCase', 'PascalCase'],
+        modifiers: ['destructured'],
+      },
+
+      // variable
+      {
+        selector: 'variable',
+        format: ['camelCase', 'PascalCase', 'UPPER_CASE'],
+        modifiers: ['const'],
+      },
+      {
+        selector: 'variable',
+        format: ['camelCase', 'PascalCase', 'UPPER_CASE', 'snake_case'],
+        modifiers: ['destructured'],
+        leadingUnderscore: 'allow',
+      },
     ],
   },
+  overrides: [
+    {
+      files: ['*.d.ts'],
+      rules: {
+        '@typescript-eslint/naming-convention': 'off',
+      },
+    },
+  ],
 };
