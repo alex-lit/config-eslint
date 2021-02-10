@@ -5,4 +5,9 @@ module.exports = {
   plugins: ['promise'],
 
   extends: ['plugin:promise/recommended'],
+
+  rules: {
+    'promise/catch-or-return': ['warn', { allowFinally: true }],
+    'promise/no-promise-in-callback': 'off',
+  },
 };
