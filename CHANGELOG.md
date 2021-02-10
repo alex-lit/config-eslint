@@ -1,3 +1,12 @@
+# [0.18.0](https://github.com/alex-lit/config-eslint/compare/v0.17.0...v0.18.0) (2021-02-10)
+
+### Features
+
+- **plugin:** add promise
+  ([62eb087](https://github.com/alex-lit/config-eslint/commit/62eb0877866160b5d2d43834cd182d5df0a3f6b8))
+- **plugin:** add unicorn
+  ([bf69a20](https://github.com/alex-lit/config-eslint/commit/bf69a202615a3b18cdde4c62d75fed44434a3c8e))
+
 # [0.17.0](https://github.com/alex-lit/config-eslint/compare/v0.16.1...v0.17.0) (2021-02-10)
 
 ### Features
