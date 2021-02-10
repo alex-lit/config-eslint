@@ -5,9 +5,11 @@
   /**
    * @param a
    */
-  function Component<T>(a: T) {
+  function cdomponent<T>(a: T) {
     return a;
   }
+
+  cdomponent();
 
   /**
    * Шапка приложения
@@ -19,7 +21,7 @@
       MenuUser: () => import('src/components/menu-user'),
     },
   })
-  export default class vue {
+  export default class Vue {
     @Auth('selectedUserId')
     #selectedUserId;
 
@@ -104,8 +106,9 @@
         <q-toolbar-title> {{ title }} </q-toolbar-title>
       </q-btn>
 
-      <q-space></q-space>
+      <br />
 
+      <select-user></select-user>
       <select-user
         v-if="user.is_admin"
         v-model="selectedUserId"
@@ -131,6 +134,8 @@
 
       <menu-user></menu-user>
     </q-toolbar>
+
+    <p></p>
   </q-header>
 </template>
 

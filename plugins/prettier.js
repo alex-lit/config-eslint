@@ -1,6 +1,5 @@
 /**
  * @see [eslint-plugin-prettier](https://github.com/prettier/eslint-plugin-prettier)
- * @see [eslint-config-prettier](https://github.com/prettier/eslint-config-prettier)
  */
 module.exports = {
   plugins: ['prettier'],
@@ -9,5 +8,19 @@ module.exports = {
 
   rules: {
     'prettier/prettier': 'error',
+
+    /** fix for prettier/vue */
+    'vue/html-self-closing': [
+      'error',
+      {
+        html: {
+          void: 'always',
+          normal: 'never',
+          component: 'never',
+        },
+        svg: 'always',
+        math: 'always',
+      },
+    ],
   },
 };
