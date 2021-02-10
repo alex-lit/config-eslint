@@ -1,3 +1,10 @@
+## [0.16.1](https://github.com/alex-lit/config-eslint/compare/v0.16.0...v0.16.1) (2021-02-10)
+
+### Bug Fixes
+
+- **prettier:** force html-self-closing
+  ([fc59a25](https://github.com/alex-lit/config-eslint/commit/fc59a256eb66d6a6c2b60e7200698174aa22e96c))
+
 # [0.16.0](https://github.com/alex-lit/config-eslint/compare/v0.15.4...v0.16.0) (2021-02-09)
 
 ## [0.15.4](https://github.com/alex-lit/config-eslint/compare/v0.15.3...v0.15.4) (2021-02-09)
