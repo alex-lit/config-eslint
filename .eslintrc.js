@@ -35,6 +35,7 @@ module.exports = {
     require.resolve('./plugins/filenames.js'),
     require.resolve('./plugins/sql.js'),
     require.resolve('./plugins/vue.js'),
+    require.resolve('./plugins/vuejs-accessibility.js'),
     require.resolve('./plugins/prettier.js'),
 
     /**
