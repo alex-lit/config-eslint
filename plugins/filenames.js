@@ -5,7 +5,7 @@ module.exports = {
   plugins: ['filenames'],
 
   rules: {
-    'filenames/match-regex': ['error', /^(\.?[a-z0-9-]+)+$/, true],
+    'filenames/match-regex': ['error', /^(\.?[\da-z-]+)+$/, true],
     'filenames/match-exported': ['error', 'kebab', /\.([a-z-]+\.?)+$/],
   },
 

@@ -1,6 +1,6 @@
-const arr = [1, 2, 3];
+const array = [1, 2, 3];
 
-arr.forEach((item) => item);
+array.forEach((item) => item);
 
 /**
  *

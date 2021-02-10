@@ -36,6 +36,7 @@ module.exports = {
     require.resolve('./plugins/sql'),
     require.resolve('./plugins/testing-library'),
     require.resolve('./plugins/typescript'),
+    require.resolve('./plugins/unicorn'),
     require.resolve('./plugins/vue'),
     require.resolve('./plugins/vuejs-accessibility'),
 
