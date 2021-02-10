@@ -1,3 +1,10 @@
+# [0.17.0](https://github.com/alex-lit/config-eslint/compare/v0.16.1...v0.17.0) (2021-02-10)
+
+### Features
+
+- **plugins:** add vuejs-accessibility
+  ([c395ba9](https://github.com/alex-lit/config-eslint/commit/c395ba9636eaf89aaa3181196b46988eb8d34ea0))
+
 ## [0.16.1](https://github.com/alex-lit/config-eslint/compare/v0.16.0...v0.16.1) (2021-02-10)
 
 ### Bug Fixes
