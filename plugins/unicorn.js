@@ -7,6 +7,7 @@ module.exports = {
   extends: ['plugin:unicorn/recommended'],
 
   rules: {
+    'unicorn/no-array-for-each': 'off',
     'unicorn/prevent-abbreviations': [
       'warn',
       {

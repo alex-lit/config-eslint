@@ -5,6 +5,13 @@ array.forEach((item) => item);
 /**
  *
  */
+function bar() {
+  return 2;
+}
+
+/**
+ *
+ */
 bar();
 
 /**
@@ -17,10 +24,3 @@ function foo() {
 }
 
 foo();
-
-/**
- *
- */
-function bar() {
-  return 2;
-}

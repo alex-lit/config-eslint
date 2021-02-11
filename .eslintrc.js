@@ -4,7 +4,15 @@ module.exports = {
   env: {
     browser: true,
     node: true,
-    jest: true,
+  },
+
+  parserOptions: {
+    parser: '@typescript-eslint/parser',
+    // tsconfigRootDir: __dirname,
+    // project: './tsconfig.eslint.json',
+    ecmaFeatures: {
+      jsx: true,
+    },
   },
 
   ignorePatterns: [
@@ -21,32 +29,39 @@ module.exports = {
 
   extends: [
     /* base */
-    require.resolve('./plugins/nuxt'),
+    // '@nuxtjs/eslint-config-typescript',
+    'airbnb-base',
 
-    /* plugins */
-    require.resolve('./plugins/decorator-position'),
-    require.resolve('./plugins/filenames'),
-    require.resolve('./plugins/import'),
-    require.resolve('./plugins/jsdoc'),
-    require.resolve('./plugins/no-loops'),
-    require.resolve('./plugins/no-secrets'),
-    require.resolve('./plugins/promise'),
-    require.resolve('./plugins/simple-import-sort'),
-    require.resolve('./plugins/sonar'),
-    require.resolve('./plugins/sql'),
-    require.resolve('./plugins/testing-library'),
-    require.resolve('./plugins/typescript'),
-    require.resolve('./plugins/unicorn'),
-    require.resolve('./plugins/vue'),
-    require.resolve('./plugins/vuejs-accessibility'),
+    ...[
+      /* plugins */
+      './plugins/decorator-position',
+      './plugins/filenames',
+      './plugins/import',
+      './plugins/jest',
+      './plugins/jest-formatting',
+      './plugins/jsdoc',
+      './plugins/jsx-a11y',
+      './plugins/no-loops',
+      './plugins/no-secrets',
+      './plugins/nuxt',
+      './plugins/promise',
+      './plugins/simple-import-sort',
+      './plugins/sonar',
+      './plugins/sql',
+      './plugins/testing-library',
+      './plugins/typescript',
+      './plugins/unicorn',
+      './plugins/vue',
+      './plugins/vuejs-accessibility',
 
-    /* prettier */
-    require.resolve('./plugins/prettier'),
+      /* prettier */
+      './plugins/prettier',
 
-    /**
-     * Optional plugins
-     */
-    // require.resolve('./plugins/optional/vuetify'),
+      /* optional */
+      // './plugins/optional/react',
+      // './plugins/optional/react-hooks',
+      // './plugins/optional/vuetify',
+    ].map((config) => require.resolve(config)),
   ],
 
   rules: {
@@ -73,6 +88,7 @@ module.exports = {
       },
     ],
     'no-console': 'off',
+    'no-underscore-dangle': 'off',
     'no-use-before-define': 'off',
     'padding-line-between-statements': [
       'warn',
@@ -86,4 +102,13 @@ module.exports = {
     'require-await': 'off',
     'sort-imports': 'off',
   },
+
+  overrides: [
+    {
+      files: ['.*.js'],
+      rules: {
+        'global-require': 'off',
+      },
+    },
+  ],
 };

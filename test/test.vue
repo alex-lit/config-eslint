@@ -1,27 +1,41 @@
 <script lang="ts">
-  /* eslint-disable no-undef */
   const Auth = (a) => a;
+
+  /**
+   * @param z
+   */
+  // eslint-disable-next-line @typescript-eslint/naming-convention
+  function Component(z) {
+    return z;
+  }
 
   /**
    * @param a
    */
-  function cdomponent<T>(a: T) {
-    return a;
+  // function cdomponent<T>(a: T) {
+  //   return a;
+  // }
+
+  /**
+   *
+   */
+  function ax() {
+    return false;
   }
 
-  cdomponent();
+  ax();
 
   /**
    * Шапка приложения
    */
-  @Component({
+  @Component<Test>({
     created() {},
     components: {
       SelectUser: () => import('src/components/select-user'),
       MenuUser: () => import('src/components/menu-user'),
     },
   })
-  export default class Vue {
+  export default class Test {
     @Auth('selectedUserId')
     #selectedUserId;
 
@@ -33,6 +47,8 @@
 
     @Auth('setSelectedUserId')
     setSelectedUserId;
+
+    private _selectedUserId = 0;
 
     /**
      * Выход из приложения

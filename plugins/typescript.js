@@ -2,7 +2,14 @@
  * @see [typescript-eslint](https://github.com/typescript-eslint/typescript-eslint)
  */
 module.exports = {
+  plugins: ['@typescript-eslint'],
+
   rules: {
+    '@typescript-eslint/no-unused-vars': [
+      'error',
+      { args: 'all', argsIgnorePattern: '^_' },
+    ],
+
     '@typescript-eslint/array-type': ['error', { default: 'array' }],
     '@typescript-eslint/consistent-type-assertions': [
       'error',
@@ -17,8 +24,6 @@ module.exports = {
       { prefer: 'type-imports' },
     ],
     '@typescript-eslint/method-signature-style': ['error', 'method'],
-    '@typescript-eslint/sort-type-union-intersection-members': ['error'],
-    '@typescript-eslint/unified-signatures': ['error'],
     '@typescript-eslint/member-ordering': [
       'warn',
       {
@@ -170,6 +175,9 @@ module.exports = {
         leadingUnderscore: 'allow',
       },
     ],
+    '@typescript-eslint/no-use-before-define': ['warn'],
+    '@typescript-eslint/sort-type-union-intersection-members': ['error'],
+    '@typescript-eslint/unified-signatures': ['error'],
   },
   overrides: [
     {

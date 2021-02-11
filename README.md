@@ -16,6 +16,8 @@ module.exports = {
 
     /* optional */
     './node_modules/@alexlit/config-eslint/plugins/optional/vuetify',
+    './node_modules/@alexlit/config-eslint/plugins/optional/react',
+    './node_modules/@alexlit/config-eslint/plugins/optional/react-hooks',
   ],
 };
 ```
