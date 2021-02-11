@@ -1,4 +1,5 @@
 <script lang="ts">
+  /* eslint-disable vuejs-accessibility/mouse-events-have-key-events */
   const Auth = (a) => a;
 
   /**
@@ -8,13 +9,6 @@
   function Component(z) {
     return z;
   }
-
-  /**
-   * @param a
-   */
-  // function cdomponent<T>(a: T) {
-  //   return a;
-  // }
 
   /**
    *
@@ -108,15 +102,7 @@
 <template>
   <q-header class="app-header">
     <q-toolbar class="app-header__toolbar">
-      <q-btn
-        aria-label="Menu"
-        class="[ q-mr-sm ]"
-        dense
-        flat
-        icon="menu"
-        round
-        @click="setAsideVisibility(!isShowAside)"
-      ></q-btn>
+      <button @mouseover="setAsideVisibility(!isShowAside)">ddd</button>
       <q-btn flat no-caps stretch style="pointer-events: none">
         <q-toolbar-title> {{ title }} </q-toolbar-title>
       </q-btn>

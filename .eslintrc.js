@@ -36,6 +36,7 @@ module.exports = {
     /* plugins */
     ...[
       './plugins/decorator-position',
+      './plugins/eslint-comments',
       './plugins/filenames',
       './plugins/import',
       './plugins/jsdoc',
