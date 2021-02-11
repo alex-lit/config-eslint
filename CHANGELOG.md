@@ -1,3 +1,12 @@
+# [0.21.0](https://github.com/alex-lit/config-eslint/compare/v0.20.0...v0.21.0) (2021-02-11)
+
+### Features
+
+- **plaugin:** add regexp
+  ([aae4531](https://github.com/alex-lit/config-eslint/commit/aae4531fb068e3afe4618487011afdf8df09daaf))
+- **plugin:** asdd no-use-extend-native
+  ([8b9e737](https://github.com/alex-lit/config-eslint/commit/8b9e7378ce8e3b51d7e372a3e765e884b75dd76b))
+
 # [0.20.0](https://github.com/alex-lit/config-eslint/compare/v0.19.6...v0.20.0) (2021-02-11)
 
 ### Features
