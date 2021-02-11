@@ -1,3 +1,10 @@
+# [0.19.0](https://github.com/alex-lit/config-eslint/compare/v0.18.1...v0.19.0) (2021-02-11)
+
+### Features
+
+- migration to airbnb-base
+  ([7056503](https://github.com/alex-lit/config-eslint/commit/7056503c5368f024bbb5d4b6f699ae6cbd3d66c4))
+
 ## [0.18.1](https://github.com/alex-lit/config-eslint/compare/v0.18.0...v0.18.1) (2021-02-10)
 
 # [0.18.0](https://github.com/alex-lit/config-eslint/compare/v0.17.0...v0.18.0) (2021-02-10)
