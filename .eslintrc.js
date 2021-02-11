@@ -8,8 +8,6 @@ module.exports = {
 
   parserOptions: {
     parser: '@typescript-eslint/parser',
-    // tsconfigRootDir: __dirname,
-    // project: './tsconfig.eslint.json',
     ecmaFeatures: {
       jsx: true,
     },
@@ -28,8 +26,11 @@ module.exports = {
   ],
 
   extends: [
-    /* base */
-    // '@nuxtjs/eslint-config-typescript',
+    /**
+     * base
+     *
+     * @see [eslint-config-airbnb-base](https://github.com/airbnb/javascript/tree/master/packages/eslint-config-airbnb-base)
+     */
     'airbnb-base',
 
     /* plugins */
@@ -37,8 +38,6 @@ module.exports = {
       './plugins/decorator-position',
       './plugins/filenames',
       './plugins/import',
-      './plugins/jest',
-      './plugins/jest-formatting',
       './plugins/jsdoc',
       './plugins/jsx-a11y',
       './plugins/no-loops',
@@ -58,6 +57,8 @@ module.exports = {
       './plugins/prettier',
 
       /* optional */
+      // './plugins/jest',
+      // './plugins/jest-formatting',
       // './plugins/optional/react',
       // './plugins/optional/react-hooks',
       // './plugins/optional/vuetify',
@@ -105,7 +106,7 @@ module.exports = {
 
   overrides: [
     {
-      files: ['.*.js'],
+      files: ['.*.js', '*.config.js'],
       rules: {
         'global-require': 'off',
       },
