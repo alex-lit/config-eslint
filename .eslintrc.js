@@ -32,8 +32,8 @@ module.exports = {
     // '@nuxtjs/eslint-config-typescript',
     'airbnb-base',
 
+    /* plugins */
     ...[
-      /* plugins */
       './plugins/decorator-position',
       './plugins/filenames',
       './plugins/import',
