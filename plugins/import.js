@@ -1,5 +1,3 @@
-const baseExtentions = ['.js', '.jsx', '.ts', '.tsx', '.d.ts'];
-
 /**
  * @see [eslint-plugin-import](https://github.com/benmosher/eslint-plugin-import)
  * @see [eslint-import-resolver-alias](https://github.com/johvin/eslint-import-resolver-alias)
@@ -14,17 +12,20 @@ module.exports = {
   ],
 
   settings: {
-    'import/extensions': [...baseExtentions],
+    'import/extensions': ['.js', '.mjs', '.jsx', '.ts', '.tsx', '.d.ts'],
+    'import/external-module-folders': ['node_modules', 'node_modules/@types'],
+    'import/parsers': {
+      '@typescript-eslint/parser': ['.ts', '.tsx', '.d.ts'],
+    },
     'import/resolver': {
-      node: { extensions: [...baseExtentions] },
-
+      node: { extensions: ['.mjs', '.js', '.json', '.ts', '.d.ts'] },
       alias: {
         map: [
           ['@', './src'],
           ['~', './src'],
           ['~~', './'],
         ],
-        extensions: [...baseExtentions, '.vue'],
+        extensions: ['.js', '.jsx', '.ts', '.tsx', '.d.ts'],
       },
     },
   },

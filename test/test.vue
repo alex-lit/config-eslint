@@ -29,7 +29,6 @@
    * Шапка приложения
    */
   @Component<Test>({
-    created() {},
     components: {
       SelectUser: () => import('src/components/select-user'),
       MenuUser: () => import('src/components/menu-user'),
