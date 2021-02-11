@@ -89,8 +89,9 @@ module.exports = {
       },
     ],
     'no-console': 'off',
+    'no-shadow': 'off', // delegated to typescript-eslint plugin
     'no-underscore-dangle': 'off',
-    'no-use-before-define': 'off',
+    'no-use-before-define': 'off', // delegated to typescript-eslint plugin
     'padding-line-between-statements': [
       'warn',
       { blankLine: 'always', prev: '*', next: 'block-like' },
@@ -101,7 +102,7 @@ module.exports = {
       { blankLine: 'always', prev: ['case', 'default'], next: '*' },
     ],
     'require-await': 'off',
-    'sort-imports': 'off',
+    'sort-imports': 'off', // delegated to simple-import-sort plugin
   },
 
   overrides: [

@@ -175,6 +175,7 @@ module.exports = {
         leadingUnderscore: 'allow',
       },
     ],
+    '@typescript-eslint/no-shadow': ['error'],
     '@typescript-eslint/no-use-before-define': ['warn'],
     '@typescript-eslint/sort-type-union-intersection-members': ['error'],
     '@typescript-eslint/unified-signatures': ['error'],
