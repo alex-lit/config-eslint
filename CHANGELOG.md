@@ -1,3 +1,10 @@
+# [0.20.0](https://github.com/alex-lit/config-eslint/compare/v0.19.6...v0.20.0) (2021-02-11)
+
+### Features
+
+- **plugin:** add eslint-comments
+  ([a20ac52](https://github.com/alex-lit/config-eslint/commit/a20ac52115475d357eec2c0e10076e9c3ee77ac7))
+
 ## [0.19.6](https://github.com/alex-lit/config-eslint/compare/v0.19.5...v0.19.6) (2021-02-11)
 
 ## [0.19.5](https://github.com/alex-lit/config-eslint/compare/v0.19.4...v0.19.5) (2021-02-11)
