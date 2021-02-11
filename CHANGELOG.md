@@ -1,3 +1,10 @@
+## [0.19.4](https://github.com/alex-lit/config-eslint/compare/v0.19.3...v0.19.4) (2021-02-11)
+
+### Bug Fixes
+
+- no-shadow
+  ([e7b8697](https://github.com/alex-lit/config-eslint/commit/e7b8697834cc9d08396eb9415fdc0772aa62b936))
+
 ## [0.19.3](https://github.com/alex-lit/config-eslint/compare/v0.19.2...v0.19.3) (2021-02-11)
 
 ## [0.19.2](https://github.com/alex-lit/config-eslint/compare/v0.19.1...v0.19.2) (2021-02-11)
