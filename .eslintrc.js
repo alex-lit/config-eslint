@@ -43,6 +43,7 @@ module.exports = {
       './plugins/jsx-a11y',
       './plugins/no-loops',
       './plugins/no-secrets',
+      './plugins/no-use-extend-native',
       './plugins/nuxt',
       './plugins/promise',
       './plugins/regexp',
