@@ -45,6 +45,7 @@ module.exports = {
       './plugins/no-secrets',
       './plugins/nuxt',
       './plugins/promise',
+      './plugins/regexp',
       './plugins/simple-import-sort',
       './plugins/sonar',
       './plugins/sql',

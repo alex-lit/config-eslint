@@ -10,6 +10,9 @@
     return z;
   }
 
+  // eslint-disable-next-line @typescript-eslint/no-unused-vars
+  const foos = /\S[4-6]/;
+
   /**
    *
    */
