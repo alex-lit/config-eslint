@@ -27,29 +27,25 @@ const sadf = {
 
 console.log(sadf);
 
+let foo = '2';
+
+let s = `${foo}`;
+s = `${foo}`;
+foo = String(foo);
+foo += s;
+
 const array = [1, 2, 3];
 
 array.forEach((item) => item);
 
 /**
- *
+ * @param x dfdf
  */
-function bar() {
-  return 2;
+function bar(x?: string): string {
+  return x;
 }
 
 /**
  *
  */
 bar();
-
-/**
- *
- */
-function foo() {
-  bar();
-
-  return 2;
-}
-
-foo();
