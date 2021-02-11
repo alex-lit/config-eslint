@@ -4,12 +4,9 @@
 module.exports = {
   plugins: ['@typescript-eslint'],
 
-  rules: {
-    '@typescript-eslint/no-unused-vars': [
-      'error',
-      { args: 'all', argsIgnorePattern: '^_' },
-    ],
+  extends: ['plugin:@typescript-eslint/recommended'],
 
+  rules: {
     '@typescript-eslint/array-type': ['error', { default: 'array' }],
     '@typescript-eslint/consistent-type-assertions': [
       'error',
@@ -23,6 +20,7 @@ module.exports = {
       'error',
       { prefer: 'type-imports' },
     ],
+    '@typescript-eslint/explicit-module-boundary-types': 'off',
     '@typescript-eslint/method-signature-style': ['error', 'method'],
     '@typescript-eslint/member-ordering': [
       'warn',
@@ -175,7 +173,19 @@ module.exports = {
         leadingUnderscore: 'allow',
       },
     ],
+    '@typescript-eslint/no-explicit-any': 'off',
+    '@typescript-eslint/no-inferrable-types': [
+      'error',
+      {
+        ignoreParameters: true,
+      },
+    ],
+    '@typescript-eslint/no-var-requires': 'off',
     '@typescript-eslint/no-shadow': ['error'],
+    '@typescript-eslint/no-unused-vars': [
+      'error',
+      { args: 'all', argsIgnorePattern: '^_' },
+    ],
     '@typescript-eslint/no-use-before-define': ['warn'],
     '@typescript-eslint/sort-type-union-intersection-members': ['error'],
     '@typescript-eslint/unified-signatures': ['error'],

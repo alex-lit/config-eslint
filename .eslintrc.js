@@ -57,8 +57,8 @@ module.exports = {
       './plugins/prettier',
 
       /* optional */
-      // './plugins/jest',
-      // './plugins/jest-formatting',
+      // './plugins/optional/jest',
+      // './plugins/optional/jest-formatting',
       // './plugins/optional/react',
       // './plugins/optional/react-hooks',
       // './plugins/optional/vuetify',
@@ -66,6 +66,7 @@ module.exports = {
   ],
 
   rules: {
+    'class-methods-use-this': 'off',
     'lines-around-comment': [
       'warn',
       {
