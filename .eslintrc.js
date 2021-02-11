@@ -106,7 +106,7 @@ module.exports = {
 
   overrides: [
     {
-      files: ['.*.js', '*.config.js'],
+      files: ['.*.js', '.*.ts', '*.config.js', '*.config.ts'],
       rules: {
         'global-require': 'off',
       },
