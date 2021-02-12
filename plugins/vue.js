@@ -4,6 +4,8 @@
 module.exports = {
   plugins: ['vue'],
 
+  extends: ['plugin:vue/recommended'],
+
   rules: {
     'vue/attributes-order': [
       'error',
