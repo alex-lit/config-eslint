@@ -94,6 +94,7 @@ module.exports = {
     ],
     'no-console': 'off',
     'no-implicit-coercion': 'error',
+    'no-return-await': 'off',
     'no-shadow': 'off', // delegated to typescript-eslint plugin
     'no-underscore-dangle': 'off',
     'no-use-before-define': 'off', // delegated to typescript-eslint plugin
