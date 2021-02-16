@@ -107,10 +107,14 @@
 <template>
   <q-header class="app-header">
     <q-toolbar class="app-header__toolbar">
-      <button @mouseover="setAsideVisibility(!isShowAside)">ddd</button>
+      <button type="button" @mouseover="setAsideVisibility(!isShowAside)">
+        ddd
+      </button>
       <q-btn flat no-caps stretch style="pointer-events: none">
         <q-toolbar-title> {{ title }} </q-toolbar-title>
       </q-btn>
+
+      <button type="button">Hello World</button>
 
       <br />
 
@@ -118,7 +122,9 @@
       <select-user
         v-if="user.is_admin"
         v-model="selectedUserId"
+        a="1"
         class="[ q-mr-md ]"
+        s="1"
         :select-options="{
           clearable: true,
           dense: true,
@@ -135,6 +141,7 @@
             users: 'id,name',
           },
         }"
+        z="1"
         @input="(value) => onSelectedUserChange(value)"
       ></select-user>
 

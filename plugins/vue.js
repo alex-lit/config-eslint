@@ -29,6 +29,7 @@ module.exports = {
       },
     ],
     'vue/eqeqeq': ['error'],
+    'vue/html-button-has-type': ['error'],
     'vue/html-comment-content-newline': ['warn'],
     'vue/html-comment-content-spacing': ['warn'],
     'vue/html-comment-indent': ['warn'],

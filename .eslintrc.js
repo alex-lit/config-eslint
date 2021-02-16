@@ -64,6 +64,7 @@ module.exports = {
       // './plugins/optional/jest-formatting',
       // './plugins/optional/react',
       // './plugins/optional/react-hooks',
+      // './plugins/optional/svelte',
       // './plugins/optional/vuetify',
     ].map((config) => require.resolve(config)),
   ],
