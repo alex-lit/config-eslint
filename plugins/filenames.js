@@ -11,6 +11,12 @@ module.exports = {
 
   overrides: [
     {
+      files: ['**/.*.*'],
+      rules: {
+        'filenames/match-exported': 'off',
+      },
+    },
+    {
       files: ['**/layouts/**/*.vue'],
       rules: {
         'filenames/match-exported': ['error', 'kebab'],
