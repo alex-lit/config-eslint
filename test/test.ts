@@ -11,6 +11,8 @@ array.forEach((item) => item);
 
 /**
  * @param x dfdf
+ *
+ * @see [sdfsdf](https://github.com/gajus/eslint-plugin-jsdoc/releases)
  */
 function bar(x?: string): string {
   /* eslint-disable @typescript-eslint/no-unused-vars */
