@@ -36,11 +36,11 @@
     "version": "./node_modules/@alexlit/lint-kit/scripts/version.sh"
   },
   "dependencies": {
-    "@typescript-eslint/eslint-plugin": "^4.15.1",
-    "@typescript-eslint/parser": "^4.15.1",
+    "@typescript-eslint/eslint-plugin": "^4.15.2",
+    "@typescript-eslint/parser": "^4.15.2",
     "eslint": "^7.20.0",
     "eslint-config-airbnb-base": "^14.2.1",
-    "eslint-config-prettier": "^7.2.0",
+    "eslint-config-prettier": "^8.0.0",
     "eslint-import-resolver-alias": "^1.1.2",
     "eslint-plugin-decorator-position": "^2.2.19",
     "eslint-plugin-eslint-comments": "^3.2.0",
@@ -48,10 +48,10 @@
     "eslint-plugin-import": "^2.22.1",
     "eslint-plugin-jest": "^24.1.5",
     "eslint-plugin-jest-formatting": "^2.0.1",
-    "eslint-plugin-jsdoc": "^31.6.1",
+    "eslint-plugin-jsdoc": "^32.2.0",
     "eslint-plugin-jsx-a11y": "^6.4.1",
     "eslint-plugin-no-loops": "^0.3.0",
-    "eslint-plugin-no-secrets": "^0.6.8",
+    "eslint-plugin-no-secrets": "^0.7.9",
     "eslint-plugin-no-use-extend-native": "^0.5.0",
     "eslint-plugin-nuxt": "^2.0.0",
     "eslint-plugin-prettier": "^3.3.1",
@@ -71,6 +71,6 @@
     "typescript": "^4.1.5"
   },
   "devDependencies": {
-    "@alexlit/lint-kit": "^0.33.0"
+    "@alexlit/lint-kit": "^0.35.0"
   }
 }

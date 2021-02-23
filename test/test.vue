@@ -118,6 +118,8 @@
 
       <br />
 
+      <br />
+
       <select-user></select-user>
       <select-user
         v-if="user.is_admin"
