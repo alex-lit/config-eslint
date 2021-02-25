@@ -26,3 +26,9 @@ function bar(x?: string): string {
  *
  */
 bar();
+
+try {
+  //
+} catch {
+  //
+}
