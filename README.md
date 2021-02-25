@@ -15,9 +15,12 @@ module.exports = {
     './node_modules/@alexlit/config-eslint',
 
     /* optional */
-    './node_modules/@alexlit/config-eslint/plugins/optional/vuetify',
+    './node_modules/@alexlit/config-eslint/plugins/optional/jest',
+    './node_modules/@alexlit/config-eslint/plugins/optional/jest-formatting',
     './node_modules/@alexlit/config-eslint/plugins/optional/react',
     './node_modules/@alexlit/config-eslint/plugins/optional/react-hooks',
+    './node_modules/@alexlit/config-eslint/plugins/optional/svelte',
+    './node_modules/@alexlit/config-eslint/plugins/optional/vuetify',
   ],
 };
 ```
