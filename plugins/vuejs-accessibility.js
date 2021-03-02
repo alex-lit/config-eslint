@@ -8,9 +8,12 @@ module.exports = {
 
   rules: {
     'vuejs-accessibility/label-has-for': [
-      'error',
+      'warn',
       {
         allowChildren: true,
+        required: {
+          some: ['nesting', 'id'],
+        },
       },
     ],
   },
