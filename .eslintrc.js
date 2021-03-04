@@ -1,30 +1,9 @@
 /* eslint-disable sonarjs/no-duplicate-string */
 module.exports = {
-  root: true,
-
   env: {
     browser: true,
     node: true,
   },
-
-  parserOptions: {
-    parser: '@typescript-eslint/parser',
-    ecmaFeatures: {
-      jsx: true,
-    },
-  },
-
-  ignorePatterns: [
-    '.*',
-    '**/build/**',
-    '**/dist/**',
-    '**/docs/**',
-    '**/node_modules/**',
-    '**/storybook-*/**',
-    '**/sw.js',
-    '!.*.js',
-    '!.storybook',
-  ],
 
   extends: [
     /**
@@ -50,6 +29,7 @@ module.exports = {
       './plugins/regexp',
       './plugins/simple-import-sort',
       './plugins/sonar',
+      './plugins/sort-keys-fix',
       './plugins/sql',
       './plugins/testing-library',
       './plugins/typescript',
@@ -70,82 +50,17 @@ module.exports = {
     ].map((config) => require.resolve(config)),
   ],
 
-  rules: {
-    'class-methods-use-this': 'off',
-    'lines-around-comment': [
-      'warn',
-      {
-        beforeBlockComment: true,
-        afterBlockComment: false,
-
-        beforeLineComment: false,
-        afterLineComment: false,
-
-        allowBlockStart: true,
-        allowBlockEnd: true,
-
-        allowClassStart: true,
-        allowClassEnd: true,
-
-        allowObjectStart: true,
-        allowObjectEnd: true,
-
-        allowArrayStart: true,
-        allowArrayEnd: true,
-      },
-    ],
-    'no-console': 'off',
-    'no-implicit-coercion': 'error',
-    'no-return-await': 'off',
-    'no-shadow': 'off', // delegated to typescript-eslint plugin
-    'no-underscore-dangle': 'off',
-    'no-use-before-define': 'off', // delegated to typescript-eslint plugin
-    'padding-line-between-statements': [
-      'warn',
-      { blankLine: 'always', prev: '*', next: 'block-like' },
-      { blankLine: 'always', prev: '*', next: 'cjs-export' },
-      { blankLine: 'always', prev: '*', next: 'cjs-import' },
-      { blankLine: 'always', prev: '*', next: 'class' },
-      { blankLine: 'always', prev: '*', next: 'function' },
-      { blankLine: 'always', prev: '*', next: 'iife' },
-      { blankLine: 'always', prev: '*', next: 'multiline-block-like' },
-      { blankLine: 'always', prev: '*', next: 'multiline-const' },
-      { blankLine: 'always', prev: '*', next: 'multiline-expression' },
-      { blankLine: 'always', prev: '*', next: 'multiline-let' },
-      { blankLine: 'always', prev: '*', next: 'multiline-var' },
-      { blankLine: 'always', prev: '*', next: 'return' },
-      { blankLine: 'always', prev: '*', next: 'switch' },
-      { blankLine: 'always', prev: 'block-like', next: '*' },
-      { blankLine: 'always', prev: 'case', next: '*' },
-      { blankLine: 'always', prev: 'cjs-export', next: '*' },
-      { blankLine: 'always', prev: 'cjs-import', next: '*' },
-      { blankLine: 'always', prev: 'class', next: '*' },
-      { blankLine: 'always', prev: 'default', next: '*' },
-      { blankLine: 'always', prev: 'directive', next: '*' },
-      { blankLine: 'always', prev: 'iife', next: '*' },
-      { blankLine: 'always', prev: 'multiline-block-like', next: '*' },
-      { blankLine: 'always', prev: 'multiline-const', next: '*' },
-      { blankLine: 'always', prev: 'multiline-expression', next: '*' },
-      { blankLine: 'always', prev: 'multiline-let', next: '*' },
-      { blankLine: 'always', prev: 'multiline-var', next: '*' },
-      { blankLine: 'always', prev: 'singleline-const', next: '*' },
-      { blankLine: 'always', prev: 'singleline-let', next: '*' },
-      { blankLine: 'always', prev: 'singleline-var', next: '*' },
-
-      { blankLine: 'never', prev: 'cjs-export', next: 'cjs-export' },
-      { blankLine: 'never', prev: 'cjs-import', next: 'cjs-import' },
-      { blankLine: 'never', prev: 'directive', next: 'directive' },
-      {
-        blankLine: 'never',
-        prev: 'singleline-const',
-        next: 'singleline-const',
-      },
-      { blankLine: 'never', prev: 'singleline-let', next: 'singleline-let' },
-      { blankLine: 'never', prev: 'singleline-var', next: 'singleline-var' },
-    ],
-    'require-await': 'off',
-    'sort-imports': 'off', // delegated to simple-import-sort plugin
-  },
+  ignorePatterns: [
+    '.*',
+    '**/build/**',
+    '**/dist/**',
+    '**/docs/**',
+    '**/node_modules/**',
+    '**/storybook-*/**',
+    '**/sw.js',
+    '!.*.js',
+    '!.storybook',
+  ],
 
   overrides: [
     {
@@ -155,4 +70,99 @@ module.exports = {
       },
     },
   ],
+
+  parserOptions: {
+    ecmaFeatures: {
+      jsx: true,
+    },
+    parser: '@typescript-eslint/parser',
+  },
+
+  root: true,
+
+  rules: {
+    'class-methods-use-this': 'off',
+    'lines-around-comment': [
+      'warn',
+      {
+        afterBlockComment: false,
+        afterLineComment: false,
+
+        allowArrayEnd: true,
+        allowArrayStart: true,
+
+        allowBlockEnd: true,
+        allowBlockStart: true,
+
+        allowClassEnd: true,
+        allowClassStart: true,
+
+        allowObjectEnd: true,
+        allowObjectStart: true,
+
+        beforeBlockComment: true,
+        beforeLineComment: false,
+      },
+    ],
+    'no-console': 'off',
+    'no-implicit-coercion': 'error',
+    'no-return-await': 'off',
+    'no-shadow': 'off',
+    'no-underscore-dangle': 'off',
+    'no-use-before-define': 'off',
+    'padding-line-between-statements': [
+      'warn',
+      { blankLine: 'always', next: 'block-like', prev: '*' },
+      { blankLine: 'always', next: 'cjs-export', prev: '*' },
+      { blankLine: 'always', next: 'cjs-import', prev: '*' },
+      { blankLine: 'always', next: 'class', prev: '*' },
+      { blankLine: 'always', next: 'function', prev: '*' },
+      { blankLine: 'always', next: 'iife', prev: '*' },
+      { blankLine: 'always', next: 'multiline-block-like', prev: '*' },
+      { blankLine: 'always', next: 'multiline-const', prev: '*' },
+      { blankLine: 'always', next: 'multiline-expression', prev: '*' },
+      { blankLine: 'always', next: 'multiline-let', prev: '*' },
+      { blankLine: 'always', next: 'multiline-var', prev: '*' },
+      { blankLine: 'always', next: 'return', prev: '*' },
+      { blankLine: 'always', next: 'switch', prev: '*' },
+      { blankLine: 'always', next: '*', prev: 'block-like' },
+      { blankLine: 'always', next: '*', prev: 'case' },
+      { blankLine: 'always', next: '*', prev: 'cjs-export' },
+      { blankLine: 'always', next: '*', prev: 'cjs-import' },
+      { blankLine: 'always', next: '*', prev: 'class' },
+      { blankLine: 'always', next: '*', prev: 'default' },
+      { blankLine: 'always', next: '*', prev: 'directive' },
+      { blankLine: 'always', next: '*', prev: 'iife' },
+      { blankLine: 'always', next: '*', prev: 'multiline-block-like' },
+      { blankLine: 'always', next: '*', prev: 'multiline-const' },
+      { blankLine: 'always', next: '*', prev: 'multiline-expression' },
+      { blankLine: 'always', next: '*', prev: 'multiline-let' },
+      { blankLine: 'always', next: '*', prev: 'multiline-var' },
+      { blankLine: 'always', next: '*', prev: 'singleline-const' },
+      { blankLine: 'always', next: '*', prev: 'singleline-let' },
+      { blankLine: 'always', next: '*', prev: 'singleline-var' },
+
+      { blankLine: 'never', next: 'cjs-export', prev: 'cjs-export' },
+      { blankLine: 'never', next: 'cjs-import', prev: 'cjs-import' },
+      { blankLine: 'never', next: 'directive', prev: 'directive' },
+      {
+        blankLine: 'never',
+        next: 'singleline-const',
+        prev: 'singleline-const',
+      },
+      { blankLine: 'never', next: 'singleline-let', prev: 'singleline-let' },
+      { blankLine: 'never', next: 'singleline-var', prev: 'singleline-var' },
+    ],
+
+    'require-await': 'off',
+
+    'sort-imports': 'off',
+    'sort-keys': [
+      'warn',
+      'asc',
+      { caseSensitive: true, minKeys: 2, natural: true },
+    ],
+    'sort-keys-fix/sort-keys-fix': 'warn',
+    'sort-vars': 'warn',
+  },
 };

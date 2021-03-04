@@ -1,34 +1,94 @@
-let foo = '2';
-let s = `${foo}`;
-
-s = `${foo}`;
-foo = String(foo);
-foo += s;
-
-const array = [1, 2, 3];
-
-array.forEach((item) => item);
+// const x = { a: 1, b: 2 };
+// const { b, a } = x;
 
 /**
- * @param x dfdf
- *
- * @see [sdfsdf](https://github.com/gajus/eslint-plugin-jsdoc/releases)
+ * Данные о сессии
  */
-function bar(x?: string): string {
-  /* eslint-disable @typescript-eslint/no-unused-vars */
-  const foox = bar();
-  /* eslint-enable @typescript-eslint/no-unused-vars */
+interface AuthState {
+  //
+  /**
+   * Если истина то пользователь вошел в систему
+   */
+  isLoggedIn: boolean;
 
-  return x;
+  /**
+   * Состояние для генерации токена
+   */
+  state: string;
+
+  /**
+   * Код для генерации токена
+   */
+  code: string;
+
+  /**
+   * Генерируемый верификатор кода для генерации токена
+   */
+  codeVerifier: string;
+
+  /**
+   * Токен доступа
+   */
+  accessToken: string;
+
+  /**
+   * Токен на обновление сессии
+   */
+  refreshToken: string;
+
+  /**
+   * Время истечения срока действия токенов, мс
+   */
+  expiresIn: number;
+
+  /**
+   * Данные по пользователю
+   */
+  user: Record<string, any>;
 }
 
 /**
- *
+ * @param z
  */
-bar();
-
-try {
-  //
-} catch {
-  //
+// eslint-disable-next-line @typescript-eslint/naming-convention
+function SET(z) {
+  return z;
 }
+
+/**
+ * Дефолтное состояние
+ */
+const defaultState: AuthState = {
+  accessToken: '',
+  code: '',
+  codeVerifier: '',
+  expiresIn: Date.now(),
+  isLoggedIn: false,
+  refreshToken: '',
+  state: '',
+  user: {},
+};
+
+export const state = (): AuthState => defaultState;
+
+export const mutations = {
+  RESET_AUTH_DATA() {
+    return true;
+  },
+
+  SET_ACCESS_TOKEN: SET('accessToken'),
+
+  SET_CODE: SET('code'),
+
+  SET_CODE_VERIFIER: SET('codeVerifier'),
+
+  SET_EXPIRES_IN: SET('expiresIn'),
+
+  SET_IS_LOGGED_IN: SET('isLoggedIn'),
+
+  SET_REFRESH_TOKEN: SET('refreshToken'),
+
+  SET_STATE: SET('state'),
+
+  SET_USER: SET('user'),
+};
