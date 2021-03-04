@@ -1,3 +1,12 @@
+# [1.5.0](https://github.com/alex-lit/config-eslint/compare/v1.4.1...v1.5.0) (2021-03-04)
+
+### Features
+
+- **plugin:** add sort-destructure-keys
+  ([237bcfa](https://github.com/alex-lit/config-eslint/commit/237bcfa86b0234f28f25a087e8c99a13daeb0f30))
+- **plugin:** add sort-key-fix
+  ([819e1c7](https://github.com/alex-lit/config-eslint/commit/819e1c758b3cfd64e68018e003bf408acd68ebd7))
+
 ## [1.4.1](https://github.com/alex-lit/config-eslint/compare/v1.4.0...v1.4.1) (2021-03-04)
 
 # [1.4.0](https://github.com/alex-lit/config-eslint/compare/v1.3.1...v1.4.0) (2021-03-02)
