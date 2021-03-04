@@ -29,6 +29,7 @@ module.exports = {
       './plugins/regexp',
       './plugins/simple-import-sort',
       './plugins/sonar',
+      './plugins/sort-destructure-keys',
       './plugins/sort-keys-fix',
       './plugins/sql',
       './plugins/testing-library',
@@ -162,7 +163,6 @@ module.exports = {
       'asc',
       { caseSensitive: true, minKeys: 2, natural: true },
     ],
-    'sort-keys-fix/sort-keys-fix': 'warn',
     'sort-vars': 'warn',
   },
 };

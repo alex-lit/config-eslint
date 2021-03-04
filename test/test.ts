@@ -1,5 +1,7 @@
-// const x = { a: 1, b: 2 };
-// const { b, a } = x;
+const x = { B: 2, a: 1, c: 9 };
+const { B, a } = x;
+
+console.log(a, B);
 
 /**
  * Данные о сессии
