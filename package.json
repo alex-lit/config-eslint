@@ -71,6 +71,6 @@
     "typescript": "^4.2.2"
   },
   "devDependencies": {
-    "@alexlit/lint-kit": "^1.4.0"
+    "@alexlit/lint-kit": "^1.5.0"
   }
 }

@@ -1,6 +1,6 @@
 let foo = '2';
-
 let s = `${foo}`;
+
 s = `${foo}`;
 foo = String(foo);
 foo += s;
