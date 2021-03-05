@@ -2,9 +2,9 @@
  * @see [eslint-plugin-vue](https://eslint.vuejs.org/rules/)
  */
 module.exports = {
-  plugins: ['vue'],
-
   extends: ['plugin:vue/recommended'],
+
+  plugins: ['vue'],
 
   rules: {
     'vue/attributes-order': [
@@ -18,8 +18,8 @@ module.exports = {
       'error',
       'kebab-case',
       {
-        registeredComponentsOnly: false,
         ignores: [],
+        registeredComponentsOnly: false,
       },
     ],
     'vue/component-tags-order': [
@@ -38,12 +38,12 @@ module.exports = {
       'error',
       {
         html: {
-          void: 'always',
-          normal: 'never',
           component: 'never',
+          normal: 'never',
+          void: 'always',
         },
-        svg: 'always',
         math: 'always',
+        svg: 'always',
       },
     ],
     'vue/match-component-file-name': ['error'],
@@ -73,6 +73,15 @@ module.exports = {
     'vue/no-v-html': 'off',
     'vue/padding-line-between-blocks': ['error'],
     'vue/require-direct-export': 'off',
+    'vue/sort-keys': [
+      'warn',
+      'asc',
+      {
+        caseSensitive: true,
+        minKeys: 2,
+        natural: true,
+      },
+    ],
     'vue/static-class-names-order': 'off',
     'vue/this-in-template': ['error', 'never'],
     'vue/v-for-delimiter-style': ['error'],

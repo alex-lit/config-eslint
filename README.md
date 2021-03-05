@@ -24,3 +24,22 @@ module.exports = {
   ],
 };
 ```
+
+## Recipes
+
+### Vue
+
+- If you use vue.js with `options api` syntax you need to turn off `sort-keys`
+  rule for `*.vue` files
+
+  ```js
+  // .eslintrc.js
+  overrides: [
+    {
+      files: ['*.vue'],
+      rules: {
+        'sort-keys': 'off',
+      },
+    },
+  ];
+  ```
