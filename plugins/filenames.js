@@ -2,13 +2,6 @@
  * @see [eslint-plugin-filenames](https://github.com/selaux/eslint-plugin-filenames)
  */
 module.exports = {
-  plugins: ['filenames'],
-
-  rules: {
-    'filenames/match-regex': ['error', /^(\.?[\da-z-]+)+$/, true],
-    'filenames/match-exported': ['error', 'kebab', /\.([a-z-]+\.?)+$/],
-  },
-
   overrides: [
     {
       files: ['**/.*.*'],
@@ -41,4 +34,11 @@ module.exports = {
       },
     },
   ],
+
+  plugins: ['filenames'],
+
+  rules: {
+    'filenames/match-exported': ['error', 'kebab', /\.([a-z-]+\.?)+$/],
+    'filenames/match-regex': ['error', /^(\.?[\da-z-]+)+$/, true],
+  },
 };

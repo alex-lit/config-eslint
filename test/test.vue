@@ -29,8 +29,8 @@
    */
   @Component<Test>({
     components: {
-      SelectUser: () => import('src/components/select-user'),
       MenuUser: () => import('src/components/menu-user'),
+      SelectUser: () => import('src/components/select-user'),
     },
   })
   export default class Test {

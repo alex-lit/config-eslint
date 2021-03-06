@@ -2,9 +2,9 @@
  * @see [eslint-plugin-prettier](https://github.com/prettier/eslint-plugin-prettier)
  */
 module.exports = {
-  plugins: ['prettier'],
-
   extends: ['prettier'],
+
+  plugins: ['prettier'],
 
   rules: {
     'prettier/prettier': 'error',
@@ -14,12 +14,12 @@ module.exports = {
       'error',
       {
         html: {
-          void: 'always',
-          normal: 'never',
           component: 'never',
+          normal: 'never',
+          void: 'always',
         },
-        svg: 'always',
         math: 'always',
+        svg: 'always',
       },
     ],
   },

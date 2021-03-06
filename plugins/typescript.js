@@ -2,10 +2,18 @@
  * @see [typescript-eslint](https://github.com/typescript-eslint/typescript-eslint)
  */
 module.exports = {
-  plugins: ['@typescript-eslint'],
-
   extends: ['plugin:@typescript-eslint/recommended'],
 
+  overrides: [
+    {
+      files: ['*.d.ts'],
+      rules: {
+        '@typescript-eslint/naming-convention': 'off',
+      },
+    },
+  ],
+
+  plugins: ['@typescript-eslint'],
   rules: {
     '@typescript-eslint/array-type': ['error', { default: 'array' }],
     '@typescript-eslint/consistent-type-assertions': [
@@ -21,7 +29,6 @@ module.exports = {
       { prefer: 'type-imports' },
     ],
     '@typescript-eslint/explicit-module-boundary-types': 'off',
-    '@typescript-eslint/method-signature-style': ['error', 'method'],
     '@typescript-eslint/member-ordering': [
       'warn',
       {
@@ -96,6 +103,7 @@ module.exports = {
         ],
       },
     ],
+    '@typescript-eslint/method-signature-style': ['error', 'method'],
     '@typescript-eslint/naming-convention': [
       'error',
 
@@ -103,27 +111,27 @@ module.exports = {
        * ESLint's camelcase conventions
        */
       {
-        selector: 'default',
         format: ['camelCase'],
+        selector: 'default',
       },
       {
-        selector: 'variable',
         format: ['camelCase' /* 'UPPER_CASE' */],
+        selector: 'variable',
       },
       {
-        selector: 'parameter',
         format: ['camelCase'],
         leadingUnderscore: 'allow',
+        selector: 'parameter',
       },
       {
-        selector: 'memberLike',
-        modifiers: ['private'],
         format: ['camelCase'],
         leadingUnderscore: 'require',
+        modifiers: ['private'],
+        selector: 'memberLike',
       },
       {
-        selector: 'typeLike',
         format: ['PascalCase'],
+        selector: 'typeLike',
       },
 
       /**
@@ -132,45 +140,45 @@ module.exports = {
 
       // interface
       {
-        selector: 'interface',
-        format: ['PascalCase'],
         custom: {
-          regex: '^I[A-Z]',
           match: false,
+          regex: '^I[A-Z]',
         },
+        format: ['PascalCase'],
+        selector: 'interface',
       },
 
       // objectLiteralProperty
       {
-        selector: 'objectLiteralProperty',
         format: ['camelCase', 'PascalCase', 'snake_case', 'UPPER_CASE'],
         leadingUnderscore: 'allow',
+        selector: 'objectLiteralProperty',
       },
 
       // objectLiteralMethod
       {
-        selector: 'objectLiteralMethod',
         format: ['camelCase', 'PascalCase', 'UPPER_CASE'],
+        selector: 'objectLiteralMethod',
       },
 
       // parameter
       {
-        selector: 'parameter',
         format: ['camelCase', 'PascalCase'],
         modifiers: ['destructured'],
+        selector: 'parameter',
       },
 
       // variable
       {
-        selector: 'variable',
         format: ['camelCase', 'PascalCase', 'UPPER_CASE'],
         modifiers: ['const'],
+        selector: 'variable',
       },
       {
-        selector: 'variable',
         format: ['camelCase', 'PascalCase', 'UPPER_CASE', 'snake_case'],
-        modifiers: ['destructured'],
         leadingUnderscore: 'allow',
+        modifiers: ['destructured'],
+        selector: 'variable',
       },
     ],
     '@typescript-eslint/no-explicit-any': 'off',
@@ -180,22 +188,14 @@ module.exports = {
         ignoreParameters: true,
       },
     ],
-    '@typescript-eslint/no-var-requires': 'off',
     '@typescript-eslint/no-shadow': ['error'],
     '@typescript-eslint/no-unused-vars': [
       'error',
       { args: 'all', argsIgnorePattern: '^_' },
     ],
     '@typescript-eslint/no-use-before-define': ['warn'],
+    '@typescript-eslint/no-var-requires': 'off',
     '@typescript-eslint/sort-type-union-intersection-members': ['error'],
     '@typescript-eslint/unified-signatures': ['error'],
   },
-  overrides: [
-    {
-      files: ['*.d.ts'],
-      rules: {
-        '@typescript-eslint/naming-convention': 'off',
-      },
-    },
-  ],
 };

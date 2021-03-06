@@ -3,32 +3,22 @@
  * @see [eslint-import-resolver-alias](https://github.com/johvin/eslint-import-resolver-alias)
  */
 module.exports = {
-  plugins: ['import'],
-
   extends: [
     'plugin:import/errors',
     'plugin:import/warnings',
     'plugin:import/typescript',
   ],
 
-  settings: {
-    'import/extensions': ['.js', '.mjs', '.jsx', '.ts', '.tsx', '.d.ts'],
-    'import/external-module-folders': ['node_modules', 'node_modules/@types'],
-    'import/parsers': {
-      '@typescript-eslint/parser': ['.ts', '.tsx', '.d.ts'],
-    },
-    'import/resolver': {
-      node: { extensions: ['.mjs', '.js', '.json', '.ts', '.d.ts'] },
-      alias: {
-        map: [
-          ['@', './src'],
-          ['~', './src'],
-          ['~~', './'],
-        ],
-        extensions: ['.js', '.jsx', '.ts', '.tsx', '.d.ts'],
+  overrides: [
+    {
+      files: ['**/.*/**', '*.stories.js', '*.stories.ts', '.*.js', '.*.ts'],
+      rules: {
+        'import/no-extraneous-dependencies': 'off',
       },
     },
-  },
+  ],
+
+  plugins: ['import'],
 
   rules: {
     'import/extensions': [
@@ -47,12 +37,22 @@ module.exports = {
     'import/prefer-default-export': 'off',
   },
 
-  overrides: [
-    {
-      files: ['**/.*/**', '*.stories.js', '*.stories.ts', '.*.js', '.*.ts'],
-      rules: {
-        'import/no-extraneous-dependencies': 'off',
-      },
+  settings: {
+    'import/extensions': ['.js', '.mjs', '.jsx', '.ts', '.tsx', '.d.ts'],
+    'import/external-module-folders': ['node_modules', 'node_modules/@types'],
+    'import/parsers': {
+      '@typescript-eslint/parser': ['.ts', '.tsx', '.d.ts'],
     },
-  ],
+    'import/resolver': {
+      alias: {
+        extensions: ['.js', '.jsx', '.ts', '.tsx', '.d.ts'],
+        map: [
+          ['@', './src'],
+          ['~', './src'],
+          ['~~', './'],
+        ],
+      },
+      node: { extensions: ['.mjs', '.js', '.json', '.ts', '.d.ts'] },
+    },
+  },
 };

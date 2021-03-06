@@ -2,9 +2,9 @@
  * @see [eslint-plugin-jsdoc](https://github.com/gajus/eslint-plugin-jsdoc)
  */
 module.exports = {
-  plugins: ['jsdoc'],
-
   extends: ['plugin:jsdoc/recommended'],
+
+  plugins: ['jsdoc'],
 
   rules: {
     'jsdoc/no-undefined-types': 'off',

@@ -2,9 +2,9 @@
  * @see [eslint-plugin-unicorn](https://github.com/sindresorhus/eslint-plugin-unicorn)
  */
 module.exports = {
-  plugins: ['unicorn'],
-
   extends: ['plugin:unicorn/recommended'],
+
+  plugins: ['unicorn'],
 
   rules: {
     'unicorn/no-array-for-each': 'off',
