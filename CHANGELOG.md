@@ -1,3 +1,12 @@
+# [1.10.0](https://github.com/alex-lit/config-eslint/compare/v1.9.0...v1.10.0) (2021-03-12)
+
+### Features
+
+- **plugin:** add no-constructor-bind
+  ([bc018f1](https://github.com/alex-lit/config-eslint/commit/bc018f1e7992044fc9660a339131d219537cd56b))
+- **plugin:** add node security
+  ([19f15c1](https://github.com/alex-lit/config-eslint/commit/19f15c1f1ce38a5005bcf80caa97c7cc1d7461ba))
+
 # [1.9.0](https://github.com/alex-lit/config-eslint/compare/v1.8.0...v1.9.0) (2021-03-12)
 
 ### Features
