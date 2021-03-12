@@ -22,6 +22,7 @@ module.exports = {
       './plugins/import',
       './plugins/jsdoc',
       './plugins/jsx-a11y',
+      './plugins/no-constructor-bind',
       './plugins/no-loops',
       './plugins/no-secrets',
       './plugins/no-use-extend-native',

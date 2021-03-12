@@ -1,7 +1,12 @@
 const x = { B: 2, a: 1, c: 9 };
-const { B, a } = x;
+const { B, a, c } = x;
 
-console.log(a, B);
+// Bad:
+class User {
+  greet = () => 'Hello';
+}
+
+console.log(a, B, User, c);
 
 /**
  * Данные о сессии
