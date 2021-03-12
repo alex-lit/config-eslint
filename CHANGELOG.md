@@ -1,3 +1,10 @@
+# [1.9.0](https://github.com/alex-lit/config-eslint/compare/v1.8.0...v1.9.0) (2021-03-12)
+
+### Features
+
+- **plugin:** add ext
+  ([f04302a](https://github.com/alex-lit/config-eslint/commit/f04302afed6710095a273e28f4aba41719de814e))
+
 # [1.8.0](https://github.com/alex-lit/config-eslint/compare/v1.7.0...v1.8.0) (2021-03-11)
 
 # [1.7.0](https://github.com/alex-lit/config-eslint/compare/v1.6.1...v1.7.0) (2021-03-09)
