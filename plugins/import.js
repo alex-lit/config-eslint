@@ -12,6 +12,7 @@ module.exports = {
   overrides: [
     {
       files: ['**/.*/**', '*.stories.js', '*.stories.ts', '.*.js', '.*.ts'],
+
       rules: {
         'import/no-extraneous-dependencies': 'off',
       },
@@ -31,6 +32,7 @@ module.exports = {
         tsx: 'never',
       },
     ],
+
     'import/first': 'error',
     'import/no-mutable-exports': 'error',
     'import/order': 'off', // delegated to simple-import-sort plugin
@@ -40,18 +42,22 @@ module.exports = {
   settings: {
     'import/extensions': ['.js', '.mjs', '.jsx', '.ts', '.tsx', '.d.ts'],
     'import/external-module-folders': ['node_modules', 'node_modules/@types'],
+
     'import/parsers': {
       '@typescript-eslint/parser': ['.ts', '.tsx', '.d.ts'],
     },
+
     'import/resolver': {
       alias: {
         extensions: ['.js', '.jsx', '.ts', '.tsx', '.d.ts'],
+
         map: [
           ['@', './src'],
           ['~', './src'],
           ['~~', './'],
         ],
       },
+
       node: { extensions: ['.mjs', '.js', '.json', '.ts', '.d.ts'] },
     },
   },

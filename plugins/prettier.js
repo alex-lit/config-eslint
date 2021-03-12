@@ -18,6 +18,7 @@ module.exports = {
           normal: 'never',
           void: 'always',
         },
+
         math: 'always',
         svg: 'always',
       },

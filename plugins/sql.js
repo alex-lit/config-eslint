@@ -15,6 +15,7 @@ module.exports = {
       },
       { spaces: 2 },
     ],
+
     'sql/no-unsafe-query': [
       'warn',
       {

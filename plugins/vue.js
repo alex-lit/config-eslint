@@ -13,7 +13,9 @@ module.exports = {
         alphabetical: true,
       },
     ],
+
     'vue/component-definition-name-casing': ['error', 'kebab-case'],
+
     'vue/component-name-in-template-casing': [
       'error',
       'kebab-case',
@@ -22,18 +24,21 @@ module.exports = {
         registeredComponentsOnly: false,
       },
     ],
+
     'vue/component-tags-order': [
       'error',
       {
         order: ['script', 'template', 'style'],
       },
     ],
+
     'vue/eqeqeq': ['error'],
     'vue/html-button-has-type': ['error'],
     'vue/html-comment-content-newline': ['warn'],
     'vue/html-comment-content-spacing': ['warn'],
     'vue/html-comment-indent': ['warn'],
     'vue/html-end-tags': ['error'],
+
     'vue/html-self-closing': [
       'error',
       {
@@ -42,17 +47,21 @@ module.exports = {
           normal: 'never',
           void: 'always',
         },
+
         math: 'always',
         svg: 'always',
       },
     ],
+
     'vue/match-component-file-name': ['error'],
+
     'vue/max-attributes-per-line': [
       'error',
       {
         singleline: 3,
       },
     ],
+
     'vue/new-line-between-multi-line-property': ['error'],
     'vue/next-tick-style': ['error', 'promise'],
     'vue/no-deprecated-scope-attribute': ['error'],
@@ -73,6 +82,7 @@ module.exports = {
     'vue/no-v-html': 'off',
     'vue/padding-line-between-blocks': ['error'],
     'vue/require-direct-export': 'off',
+
     'vue/sort-keys': [
       'warn',
       'asc',
@@ -82,6 +92,7 @@ module.exports = {
         natural: true,
       },
     ],
+
     'vue/static-class-names-order': 'off',
     'vue/this-in-template': ['error', 'never'],
     'vue/v-for-delimiter-style': ['error'],

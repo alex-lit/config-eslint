@@ -91,8 +91,10 @@
         (this.$router as any).push({
           hash: this.$route.hash,
           params: this.$route.params,
+
           query: {
             ...this.$route.query,
+
             filter: {
               ...(this.$route.query.filter as Record<string, any>),
               user_id: selectedUserId || undefined,

@@ -17,6 +17,7 @@ module.exports = {
     ...[
       './plugins/decorator-position',
       './plugins/eslint-comments',
+      './plugins/ext',
       './plugins/filenames',
       './plugins/import',
       './plugins/jsdoc',
@@ -66,6 +67,7 @@ module.exports = {
   overrides: [
     {
       files: ['.*.js', '.*.ts', '*.config.js', '*.config.ts'],
+
       rules: {
         'global-require': 'off',
       },
@@ -73,9 +75,7 @@ module.exports = {
   ],
 
   parserOptions: {
-    ecmaFeatures: {
-      jsx: true,
-    },
+    ecmaFeatures: { jsx: true },
     parser: '@typescript-eslint/parser',
   },
 
@@ -83,6 +83,7 @@ module.exports = {
 
   rules: {
     'class-methods-use-this': 'off',
+
     'lines-around-comment': [
       'warn',
       {
@@ -105,12 +106,14 @@ module.exports = {
         beforeLineComment: false,
       },
     ],
+
     'no-console': 'off',
     'no-implicit-coercion': 'error',
     'no-return-await': 'off',
     'no-shadow': 'off',
     'no-underscore-dangle': 'off',
     'no-use-before-define': 'off',
+
     'padding-line-between-statements': [
       'warn',
       { blankLine: 'always', next: '*', prev: 'block-like' },
@@ -160,13 +163,14 @@ module.exports = {
     ],
 
     'require-await': 'off',
-
     'sort-imports': 'off',
+
     'sort-keys': [
       'warn',
       'asc',
       { caseSensitive: true, minKeys: 2, natural: true },
     ],
+
     'sort-vars': 'warn',
   },
 };

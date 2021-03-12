@@ -11,6 +11,7 @@ module.exports = {
       'warn',
       {
         allowChildren: true,
+
         required: {
           some: ['nesting', 'id'],
         },

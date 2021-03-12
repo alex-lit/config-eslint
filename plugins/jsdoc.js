@@ -8,6 +8,7 @@ module.exports = {
 
   rules: {
     'jsdoc/no-undefined-types': 'off',
+
     'jsdoc/require-jsdoc': [
       'warn',
       {
@@ -21,6 +22,7 @@ module.exports = {
         },
       },
     ],
+
     'jsdoc/require-param-description': 'off',
     'jsdoc/require-param-type': 'off',
     'jsdoc/require-returns': 'off',

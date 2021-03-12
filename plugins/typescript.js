@@ -7,6 +7,7 @@ module.exports = {
   overrides: [
     {
       files: ['*.d.ts'],
+
       rules: {
         '@typescript-eslint/naming-convention': 'off',
       },
@@ -14,8 +15,10 @@ module.exports = {
   ],
 
   plugins: ['@typescript-eslint'],
+
   rules: {
     '@typescript-eslint/array-type': ['error', { default: 'array' }],
+
     '@typescript-eslint/consistent-type-assertions': [
       'error',
       {
@@ -23,12 +26,16 @@ module.exports = {
         objectLiteralTypeAssertions: 'allow-as-parameter',
       },
     ],
+
     '@typescript-eslint/consistent-type-definitions': ['error', 'interface'],
+
     '@typescript-eslint/consistent-type-imports': [
       'error',
       { prefer: 'type-imports' },
     ],
+
     '@typescript-eslint/explicit-module-boundary-types': 'off',
+
     '@typescript-eslint/member-ordering': [
       'warn',
       {
@@ -103,7 +110,9 @@ module.exports = {
         ],
       },
     ],
+
     '@typescript-eslint/method-signature-style': ['error', 'method'],
+
     '@typescript-eslint/naming-convention': [
       'error',
 
@@ -144,6 +153,7 @@ module.exports = {
           match: false,
           regex: '^I[A-Z]',
         },
+
         format: ['PascalCase'],
         selector: 'interface',
       },
@@ -181,18 +191,23 @@ module.exports = {
         selector: 'variable',
       },
     ],
+
     '@typescript-eslint/no-explicit-any': 'off',
+
     '@typescript-eslint/no-inferrable-types': [
       'error',
       {
         ignoreParameters: true,
       },
     ],
+
     '@typescript-eslint/no-shadow': ['error'],
+
     '@typescript-eslint/no-unused-vars': [
       'error',
       { args: 'all', argsIgnorePattern: '^_' },
     ],
+
     '@typescript-eslint/no-use-before-define': ['warn'],
     '@typescript-eslint/no-var-requires': 'off',
     '@typescript-eslint/sort-type-union-intersection-members': ['error'],
