@@ -29,6 +29,7 @@ module.exports = {
       './plugins/nuxt',
       './plugins/promise',
       './plugins/regexp',
+      './plugins/security',
       './plugins/simple-import-sort',
       './plugins/sonar',
       './plugins/sort-destructure-keys',
