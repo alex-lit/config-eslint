@@ -1,3 +1,5 @@
+# [1.11.0](https://github.com/alex-lit/config-eslint/compare/v1.10.0...v1.11.0) (2021-03-15)
+
 # [1.10.0](https://github.com/alex-lit/config-eslint/compare/v1.9.0...v1.10.0) (2021-03-12)
 
 ### Features
