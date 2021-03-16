@@ -1,12 +1,32 @@
 const x = { B: 2, a: 1, c: 9 };
 const { B, a, c } = x;
 
+const xxz = {
+  foo(f, n) {
+    if (typeof f === 'function') {
+      f();
+    } else {
+      throw new TypeError('foo: A Function is required.');
+    }
+
+    if (!n) {
+      return false;
+    }
+
+    return this.foo(f, n);
+  },
+
+  name: 'Bar',
+
+  types: [{ f: 'function' }, { n: 'number' }],
+};
+
 // Bad:
 class User {
   greet = () => 'Hello';
 }
 
-console.log(a, B, User, c);
+console.log(a, B, User, c, xxz);
 
 /**
  * Данные о сессии
