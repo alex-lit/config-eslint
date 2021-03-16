@@ -1,3 +1,10 @@
+# [1.14.0](https://github.com/alex-lit/config-eslint/compare/v1.13.1...v1.14.0) (2021-03-16)
+
+### Features
+
+- **plugin:** add no-inferred-method-name
+  ([ac20f51](https://github.com/alex-lit/config-eslint/commit/ac20f5152c2ebb2a64a612b3b07046deb544e51c))
+
 ## [1.13.1](https://github.com/alex-lit/config-eslint/compare/v1.13.0...v1.13.1) (2021-03-16)
 
 # [1.13.0](https://github.com/alex-lit/config-eslint/compare/v1.12.0...v1.13.0) (2021-03-16)
