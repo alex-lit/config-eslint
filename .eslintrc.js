@@ -48,6 +48,7 @@ module.exports = {
       /* optional */
       // './plugins/optional/jest',
       // './plugins/optional/jest-formatting',
+      // './plugins/optional/node',
       // './plugins/optional/react',
       // './plugins/optional/react-hooks',
       // './plugins/optional/svelte',
