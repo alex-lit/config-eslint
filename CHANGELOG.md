@@ -1,3 +1,10 @@
+# [1.15.0](https://github.com/alex-lit/config-eslint/compare/v1.14.0...v1.15.0) (2021-03-16)
+
+### Features
+
+- **plugin:** add optional node
+  ([8be1a69](https://github.com/alex-lit/config-eslint/commit/8be1a6954978af5c4b873145eae0df6265ab4002))
+
 # [1.14.0](https://github.com/alex-lit/config-eslint/compare/v1.13.1...v1.14.0) (2021-03-16)
 
 ### Features
