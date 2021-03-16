@@ -63,6 +63,7 @@ module.exports = {
     '**/storybook-*/**',
     '**/sw.js',
     '!.*.js',
+    '!.node',
     '!.storybook',
   ],
 
