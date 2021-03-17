@@ -88,6 +88,7 @@ module.exports = {
 
   rules: {
     'class-methods-use-this': 'off',
+    'grouped-accessor-pairs': ['error', 'getBeforeSet'],
 
     'lines-around-comment': [
       'warn',
