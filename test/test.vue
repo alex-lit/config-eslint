@@ -13,7 +13,7 @@
   console.log('unicorn'.length);
 
   // eslint-disable-next-line @typescript-eslint/no-unused-vars
-  const foos = /\S[4-6]/;
+  const foo = /\S[4-6]/;
 
   /**
    *
@@ -37,14 +37,14 @@
     @Auth('selectedUserId')
     #selectedUserId;
 
-    @Auth('user')
-    user;
-
     @Auth('clearUserInfo')
     clearUserInfo;
 
     @Auth('setSelectedUserId')
     setSelectedUserId;
+
+    @Auth('user')
+    user;
 
     private _selectedUserId = 0;
 

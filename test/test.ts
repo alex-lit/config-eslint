@@ -21,8 +21,16 @@ const xxz = {
   types: [{ f: 'function' }, { n: 'number' }],
 };
 
+// eslint-disable-next-line @typescript-eslint/no-unused-vars
+interface Xxx {
+  a: 1;
+  x: 1;
+}
+
 // Bad:
 class User {
+  aaa = () => 'Hello';
+
   greet = () => 'Hello';
 }
 
@@ -34,14 +42,9 @@ console.log(a, B, User, c, xxz);
 interface AuthState {
   //
   /**
-   * Если истина то пользователь вошел в систему
+   * Токен доступа
    */
-  isLoggedIn: boolean;
-
-  /**
-   * Состояние для генерации токена
-   */
-  state: string;
+  accessToken: string;
 
   /**
    * Код для генерации токена
@@ -54,19 +57,14 @@ interface AuthState {
   codeVerifier: string;
 
   /**
-   * Токен доступа
+   * Если истина то пользователь вошел в систему
    */
-  accessToken: string;
+  isLoggedIn: boolean;
 
   /**
-   * Токен на обновление сессии
+   * Состояние для генерации токена
    */
-  refreshToken: string;
-
-  /**
-   * Время истечения срока действия токенов, мс
-   */
-  expiresIn: number;
+  state: string;
 
   /**
    * Данные по пользователю
@@ -89,9 +87,7 @@ const defaultState: AuthState = {
   accessToken: '',
   code: '',
   codeVerifier: '',
-  expiresIn: Date.now(),
   isLoggedIn: false,
-  refreshToken: '',
   state: '',
   user: {},
 };

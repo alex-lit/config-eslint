@@ -39,75 +39,79 @@ module.exports = {
     '@typescript-eslint/member-ordering': [
       'warn',
       {
-        default: [
-          // Index signature
-          'signature',
+        default: {
+          memberTypes: [
+            // Index signature
+            'signature',
 
-          // Fields
-          'public-static-field',
-          'protected-static-field',
-          'private-static-field',
+            // Fields
+            'public-static-field',
+            'protected-static-field',
+            'private-static-field',
 
-          'public-decorated-field',
-          'protected-decorated-field',
-          'private-decorated-field',
+            'public-decorated-field',
+            'protected-decorated-field',
+            'private-decorated-field',
 
-          'public-instance-field',
-          'protected-instance-field',
-          'private-instance-field',
+            'public-instance-field',
+            'protected-instance-field',
+            'private-instance-field',
 
-          'public-abstract-field',
-          'protected-abstract-field',
-          'private-abstract-field',
+            'public-abstract-field',
+            'protected-abstract-field',
+            'private-abstract-field',
 
-          'public-field',
-          'protected-field',
-          'private-field',
+            'public-field',
+            'protected-field',
+            'private-field',
 
-          'static-field',
-          'instance-field',
-          'abstract-field',
+            'static-field',
+            'instance-field',
+            'abstract-field',
 
-          'decorated-field',
+            'decorated-field',
 
-          'field',
+            'field',
 
-          // Constructors
-          'public-constructor',
-          'protected-constructor',
-          'private-constructor',
+            // Constructors
+            'public-constructor',
+            'protected-constructor',
+            'private-constructor',
 
-          'constructor',
+            'constructor',
 
-          // Methods
-          'public-static-method',
-          'protected-static-method',
-          'private-static-method',
+            // Methods
+            'public-static-method',
+            'protected-static-method',
+            'private-static-method',
 
-          'public-decorated-method',
-          'protected-decorated-method',
-          'private-decorated-method',
+            'public-decorated-method',
+            'protected-decorated-method',
+            'private-decorated-method',
 
-          'public-instance-method',
-          'protected-instance-method',
-          'private-instance-method',
+            'public-instance-method',
+            'protected-instance-method',
+            'private-instance-method',
 
-          'public-abstract-method',
-          'protected-abstract-method',
-          'private-abstract-method',
+            'public-abstract-method',
+            'protected-abstract-method',
+            'private-abstract-method',
 
-          'public-method',
-          'protected-method',
-          'private-method',
+            'public-method',
+            'protected-method',
+            'private-method',
 
-          'static-method',
-          'instance-method',
-          'abstract-method',
+            'static-method',
+            'instance-method',
+            'abstract-method',
 
-          'decorated-method',
+            'decorated-method',
 
-          'method',
-        ],
+            'method',
+          ],
+
+          order: 'alphabetically',
+        },
       },
     ],
 
