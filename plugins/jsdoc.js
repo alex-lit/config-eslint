@@ -14,7 +14,7 @@ module.exports = {
       {
         require: {
           ArrowFunctionExpression: false,
-          ClassDeclaration: false,
+          ClassDeclaration: true,
           ClassExpression: false,
           FunctionDeclaration: true,
           FunctionExpression: false,
