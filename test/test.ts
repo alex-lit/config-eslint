@@ -28,6 +28,9 @@ interface Xxx {
 }
 
 // Bad:
+/**
+ *
+ */
 class User {
   aaa = () => 'Hello';
 
