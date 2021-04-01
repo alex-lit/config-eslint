@@ -1,3 +1,10 @@
+## [2.3.1](https://github.com/alex-lit/config-eslint/compare/v2.3.0...v2.3.1) (2021-04-01)
+
+### Bug Fixes
+
+- disable eslint-plugin-no-inferred-method-name
+  ([8254818](https://github.com/alex-lit/config-eslint/commit/825481869cd06b0df12800c4dad6b58e9bdbf538))
+
 # [2.3.0](https://github.com/alex-lit/config-eslint/compare/v2.2.0...v2.3.0) (2021-04-01)
 
 # [2.2.0](https://github.com/alex-lit/config-eslint/compare/v2.1.0...v2.2.0) (2021-03-30)
