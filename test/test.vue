@@ -28,6 +28,10 @@
    * Шапка приложения
    */
   @Component<Test>({
+    beforeRouteEnter() {
+      this.method();
+    },
+
     components: {
       MenuUser: () => import('src/components/menu-user'),
       SelectUser: () => import('src/components/select-user'),
@@ -107,7 +111,7 @@
 </script>
 
 <template>
-  <q-header class="app-header">
+  <q-header attr class="app-header">
     <q-toolbar class="app-header__toolbar">
       <button type="button" @mouseover="setAsideVisibility(!isShowAside)">
         ddd

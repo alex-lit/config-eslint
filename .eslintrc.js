@@ -40,6 +40,7 @@ module.exports = {
       './plugins/typescript',
       './plugins/unicorn',
       './plugins/vue',
+      './plugins/vue-extras',
       './plugins/vuejs-accessibility',
 
       /* prettier */
