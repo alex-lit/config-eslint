@@ -16,8 +16,6 @@ const xxz = {
     return this.foo(f, n);
   },
 
-  name: 'Bar',
-
   types: [{ f: 'function' }, { n: 'number' }],
 };
 

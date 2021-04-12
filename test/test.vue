@@ -36,6 +36,11 @@
       MenuUser: () => import('src/components/menu-user'),
       SelectUser: () => import('src/components/select-user'),
     },
+
+    model: {
+      events: 'update',
+      props: 'list',
+    },
   })
   export default class Test {
     @Auth('selectedUserId')
@@ -49,6 +54,11 @@
 
     @Auth('user')
     user;
+
+    model = {
+      events: 'update',
+      props: 'list',
+    };
 
     private _selectedUserId = 0;
 

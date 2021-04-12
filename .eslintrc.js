@@ -36,7 +36,6 @@ module.exports = {
       './plugins/sort-destructure-keys',
       './plugins/sort-keys-fix',
       './plugins/sql',
-      './plugins/testing-library',
       './plugins/typescript',
       './plugins/unicorn',
       './plugins/vue',
@@ -77,6 +76,11 @@ module.exports = {
       rules: {
         'global-require': 'off',
       },
+    },
+    {
+      extends: [require.resolve('./plugins/testing-library')],
+
+      files: ['*.test.ts', '*.test.js', '*.spec.ts', '*.spec.js'],
     },
   ],
 
