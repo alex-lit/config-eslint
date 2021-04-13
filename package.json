@@ -37,8 +37,8 @@
     "version": "./node_modules/@alexlit/lint-kit/scripts/version.sh"
   },
   "dependencies": {
-    "@typescript-eslint/eslint-plugin": "^4.21.0",
-    "@typescript-eslint/parser": "^4.21.0",
+    "@typescript-eslint/eslint-plugin": "^4.22.0",
+    "@typescript-eslint/parser": "^4.22.0",
     "eslint": "^7.24.0",
     "eslint-config-airbnb-base": "^14.2.1",
     "eslint-config-prettier": "^8.1.0",
@@ -80,6 +80,6 @@
     "typescript": "^4.2.4"
   },
   "devDependencies": {
-    "@alexlit/lint-kit": "^5.0.1"
+    "@alexlit/lint-kit": "^5.1.1"
   }
 }
