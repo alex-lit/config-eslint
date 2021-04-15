@@ -41,7 +41,7 @@
     "@typescript-eslint/parser": "^4.22.0",
     "eslint": "^7.24.0",
     "eslint-config-airbnb-base": "^14.2.1",
-    "eslint-config-prettier": "^8.1.0",
+    "eslint-config-prettier": "^8.2.0",
     "eslint-import-resolver-alias": "^1.1.2",
     "eslint-plugin-decorator-position": "^2.2.23",
     "eslint-plugin-eslint-comments": "^3.2.0",
@@ -59,11 +59,11 @@
     "eslint-plugin-no-use-extend-native": "^0.5.0",
     "eslint-plugin-node": "^11.1.0",
     "eslint-plugin-nuxt": "^2.0.0",
-    "eslint-plugin-prettier": "^3.3.1",
+    "eslint-plugin-prettier": "^3.4.0",
     "eslint-plugin-promise": "^5.1.0",
     "eslint-plugin-react": "^7.23.2",
     "eslint-plugin-react-hooks": "^4.2.0",
-    "eslint-plugin-regexp": "^0.7.5",
+    "eslint-plugin-regexp": "^0.8.0",
     "eslint-plugin-security": "^1.4.0",
     "eslint-plugin-simple-import-sort": "^7.0.0",
     "eslint-plugin-sonarjs": "^0.6.0",
@@ -71,7 +71,7 @@
     "eslint-plugin-sort-keys-fix": "^1.1.1",
     "eslint-plugin-sql": "^1.2.0",
     "eslint-plugin-svelte3": "^3.1.2",
-    "eslint-plugin-testing-library": "^4.0.0",
+    "eslint-plugin-testing-library": "^4.0.1",
     "eslint-plugin-unicorn": "^29.0.0",
     "eslint-plugin-vue": "^7.9.0",
     "eslint-plugin-vue-extras": "^1.1.0-rc2",
@@ -80,6 +80,6 @@
     "typescript": "^4.2.4"
   },
   "devDependencies": {
-    "@alexlit/lint-kit": "^5.1.1"
+    "@alexlit/lint-kit": "^5.4.0"
   }
 }

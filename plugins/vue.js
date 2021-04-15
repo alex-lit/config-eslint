@@ -78,7 +78,7 @@ module.exports = {
     'vue/no-restricted-props': ['error'],
     'vue/no-unsupported-features': ['error'],
     'vue/no-unused-components': ['error'],
-    'vue/no-unused-refs': ['error'],
+    'vue/no-unused-refs': ['warn'],
     'vue/no-useless-mustaches': ['error'],
     'vue/no-useless-v-bind': ['error'],
     'vue/no-v-html': 'off',
