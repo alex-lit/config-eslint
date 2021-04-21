@@ -12,7 +12,7 @@ module.exports = {
     'unicorn/prevent-abbreviations': [
       'warn',
       {
-        whitelist: {
+        allowList: {
           ProcessEnv: true,
         },
       },

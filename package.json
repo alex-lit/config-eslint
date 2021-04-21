@@ -30,6 +30,7 @@
     "lint:eslint": "./node_modules/@alexlit/lint-kit/scripts/lint.eslint.sh",
     "lint:htmllint": "./node_modules/@alexlit/lint-kit/scripts/lint.htmllint.sh",
     "lint:markdownlint": "./node_modules/@alexlit/lint-kit/scripts/lint.markdownlint.sh",
+    "lint:npmlint": "./node_modules/@alexlit/lint-kit/scripts/lint.npmlint.sh",
     "lint:stylelint": "./node_modules/@alexlit/lint-kit/scripts/lint.stylelint.sh",
     "publish": "./node_modules/@alexlit/lint-kit/scripts/publish.sh",
     "semver": "./node_modules/@alexlit/lint-kit/scripts/semver.sh",
@@ -63,7 +64,7 @@
     "eslint-plugin-promise": "^5.1.0",
     "eslint-plugin-react": "^7.23.2",
     "eslint-plugin-react-hooks": "^4.2.0",
-    "eslint-plugin-regexp": "^0.8.0",
+    "eslint-plugin-regexp": "^0.9.0",
     "eslint-plugin-security": "^1.4.0",
     "eslint-plugin-simple-import-sort": "^7.0.0",
     "eslint-plugin-sonarjs": "^0.6.0",
@@ -72,7 +73,7 @@
     "eslint-plugin-sql": "^1.2.0",
     "eslint-plugin-svelte3": "^3.1.2",
     "eslint-plugin-testing-library": "^4.1.0",
-    "eslint-plugin-unicorn": "^29.0.0",
+    "eslint-plugin-unicorn": "^30.0.0",
     "eslint-plugin-vue": "^7.9.0",
     "eslint-plugin-vue-extras": "^1.1.0-rc2",
     "eslint-plugin-vuejs-accessibility": "^0.6.1",
@@ -80,6 +81,6 @@
     "typescript": "^4.2.4"
   },
   "devDependencies": {
-    "@alexlit/lint-kit": "^5.5.0"
+    "@alexlit/lint-kit": "^6.0.1"
   }
 }
