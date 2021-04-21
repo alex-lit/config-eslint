@@ -41,6 +41,7 @@ module.exports = {
       './plugins/vue',
       './plugins/vue-extras',
       './plugins/vuejs-accessibility',
+      './plugins/write-good-comments',
 
       /* prettier */
       './plugins/prettier',
