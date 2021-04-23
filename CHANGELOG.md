@@ -1,3 +1,12 @@
+# [4.1.0](https://github.com/alex-lit/config-eslint/compare/v4.0.0...v4.1.0) (2021-04-23)
+
+### Features
+
+- add eslint-define-config
+  ([f370696](https://github.com/alex-lit/config-eslint/commit/f3706961c4755093597d391c9ce098a9190b6cbc))
+- add write-good-comments plugin
+  ([03b962e](https://github.com/alex-lit/config-eslint/commit/03b962eef4abe4bc08384691f629215380f4e73f))
+
 # [4.0.0](https://github.com/alex-lit/config-eslint/compare/v3.5.0...v4.0.0) (2021-04-21)
 
 # [3.5.0](https://github.com/alex-lit/config-eslint/compare/v3.4.1...v3.5.0) (2021-04-19)
