@@ -43,6 +43,7 @@
     "eslint": "^7.24.0",
     "eslint-config-airbnb-base": "^14.2.1",
     "eslint-config-prettier": "^8.2.0",
+    "eslint-define-config": "^1.0.7",
     "eslint-import-resolver-alias": "^1.1.2",
     "eslint-plugin-decorator-position": "^2.2.23",
     "eslint-plugin-eslint-comments": "^3.2.0",
@@ -82,7 +83,6 @@
     "typescript": "^4.2.4"
   },
   "devDependencies": {
-    "@alexlit/lint-kit": "^6.0.1",
-    "eslint-define-config": "^1.0.7"
+    "@alexlit/lint-kit": "^6.0.1"
   }
 }
