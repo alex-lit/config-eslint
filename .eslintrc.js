@@ -1,5 +1,9 @@
+// @ts-check
 /* eslint-disable sonarjs/no-duplicate-string */
-module.exports = {
+
+const { defineConfig } = require('eslint-define-config');
+
+module.exports = defineConfig({
   env: {
     browser: true,
     node: true,
@@ -7,8 +11,6 @@ module.exports = {
 
   extends: [
     /**
-     * base
-     *
      * @see [eslint-config-airbnb-base](https://github.com/airbnb/javascript/tree/master/packages/eslint-config-airbnb-base)
      */
     'airbnb-base',
@@ -185,4 +187,4 @@ module.exports = {
 
     'sort-vars': 'warn',
   },
-};
+});
