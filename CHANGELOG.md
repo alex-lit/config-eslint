@@ -1,3 +1,5 @@
+## [4.1.1](https://github.com/alex-lit/config-eslint/compare/v4.1.0...v4.1.1) (2021-04-23)
+
 # [4.1.0](https://github.com/alex-lit/config-eslint/compare/v4.0.0...v4.1.0) (2021-04-23)
 
 ### Features
