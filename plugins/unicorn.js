@@ -8,6 +8,7 @@ module.exports = {
 
   rules: {
     'unicorn/no-array-for-each': 'off',
+    'unicorn/prefer-module': 'off',
 
     'unicorn/prevent-abbreviations': [
       'warn',
