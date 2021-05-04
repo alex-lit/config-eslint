@@ -1,5 +1,5 @@
 /**
- * @see [eslint-plugin-vue-extras](https://www.npmjs.com/package/eslint-plugin-vue-extras)
+ * @see [eslint-plugin-vue-extras](https://github.com/przemyslawjanpietrzak/eslint-plugin-vue-extras)
  */
 module.exports = {
   plugins: ['vue-extras'],
