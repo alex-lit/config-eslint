@@ -1,3 +1,10 @@
+# [7.0.0](https://github.com/alex-lit/config-eslint/compare/v6.0.1...v7.0.0) (2021-05-05)
+
+### Features
+
+- add spellcheck plugin
+  ([e8bd2da](https://github.com/alex-lit/config-eslint/commit/e8bd2da507bfe5cbe7b60d8b82a9bc53b532d2b0))
+
 ## [6.0.1](https://github.com/alex-lit/config-eslint/compare/v6.0.0...v6.0.1) (2021-05-04)
 
 # [6.0.0](https://github.com/alex-lit/config-eslint/compare/v5.0.1...v6.0.0) (2021-05-04)
