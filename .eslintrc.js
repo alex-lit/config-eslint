@@ -25,7 +25,6 @@ module.exports = defineConfig({
       './plugins/jsdoc',
       './plugins/jsx-a11y',
       './plugins/no-constructor-bind',
-      // './plugins/no-inferred-method-name', // buggy
       './plugins/no-loops',
       './plugins/no-secrets',
       './plugins/no-use-extend-native',
@@ -37,10 +36,12 @@ module.exports = defineConfig({
       './plugins/sonar',
       './plugins/sort-destructure-keys',
       './plugins/sort-keys-fix',
+      './plugins/spellcheck',
       './plugins/sql',
       './plugins/typescript',
       './plugins/unicorn',
       './plugins/vue',
+      // './plugins/no-inferred-method-name', // buggy
       './plugins/vue-extras',
       './plugins/vuejs-accessibility',
       './plugins/write-good-comments',
