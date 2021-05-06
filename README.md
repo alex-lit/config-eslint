@@ -15,12 +15,12 @@ module.exports = {
     './node_modules/@alexlit/config-eslint',
 
     /* optional */
-    './node_modules/@alexlit/config-eslint/plugins/optional/jest',
-    './node_modules/@alexlit/config-eslint/plugins/optional/jest-formatting',
-    './node_modules/@alexlit/config-eslint/plugins/optional/react',
-    './node_modules/@alexlit/config-eslint/plugins/optional/react-hooks',
-    './node_modules/@alexlit/config-eslint/plugins/optional/svelte',
-    './node_modules/@alexlit/config-eslint/plugins/optional/vuetify',
+    // './node_modules/@alexlit/config-eslint/plugins/optional/jest',
+    // './node_modules/@alexlit/config-eslint/plugins/optional/jest-formatting',
+    // './node_modules/@alexlit/config-eslint/plugins/optional/react',
+    // './node_modules/@alexlit/config-eslint/plugins/optional/react-hooks',
+    // './node_modules/@alexlit/config-eslint/plugins/optional/svelte',
+    // './node_modules/@alexlit/config-eslint/plugins/optional/vuetify',
   ],
 };
 ```
@@ -42,4 +42,40 @@ module.exports = {
       },
     },
   ];
+  ```
+
+### Spell check
+
+- Skip some words
+
+  ```js
+  // .eslintrc.js
+  module.exports = {
+    rules: {
+      'spellcheck/spell-checker': [
+        'warn',
+        {
+          skipWords: [
+            ...require('@alexlit/config-eslint/plugins/spellcheck').rules[
+              'spellcheck/spell-checker'
+            ][1].skipWords,
+
+            'word1',
+            'word2',
+          ],
+        },
+      ],
+    },
+  };
+  ```
+
+- Disable spell checking
+
+  ```js
+  // .eslintrc.js
+  module.exports = {
+    rules: {
+      'spellcheck/spell-checker': 'off',
+    },
+  };
   ```
