@@ -50,19 +50,17 @@ module.exports = {
 
   ```js
   // .eslintrc.js
+  const SPELLCHECK_RULES = require('@alexlit/config-eslint/plugins/spellcheck')
+    .rules['spellcheck/spell-checker'][1];
+
   module.exports = {
     rules: {
       'spellcheck/spell-checker': [
         'warn',
         {
-          skipWords: [
-            ...require('@alexlit/config-eslint/plugins/spellcheck').rules[
-              'spellcheck/spell-checker'
-            ][1].skipWords,
+          ...SPELLCHECK_RULES,
 
-            'word1',
-            'word2',
-          ],
+          skipWords: [...SPELLCHECK_RULES.skipWords, 'word1', 'word2'],
         },
       ],
     },
