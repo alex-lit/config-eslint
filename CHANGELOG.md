@@ -1,3 +1,12 @@
+# [8.1.0](https://github.com/alex-lit/config-eslint/compare/v8.0.1...v8.1.0) (2021-05-08)
+
+### Features
+
+- extend spellchecker
+  ([61e49a3](https://github.com/alex-lit/config-eslint/commit/61e49a3459723486d7460d728fa5eec6063115ef))
+- update spellckecker config
+  ([6bb9332](https://github.com/alex-lit/config-eslint/commit/6bb9332535cda1d96d492165ba374b9cf1e96344))
+
 ## [8.0.1](https://github.com/alex-lit/config-eslint/compare/v8.0.0...v8.0.1) (2021-05-05)
 
 # [8.0.0](https://github.com/alex-lit/config-eslint/compare/v7.0.1...v8.0.0) (2021-05-05)
