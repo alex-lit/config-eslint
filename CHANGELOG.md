@@ -1,3 +1,12 @@
+# [9.1.0](https://github.com/alex-lit/config-eslint/compare/v9.0.1...v9.1.0) (2021-05-11)
+
+### Features
+
+- add dictionaries
+  ([ea0c750](https://github.com/alex-lit/config-eslint/commit/ea0c750eddfe15124c58b907a711c7df17a70916))
+- extend spellcheck config
+  ([d1cbdc7](https://github.com/alex-lit/config-eslint/commit/d1cbdc7b6786e976aa1ac581440b724689fcc3dc))
+
 ## [9.0.1](https://github.com/alex-lit/config-eslint/compare/v9.0.0...v9.0.1) (2021-05-11)
 
 # [9.0.0](https://github.com/alex-lit/config-eslint/compare/v8.1.0...v9.0.0) (2021-05-11)
