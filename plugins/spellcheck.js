@@ -1,3 +1,5 @@
+const DICTIONARIES = require('../dictionaries');
+
 /**
  * @see [eslint-plugin-spellcheck](https://github.com/aotaduy/eslint-plugin-spellcheck)
  */
@@ -18,6 +20,8 @@ module.exports = {
         ],
 
         skipWords: [
+          ...DICTIONARIES,
+
           'aave',
           'accessor',
           'airbnb',
@@ -47,6 +51,7 @@ module.exports = {
           'bgcolor',
           'bilibili',
           'blockcode',
+          'blockless',
           'bowser',
           'breakpoint',
           'brotli',
@@ -95,6 +100,7 @@ module.exports = {
           'dcignore',
           'debounce',
           'declarator',
+          'decrement',
           'dedupe',
           'deepmerge',
           'defs',
@@ -411,6 +417,7 @@ module.exports = {
           'wasm',
           'wavatar',
           'webextensions',
+          'webkit',
           'webm',
           'webp',
           'webpack',

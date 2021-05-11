@@ -23,6 +23,7 @@
   "main": ".eslintrc.js",
   "files": [
     ".eslintrc.js",
+    "dictionaries",
     "plugins"
   ],
   "scripts": {
