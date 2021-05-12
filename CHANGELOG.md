@@ -1,3 +1,10 @@
+# [9.3.0](https://github.com/alex-lit/config-eslint/compare/v9.2.0...v9.3.0) (2021-05-12)
+
+### Features
+
+- add programming dictionaries
+  ([515d5b4](https://github.com/alex-lit/config-eslint/commit/515d5b40673cb535f9c1fc611ca2d3f3a8f78ba0))
+
 # [9.2.0](https://github.com/alex-lit/config-eslint/compare/v9.1.0...v9.2.0) (2021-05-12)
 
 # [9.1.0](https://github.com/alex-lit/config-eslint/compare/v9.0.1...v9.1.0) (2021-05-11)
