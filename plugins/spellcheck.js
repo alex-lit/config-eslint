@@ -222,6 +222,7 @@ module.exports = {
           'poolifier',
           'popperjs',
           'pragma',
+          'preloader',
           'prismjs',
           'profiler',
           'prototypejs',
