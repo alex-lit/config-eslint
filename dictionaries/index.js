@@ -69,6 +69,7 @@ module.exports = [
   'codemirror',
   'coffeescript',
   'combinator',
+  'combinators',
   'commitlint',
   'commitlintrc',
   'commonjs',
