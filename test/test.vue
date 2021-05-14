@@ -32,11 +32,6 @@
       this.method();
     },
 
-    components: {
-      MenuUser: () => import('src/components/menu-user'),
-      SelectUser: () => import('src/components/select-user'),
-    },
-
     model: {
       events: 'update',
       props: 'list',
