@@ -95,7 +95,7 @@ module.exports = {
       },
     ],
 
-    'vue/static-class-names-order': ['error'],
+    'vue/static-class-names-order': 'off',
     'vue/this-in-template': ['error', 'never'],
     'vue/v-for-delimiter-style': ['error'],
     'vue/v-on-event-hyphenation': ['error'],
