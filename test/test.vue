@@ -136,7 +136,7 @@
         v-if="user.is_admin"
         v-model="selectedUserId"
         a="1"
-        class="[ q-mr-md ]"
+        class="font-medium q-mr-md text-gray-900 text-sm"
         s="1"
         :select-options="{
           clearable: true,

@@ -85,17 +85,17 @@ module.exports = {
     'vue/padding-line-between-blocks': ['error'],
     'vue/require-direct-export': 'off',
 
-    'vue/sort-keys': [
-      'warn',
-      'asc',
-      {
-        caseSensitive: true,
-        minKeys: 2,
-        natural: true,
-      },
-    ],
+    // 'vue/sort-keys': [
+    //   'warn',
+    //   'asc',
+    //   {
+    //     caseSensitive: true,
+    //     minKeys: 2,
+    //     natural: true,
+    //   },
+    // ],
 
-    'vue/static-class-names-order': 'off',
+    'vue/static-class-names-order': ['error'],
     'vue/this-in-template': ['error', 'never'],
     'vue/v-for-delimiter-style': ['error'],
     'vue/v-on-event-hyphenation': ['error'],
