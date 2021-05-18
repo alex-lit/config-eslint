@@ -123,6 +123,7 @@ module.exports = [
   'globbing',
   'googletagmanager',
   'gradienter',
+  'graphql',
   'gravatar',
   'greasemonkey',
   'grecaptcha',
