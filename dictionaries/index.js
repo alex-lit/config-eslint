@@ -120,6 +120,7 @@ module.exports = [
   'flac',
   'flexepin',
   'forcedefault',
+  'getters',
   'globbing',
   'googletagmanager',
   'gradienter',
