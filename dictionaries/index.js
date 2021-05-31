@@ -281,6 +281,7 @@ module.exports = [
   'thead',
   'theming',
   'tooltip',
+  'tooltips',
   'toplevel',
   'transpile',
   'travala',

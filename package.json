@@ -46,14 +46,14 @@
     "eslint-config-prettier": "^8.3.0",
     "eslint-define-config": "^1.0.8",
     "eslint-import-resolver-alias": "^1.1.2",
-    "eslint-plugin-decorator-position": "^2.2.26",
+    "eslint-plugin-decorator-position": "^2.2.27",
     "eslint-plugin-eslint-comments": "^3.2.0",
     "eslint-plugin-ext": "^0.1.0",
     "eslint-plugin-filenames": "^1.3.2",
-    "eslint-plugin-import": "^2.23.3",
+    "eslint-plugin-import": "^2.23.4",
     "eslint-plugin-jest": "^24.3.6",
     "eslint-plugin-jest-formatting": "^3.0.0",
-    "eslint-plugin-jsdoc": "^35.0.0",
+    "eslint-plugin-jsdoc": "^35.1.0",
     "eslint-plugin-jsx-a11y": "^6.4.1",
     "eslint-plugin-no-constructor-bind": "^2.0.4",
     "eslint-plugin-no-inferred-method-name": "^2.0.0",
@@ -64,7 +64,7 @@
     "eslint-plugin-nuxt": "^2.0.0",
     "eslint-plugin-prettier": "^3.4.0",
     "eslint-plugin-promise": "^5.1.0",
-    "eslint-plugin-react": "^7.23.2",
+    "eslint-plugin-react": "^7.24.0",
     "eslint-plugin-react-hooks": "^4.2.0",
     "eslint-plugin-regexp": "^0.11.0",
     "eslint-plugin-security": "^1.4.0",
@@ -77,7 +77,7 @@
     "eslint-plugin-svelte3": "^3.2.0",
     "eslint-plugin-testing-library": "^4.6.0",
     "eslint-plugin-unicorn": "^32.0.1",
-    "eslint-plugin-vue": "^7.9.0",
+    "eslint-plugin-vue": "^7.10.0",
     "eslint-plugin-vue-extras": "^1.2.1",
     "eslint-plugin-vuejs-accessibility": "^0.6.2",
     "eslint-plugin-vuetify": "^1.0.0-beta.8",
@@ -85,6 +85,6 @@
     "typescript": "^4.3.2"
   },
   "devDependencies": {
-    "@alexlit/lint-kit": "^15.0.0"
+    "@alexlit/lint-kit": "^15.1.0"
   }
 }
