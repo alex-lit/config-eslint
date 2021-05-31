@@ -25,6 +25,8 @@ module.exports = [
   ...programming,
   ...specialized,
 
+  'namepaths',
+  'namepath',
   'aave',
   'airbnb',
   'aland',
