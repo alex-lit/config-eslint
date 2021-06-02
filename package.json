@@ -76,7 +76,7 @@
     "eslint-plugin-sql": "^1.2.0",
     "eslint-plugin-svelte3": "^3.2.0",
     "eslint-plugin-testing-library": "^4.6.0",
-    "eslint-plugin-unicorn": "^32.0.1",
+    "eslint-plugin-unicorn": "^33.0.0",
     "eslint-plugin-vue": "^7.10.0",
     "eslint-plugin-vue-extras": "^1.2.1",
     "eslint-plugin-vuejs-accessibility": "^0.6.2",
@@ -85,6 +85,6 @@
     "typescript": "^4.3.2"
   },
   "devDependencies": {
-    "@alexlit/lint-kit": "^16.1.1"
+    "@alexlit/lint-kit": "^16.1.2"
   }
 }
