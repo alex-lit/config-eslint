@@ -6,6 +6,6 @@ module.exports = {
 
   rules: {
     'vue-extras/no-this-in-before-route-enter': 'error',
-    'vue-extras/use-attribute-shortcut': 'warn',
+    'vue-extras/use-attribute-shortcut': 'off',
   },
 };

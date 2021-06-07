@@ -25,6 +25,9 @@ module.exports = [
   ...programming,
   ...specialized,
 
+  'yandex',
+  'clickmap',
+  'webvisor',
   'namepaths',
   'namepath',
   'aave',
