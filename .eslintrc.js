@@ -42,7 +42,6 @@ module.exports = defineConfig({
       './plugins/unicorn',
       './plugins/vue',
       // './plugins/no-inferred-method-name', // buggy
-      './plugins/vue-extras',
       './plugins/vuejs-accessibility',
       './plugins/write-good-comments',
 

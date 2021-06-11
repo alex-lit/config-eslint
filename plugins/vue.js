@@ -76,6 +76,7 @@ module.exports = {
     'vue/no-reserved-component-names': ['error'],
     'vue/no-restricted-component-options': ['error'],
     'vue/no-restricted-props': ['error'],
+    'vue/no-this-in-before-route-enter': ['error'],
     'vue/no-unsupported-features': ['error'],
     'vue/no-unused-components': ['error'],
     'vue/no-unused-refs': ['warn'],
