@@ -97,6 +97,7 @@ module.exports = [
   'sendwyre',
   'shapeshift',
   'sigutil',
+  'sitekey',
   'slugify',
   'solc',
   'squarelink',
