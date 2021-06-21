@@ -282,6 +282,7 @@ module.exports = [
   'stylelintrc',
   'styleset',
   'subfolder',
+  'supabase',
   'svgstore',
   'tagless',
   'taobao',
