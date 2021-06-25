@@ -1,6 +1,4 @@
-/**
- * @see [eslint-plugin-jsdoc](https://github.com/gajus/eslint-plugin-jsdoc)
- */
+/** @see [eslint-plugin-jsdoc](https://github.com/gajus/eslint-plugin-jsdoc) */
 module.exports = {
   extends: ['plugin:jsdoc/recommended'],
 
@@ -28,5 +26,6 @@ module.exports = {
     'jsdoc/require-returns': 'off',
     'jsdoc/require-returns-description': 'off',
     'jsdoc/require-returns-type': 'off',
+    'jsdoc/tag-lines': 'off',
   },
 };
