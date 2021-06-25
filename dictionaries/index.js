@@ -176,6 +176,7 @@ module.exports = [
   'lockfiles',
   'markdownlint',
   'markdownlintrc',
+  'mastercard',
   'materialdesignicons',
   'mercuryo',
   'metafile',
