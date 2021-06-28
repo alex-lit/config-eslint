@@ -9,7 +9,19 @@ module.exports = {
       files: ['**/pages/**/*.vue'],
 
       rules: {
-        'jsdoc/require-jsdoc': 'off',
+        'jsdoc/require-jsdoc': [
+          'warn',
+          {
+            require: {
+              ArrowFunctionExpression: false,
+              ClassDeclaration: false,
+              ClassExpression: false,
+              FunctionDeclaration: true,
+              FunctionExpression: false,
+              MethodDefinition: true,
+            },
+          },
+        ],
       },
     },
   ],
