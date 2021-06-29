@@ -16,7 +16,7 @@
   const foo = /\S[4-6]/;
 
   /**
-   *
+   * Ax
    */
   function ax() {
     return false;

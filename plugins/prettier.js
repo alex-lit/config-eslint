@@ -9,7 +9,9 @@ module.exports = {
   rules: {
     'prettier/prettier': 'error',
 
-    /** fix for prettier/vue */
+    /**
+     * Fix for prettier/vue
+     */
     'vue/html-self-closing': [
       'error',
       {

@@ -27,7 +27,7 @@ interface Xxx {
 
 // Bad:
 /**
- *
+ * User
  */
 class User {
   aaa = () => 'Hello';
