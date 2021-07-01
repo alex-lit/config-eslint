@@ -96,6 +96,7 @@ module.exports = defineConfig({
 
   rules: {
     'class-methods-use-this': 'off',
+    'func-style': ['error', 'declaration', { allowArrowFunctions: true }],
     'grouped-accessor-pairs': ['error', 'getBeforeSet'],
 
     'lines-around-comment': [
@@ -126,7 +127,7 @@ module.exports = defineConfig({
     'no-return-await': 'off',
     'no-shadow': 'off',
     'no-underscore-dangle': 'off',
-    'no-use-before-define': 'off',
+    'no-use-before-define': 'error',
 
     'padding-line-between-statements': [
       'warn',
