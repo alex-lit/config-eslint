@@ -1,3 +1,5 @@
+## [12.0.2](https://github.com/alex-lit/config-eslint/compare/v12.0.1...v12.0.2) (2021-07-01)
+
 ## 12.0.1 (2021-07-01)
 
 ### Bug Fixes
