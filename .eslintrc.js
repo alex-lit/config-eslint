@@ -127,7 +127,7 @@ module.exports = defineConfig({
     'no-return-await': 'off',
     'no-shadow': 'off',
     'no-underscore-dangle': 'off',
-    'no-use-before-define': 'error',
+    'no-use-before-define': 'off',
 
     'padding-line-between-statements': [
       'warn',
