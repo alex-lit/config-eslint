@@ -1,3 +1,107 @@
+## 12.0.1 (2021-07-01)
+
+### Bug Fixes
+
+- disable eslint-plugin-no-inferred-method-name
+  ([8254818](https://github.com/alex-lit/config-eslint/commit/825481869cd06b0df12800c4dad6b58e9bdbf538))
+- no-shadow
+  ([e7b8697](https://github.com/alex-lit/config-eslint/commit/e7b8697834cc9d08396eb9415fdc0772aa62b936))
+- **padding-line-between-statements:** clear def blanklines
+  ([dd00689](https://github.com/alex-lit/config-eslint/commit/dd00689d31f95fe1453b46f0280063e589d883a1))
+- **prettier:** force html-self-closing
+  ([fc59a25](https://github.com/alex-lit/config-eslint/commit/fc59a256eb66d6a6c2b60e7200698174aa22e96c))
+- dependencies
+  ([a06666c](https://github.com/alex-lit/config-eslint/commit/a06666c7e6eb14dee6549d73596676ef2e2a8f97))
+- disable standart imports order
+  ([a3922d4](https://github.com/alex-lit/config-eslint/commit/a3922d456c351ea0c7492d720b60d5b918d07e87))
+- ignore storybook
+  ([3ee94be](https://github.com/alex-lit/config-eslint/commit/3ee94bed1e53fbf9be9569020b07d1e1fbba19db))
+- no-secret config
+  ([8a43a6c](https://github.com/alex-lit/config-eslint/commit/8a43a6c45b37fb8d3a5854fd877369835752244f))
+- no-secrets config
+  ([d8375e5](https://github.com/alex-lit/config-eslint/commit/d8375e5e94c2d1b9d5c4654e777cd65b4f121168))
+- require assets
+  ([a981719](https://github.com/alex-lit/config-eslint/commit/a981719c9a2edcd6e7bd927788059e2ef45e328f))
+- revert typescript-eslint version
+  ([f9ceac9](https://github.com/alex-lit/config-eslint/commit/f9ceac91360a8d96c9b9219348e9aacfdfe8ef78))
+- src path
+  ([149d7d9](https://github.com/alex-lit/config-eslint/commit/149d7d99db165244489602d4f49942b57d9b8a47))
+
+### Features
+
+- add dictionaries
+  ([ea0c750](https://github.com/alex-lit/config-eslint/commit/ea0c750eddfe15124c58b907a711c7df17a70916))
+- add eslint-define-config
+  ([f370696](https://github.com/alex-lit/config-eslint/commit/f3706961c4755093597d391c9ce098a9190b6cbc))
+- add programming dictionaries
+  ([515d5b4](https://github.com/alex-lit/config-eslint/commit/515d5b40673cb535f9c1fc611ca2d3f3a8f78ba0))
+- add spellcheck plugin
+  ([e8bd2da](https://github.com/alex-lit/config-eslint/commit/e8bd2da507bfe5cbe7b60d8b82a9bc53b532d2b0))
+- add write-good-comments plugin
+  ([03b962e](https://github.com/alex-lit/config-eslint/commit/03b962eef4abe4bc08384691f629215380f4e73f))
+- extend spellcheck config
+  ([d1cbdc7](https://github.com/alex-lit/config-eslint/commit/d1cbdc7b6786e976aa1ac581440b724689fcc3dc))
+- extend spellchecker
+  ([61e49a3](https://github.com/alex-lit/config-eslint/commit/61e49a3459723486d7460d728fa5eec6063115ef))
+- update spellckecker config
+  ([6bb9332](https://github.com/alex-lit/config-eslint/commit/6bb9332535cda1d96d492165ba374b9cf1e96344))
+- **plaugin:** add regexp
+  ([aae4531](https://github.com/alex-lit/config-eslint/commit/aae4531fb068e3afe4618487011afdf8df09daaf))
+- **plugin:** add eslint-comments
+  ([a20ac52](https://github.com/alex-lit/config-eslint/commit/a20ac52115475d357eec2c0e10076e9c3ee77ac7))
+- **plugin:** add ext
+  ([f04302a](https://github.com/alex-lit/config-eslint/commit/f04302afed6710095a273e28f4aba41719de814e))
+- **plugin:** add no-constructor-bind
+  ([bc018f1](https://github.com/alex-lit/config-eslint/commit/bc018f1e7992044fc9660a339131d219537cd56b))
+- **plugin:** add no-inferred-method-name
+  ([ac20f51](https://github.com/alex-lit/config-eslint/commit/ac20f5152c2ebb2a64a612b3b07046deb544e51c))
+- **plugin:** add node security
+  ([19f15c1](https://github.com/alex-lit/config-eslint/commit/19f15c1f1ce38a5005bcf80caa97c7cc1d7461ba))
+- **plugin:** add optional node
+  ([8be1a69](https://github.com/alex-lit/config-eslint/commit/8be1a6954978af5c4b873145eae0df6265ab4002))
+- **plugin:** add promise
+  ([62eb087](https://github.com/alex-lit/config-eslint/commit/62eb0877866160b5d2d43834cd182d5df0a3f6b8))
+- **plugin:** add sort-destructure-keys
+  ([237bcfa](https://github.com/alex-lit/config-eslint/commit/237bcfa86b0234f28f25a087e8c99a13daeb0f30))
+- **plugin:** add sort-key-fix
+  ([819e1c7](https://github.com/alex-lit/config-eslint/commit/819e1c758b3cfd64e68018e003bf408acd68ebd7))
+- **plugin:** add unicorn
+  ([bf69a20](https://github.com/alex-lit/config-eslint/commit/bf69a202615a3b18cdde4c62d75fed44434a3c8e))
+- **plugin:** asdd no-use-extend-native
+  ([8b9e737](https://github.com/alex-lit/config-eslint/commit/8b9e7378ce8e3b51d7e372a3e765e884b75dd76b))
+- add decorator-position plugin
+  ([2a4ef49](https://github.com/alex-lit/config-eslint/commit/2a4ef49ebe814ea1c9eb779aefd5c91754a14bf6))
+- add filenames plugin
+  ([2d7258a](https://github.com/alex-lit/config-eslint/commit/2d7258a26a065906057ed5964864a561f2bd834c))
+- add json plugin
+  ([056ab88](https://github.com/alex-lit/config-eslint/commit/056ab8850d5362011497f14e725f3c8c250b6f98))
+- add no-loops plugin
+  ([3de1504](https://github.com/alex-lit/config-eslint/commit/3de15042a4400c8e7b0aad215110bea805b8f680))
+- add optional vuetify plugin
+  ([61d6174](https://github.com/alex-lit/config-eslint/commit/61d6174b57fba5f48a143a3a6d675ce05e453d46))
+- add testing library plugin
+  ([d55a542](https://github.com/alex-lit/config-eslint/commit/d55a542c116853a687d86cf76e85288cdcc2efab))
+- extend vue config
+  ([b973225](https://github.com/alex-lit/config-eslint/commit/b973225b37a2f41859e2dc6d76dc7501fec927dc))
+- lint root configs
+  ([17f4cde](https://github.com/alex-lit/config-eslint/commit/17f4cde18bacffd3da91d92a8e3c3d1d7178fdb4))
+- migration to airbnb-base
+  ([7056503](https://github.com/alex-lit/config-eslint/commit/7056503c5368f024bbb5d4b6f699ae6cbd3d66c4))
+- **plugins:** add vuejs-accessibility
+  ([c395ba9](https://github.com/alex-lit/config-eslint/commit/c395ba9636eaf89aaa3181196b46988eb8d34ea0))
+- **typescript:** extend config
+  ([b62c1d7](https://github.com/alex-lit/config-eslint/commit/b62c1d7b23deaa9b98c0b9a9c59b3724c213d9c2))
+- **vue:** extend config
+  ([cee4aba](https://github.com/alex-lit/config-eslint/commit/cee4abac016d8b44c84f4edbc63c9261ed2245d1))
+- add no-secrets plugin
+  ([d89fd95](https://github.com/alex-lit/config-eslint/commit/d89fd9578ce3f9440d7c4a4d3d3049d4aa08ecbe))
+- add sql plugin
+  ([d8373d3](https://github.com/alex-lit/config-eslint/commit/d8373d3e7cc8454761ff65e74b699583243df874))
+- add yaml linter
+  ([8235eed](https://github.com/alex-lit/config-eslint/commit/8235eedba05571b9863806a3c6771fd6dfba1b6a))
+- extend ignore patterns
+  ([a56e039](https://github.com/alex-lit/config-eslint/commit/a56e039193a39f86e9d6338b15c27d986e78d585))
+
 # [12.0.0](https://github.com/alex-lit/config-eslint/compare/v11.7.4...v12.0.0) (2021-06-29)
 
 ## [11.7.4](https://github.com/alex-lit/config-eslint/compare/v11.7.3...v11.7.4) (2021-06-28)
