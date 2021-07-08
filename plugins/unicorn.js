@@ -16,6 +16,7 @@ module.exports = {
       {
         allowList: {
           ProcessEnv: true,
+          i18n: true,
         },
       },
     ],
