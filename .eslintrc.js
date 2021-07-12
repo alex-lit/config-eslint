@@ -177,6 +177,7 @@ module.exports = defineConfig({
       { blankLine: 'never', next: 'singleline-var', prev: 'singleline-var' },
     ],
 
+    quotes: ['error', 'single'],
     'require-await': 'off',
     'sort-imports': 'off',
 
