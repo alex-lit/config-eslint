@@ -1,3 +1,5 @@
+## [12.3.6](https://github.com/alex-lit/config-eslint/compare/v12.3.5...v12.3.6) (2021-07-12)
+
 ## [12.3.5](https://github.com/alex-lit/config-eslint/compare/v12.3.4...v12.3.5) (2021-07-12)
 
 ## [12.3.4](https://github.com/alex-lit/config-eslint/compare/v12.3.3...v12.3.4) (2021-07-11)
