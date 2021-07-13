@@ -82,7 +82,7 @@ module.exports = {
     'vue/no-unused-refs': ['warn'],
     'vue/no-useless-mustaches': ['error'],
     'vue/no-useless-v-bind': ['error'],
-    'vue/no-v-html': 'off',
+    'vue/no-v-html': ['error'],
     'vue/padding-line-between-blocks': ['error'],
     'vue/require-direct-export': 'off',
 
