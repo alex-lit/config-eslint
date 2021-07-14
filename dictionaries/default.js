@@ -151,6 +151,7 @@ module.exports = [
   'localhost',
   'lockfile',
   'lockfiles',
+  'lumen',
   'markdownlint',
   'markdownlintrc',
   'mastercard',
