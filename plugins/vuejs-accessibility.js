@@ -17,5 +17,7 @@ module.exports = {
         },
       },
     ],
+
+    'vuejs-accessibility/no-autofocus': ['warn', { ignoreNonDOM: true }],
   },
 };

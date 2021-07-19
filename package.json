@@ -39,8 +39,8 @@
     "version": "./node_modules/@alexlit/lint-kit/scripts/version.sh"
   },
   "dependencies": {
-    "@typescript-eslint/eslint-plugin": "^4.28.3",
-    "@typescript-eslint/parser": "^4.28.3",
+    "@typescript-eslint/eslint-plugin": "^4.28.4",
+    "@typescript-eslint/parser": "^4.28.4",
     "eslint": "^7.31.0",
     "eslint-config-airbnb-base": "^14.2.1",
     "eslint-config-prettier": "^8.3.0",
@@ -75,7 +75,7 @@
     "eslint-plugin-spellcheck": "^0.0.19",
     "eslint-plugin-sql": "^1.2.1",
     "eslint-plugin-svelte3": "^3.2.0",
-    "eslint-plugin-testing-library": "^4.9.0",
+    "eslint-plugin-testing-library": "^4.9.1",
     "eslint-plugin-unicorn": "^34.0.1",
     "eslint-plugin-vue": "^7.14.0",
     "eslint-plugin-vuejs-accessibility": "^0.7.1",
@@ -84,6 +84,6 @@
     "typescript": "^4.3.5"
   },
   "devDependencies": {
-    "@alexlit/lint-kit": "^22.0.0"
+    "@alexlit/lint-kit": "^22.1.0"
   }
 }
