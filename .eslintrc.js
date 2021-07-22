@@ -26,6 +26,8 @@ module.exports = defineConfig({
       './plugins/import',
       './plugins/jsdoc',
       './plugins/jsx-a11y',
+      './plugins/lit',
+      './plugins/more',
       './plugins/no-constructor-bind',
       './plugins/no-loops',
       './plugins/no-secrets',
@@ -41,6 +43,7 @@ module.exports = defineConfig({
       './plugins/spellcheck',
       './plugins/sql',
       './plugins/typescript',
+      './plugins/typescript-sort-keys',
       './plugins/unicorn',
       './plugins/vue',
       // './plugins/no-inferred-method-name', // buggy

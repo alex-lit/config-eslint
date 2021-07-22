@@ -11,6 +11,15 @@ interface Xxx {
 }
 
 /**
+ * Ts
+ */
+export default class Ts {
+  z = 1;
+
+  a = 2;
+}
+
+/**
  * Данные о сессии
  */
 interface AuthState {
