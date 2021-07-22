@@ -1,3 +1,12 @@
+# [13.0.0](https://github.com/alex-lit/config-eslint/compare/v12.7.1...v13.0.0) (2021-07-22)
+
+### Features
+
+- **plugin:** add eslint-plugin-array-func
+  ([4186742](https://github.com/alex-lit/config-eslint/commit/4186742ffda347a5ad970256294c89e6952bc6d9))
+- **plugin:** add eslint-plugin-compat
+  ([5fd6232](https://github.com/alex-lit/config-eslint/commit/5fd6232240c116525dfc2475a594d0427347d21d))
+
 ## [12.7.1](https://github.com/alex-lit/config-eslint/compare/v12.7.0...v12.7.1) (2021-07-22)
 
 # [12.7.0](https://github.com/alex-lit/config-eslint/compare/v12.6.1...v12.7.0) (2021-07-21)
