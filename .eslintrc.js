@@ -17,6 +17,7 @@ module.exports = defineConfig({
 
     /* plugins */
     ...[
+      './plugins/array-func',
       './plugins/decorator-position',
       './plugins/eslint-comments',
       './plugins/ext',

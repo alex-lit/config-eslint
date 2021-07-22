@@ -1,7 +1,8 @@
 const array = [...'example'].map((char) => char.charCodeAt(0));
-const red = array.reverse().reduce((p, c) => p + c, '');
+const red = array.reduceRight((p, c) => p + c, '');
+const flattenedAndMapped = array.flat();
 
-console.log(red);
+console.log(red, flattenedAndMapped);
 
 // eslint-disable-next-line @typescript-eslint/no-unused-vars
 interface Xxx {
