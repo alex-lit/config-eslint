@@ -1,3 +1,10 @@
+# [14.0.0](https://github.com/alex-lit/config-eslint/compare/v13.0.2...v14.0.0) (2021-07-22)
+
+### Features
+
+- **plugins:** add typescript-sort-keys, more and lit plugins
+  ([cb55104](https://github.com/alex-lit/config-eslint/commit/cb55104b17f77dc432ca74ca8d3fdbff9c6f315d))
+
 ## [13.0.2](https://github.com/alex-lit/config-eslint/compare/v13.0.1...v13.0.2) (2021-07-22)
 
 ## [13.0.1](https://github.com/alex-lit/config-eslint/compare/v13.0.0...v13.0.1) (2021-07-22)
