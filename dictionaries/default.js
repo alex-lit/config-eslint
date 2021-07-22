@@ -94,6 +94,7 @@ module.exports = [
   'encipherment',
   'endregion',
   'eqeqeq',
+  'erc20',
   'esbenp',
   'esbuild',
   'eslintrc',

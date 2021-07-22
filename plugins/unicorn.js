@@ -19,6 +19,15 @@ module.exports = {
           ProcessEnv: true,
           i18n: true,
         },
+
+        // delegate to eslint-plugin-filenames
+        checkFilenames: false,
+
+        replacements: {
+          index18n: {
+            i18n: true,
+          },
+        },
       },
     ],
   },
