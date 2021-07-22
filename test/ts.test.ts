@@ -1,41 +1,13 @@
-const x = { B: 2, a: 1, c: 9 };
-const { B, a, c } = x;
+const array = [...'example'].map((char) => char.charCodeAt(0));
+const red = array.reverse().reduce((p, c) => p + c, '');
 
-const xxz = {
-  foo(f, n) {
-    if (typeof f === 'function') {
-      f();
-    } else {
-      throw new TypeError('foo: A Function is required.');
-    }
-
-    if (!n) {
-      return false;
-    }
-
-    return this.foo(f, n);
-  },
-
-  types: [{ f: 'function' }, { n: 'number' }],
-};
+console.log(red);
 
 // eslint-disable-next-line @typescript-eslint/no-unused-vars
 interface Xxx {
   a: 1;
   x: 1;
 }
-
-// Bad:
-/**
- * User
- */
-class User {
-  aaa = () => 'Hello';
-
-  greet = () => 'Hello';
-}
-
-console.log(a, B, User, c, xxz);
 
 /**
  * Данные о сессии
