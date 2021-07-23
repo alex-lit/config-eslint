@@ -15,8 +15,6 @@ module.exports = defineConfig({
      */
     'airbnb-base',
 
-    'plugin:@getify/proper-ternary/getify-says',
-
     /* plugins */
     ...[
       './plugins/array-func',
@@ -99,12 +97,9 @@ module.exports = defineConfig({
     parser: '@typescript-eslint/parser',
   },
 
-  plugins: ['@getify/proper-ternary'],
-
   root: true,
 
   rules: {
-    '@getify/proper-ternary/parens': ['error', { ternary: true }],
     'class-methods-use-this': 'off',
     'func-style': ['error', 'declaration', { allowArrowFunctions: true }],
     'grouped-accessor-pairs': ['error', 'getBeforeSet'],
