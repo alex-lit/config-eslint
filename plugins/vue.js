@@ -14,6 +14,15 @@ module.exports = {
       },
     ],
 
+    'vue/block-lang': [
+      'error',
+      {
+        script: { lang: 'ts' },
+        style: { lang: 'scss' },
+        template: {},
+      },
+    ],
+
     'vue/component-definition-name-casing': ['error', 'kebab-case'],
 
     'vue/component-name-in-template-casing': [
@@ -33,10 +42,15 @@ module.exports = {
     ],
 
     'vue/eqeqeq': ['error'],
+
     'vue/html-button-has-type': ['error'],
+
     'vue/html-comment-content-newline': ['warn'],
+
     'vue/html-comment-content-spacing': ['warn'],
+
     'vue/html-comment-indent': ['warn'],
+
     'vue/html-end-tags': ['error'],
 
     'vue/html-self-closing': [
@@ -63,6 +77,7 @@ module.exports = {
     ],
 
     'vue/new-line-between-multi-line-property': ['error'],
+
     'vue/next-tick-style': ['error', 'promise'],
     'vue/no-deprecated-scope-attribute': ['error'],
     'vue/no-deprecated-slot-attribute': ['error'],
@@ -80,6 +95,7 @@ module.exports = {
     'vue/no-unsupported-features': ['error'],
     'vue/no-unused-components': ['error'],
     'vue/no-unused-refs': ['warn'],
+    'vue/no-use-computed-property-like-method': ['error'],
     'vue/no-useless-mustaches': ['error'],
     'vue/no-useless-v-bind': ['error'],
     'vue/no-v-html': ['error'],
