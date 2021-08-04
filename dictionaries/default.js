@@ -37,6 +37,7 @@ module.exports = [
   'browserify',
   'calc',
   'camelcase',
+  'caniuse',
   'cardano',
   'cascadia',
   'centos',
