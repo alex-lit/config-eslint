@@ -67,6 +67,7 @@ module.exports = [
   'cpay',
   'crossorigin',
   'cryptocurrency',
+  'csstree',
   'customising',
   'dataset',
   'datasets',
