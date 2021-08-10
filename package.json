@@ -82,13 +82,13 @@
     "eslint-plugin-testing-library": "^4.10.1",
     "eslint-plugin-typescript-sort-keys": "^1.7.0",
     "eslint-plugin-unicorn": "^35.0.0",
-    "eslint-plugin-vue": "^7.15.2",
+    "eslint-plugin-vue": "^7.16.0",
     "eslint-plugin-vuejs-accessibility": "^0.7.1",
     "eslint-plugin-vuetify": "^1.0.1",
     "eslint-plugin-write-good-comments": "^0.1.3",
     "typescript": "^4.3.5"
   },
   "devDependencies": {
-    "@alexlit/lint-kit": "^27.0.3"
+    "@alexlit/lint-kit": "^28.0.0"
   }
 }
