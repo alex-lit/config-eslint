@@ -39,15 +39,15 @@
     "version": "./node_modules/@alexlit/lint-kit/scripts/version.sh"
   },
   "dependencies": {
-    "@typescript-eslint/eslint-plugin": "^4.29.0",
-    "@typescript-eslint/parser": "^4.29.0",
+    "@typescript-eslint/eslint-plugin": "^4.29.1",
+    "@typescript-eslint/parser": "^4.29.1",
     "eslint": "^7.32.0",
     "eslint-config-airbnb-base": "^14.2.1",
     "eslint-config-prettier": "^8.3.0",
     "eslint-define-config": "^1.0.9",
     "eslint-import-resolver-alias": "^1.1.2",
     "eslint-plugin-array-func": "^3.1.7",
-    "eslint-plugin-compat": "^3.11.1",
+    "eslint-plugin-compat": "^3.12.0",
     "eslint-plugin-decorator-position": "^2.2.29",
     "eslint-plugin-eslint-comments": "^3.2.0",
     "eslint-plugin-ext": "^0.1.0",
@@ -82,13 +82,13 @@
     "eslint-plugin-testing-library": "^4.10.1",
     "eslint-plugin-typescript-sort-keys": "^1.7.0",
     "eslint-plugin-unicorn": "^35.0.0",
-    "eslint-plugin-vue": "^7.15.1",
+    "eslint-plugin-vue": "^7.15.2",
     "eslint-plugin-vuejs-accessibility": "^0.7.1",
     "eslint-plugin-vuetify": "^1.0.1",
     "eslint-plugin-write-good-comments": "^0.1.3",
     "typescript": "^4.3.5"
   },
   "devDependencies": {
-    "@alexlit/lint-kit": "^26.0.2"
+    "@alexlit/lint-kit": "^27.0.3"
   }
 }
