@@ -47,7 +47,7 @@
     "eslint-define-config": "^1.0.9",
     "eslint-import-resolver-alias": "^1.1.2",
     "eslint-plugin-array-func": "^3.1.7",
-    "eslint-plugin-compat": "^3.12.0",
+    "eslint-plugin-compat": "^3.13.0",
     "eslint-plugin-decorator-position": "^2.2.29",
     "eslint-plugin-eslint-comments": "^3.2.0",
     "eslint-plugin-ext": "^0.1.0",
@@ -89,6 +89,6 @@
     "typescript": "^4.3.5"
   },
   "devDependencies": {
-    "@alexlit/lint-kit": "^29.0.0"
+    "@alexlit/lint-kit": "^29.1.0"
   }
 }
