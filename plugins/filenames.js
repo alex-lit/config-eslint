@@ -1,3 +1,4 @@
+/* eslint-disable regexp/no-super-linear-backtracking */
 /**
  * @see [eslint-plugin-filenames](https://github.com/selaux/eslint-plugin-filenames)
  */

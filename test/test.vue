@@ -121,7 +121,7 @@
       <button type="button" @mouseover="setAsideVisibility(!isShowAside)">
         ddd
       </button>
-      <q-btn flat no-caps stretch style="pointer-events: none">
+      <q-btn flat no-caps stretch>
         <q-toolbar-title> {{ title }} </q-toolbar-title>
       </q-btn>
 
