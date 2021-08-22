@@ -89,6 +89,6 @@
     "typescript": "^4.3.5"
   },
   "devDependencies": {
-    "@alexlit/lint-kit": "^29.2.3"
+    "@alexlit/lint-kit": "latest"
   }
 }
