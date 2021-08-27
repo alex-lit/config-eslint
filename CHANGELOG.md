@@ -1,3 +1,5 @@
+# [17.4.0](https://github.com/alex-lit/config-eslint/compare/v17.3.0...v17.4.0) (2021-08-27)
+
 # 17.3.0 (2021-08-26)
 
 ### Bug Fixes
