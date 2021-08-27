@@ -77,7 +77,6 @@ module.exports = {
     ],
 
     'vue/new-line-between-multi-line-property': ['error'],
-
     'vue/next-tick-style': ['error', 'promise'],
     'vue/no-deprecated-scope-attribute': ['error'],
     'vue/no-deprecated-slot-attribute': ['error'],
@@ -99,6 +98,7 @@ module.exports = {
     'vue/no-useless-mustaches': ['error'],
     'vue/no-useless-v-bind': ['error'],
     'vue/no-v-html': ['error'],
+    'vue/no-v-text': ['error'],
     'vue/padding-line-between-blocks': ['error'],
     'vue/require-direct-export': 'off',
 

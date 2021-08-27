@@ -82,13 +82,13 @@
     "eslint-plugin-testing-library": "^4.12.0",
     "eslint-plugin-typescript-sort-keys": "^1.8.0",
     "eslint-plugin-unicorn": "^35.0.0",
-    "eslint-plugin-vue": "^7.16.0",
+    "eslint-plugin-vue": "^7.17.0",
     "eslint-plugin-vuejs-accessibility": "^0.7.1",
     "eslint-plugin-vuetify": "^1.0.1",
-    "eslint-plugin-write-good-comments": "^0.1.3",
-    "typescript": "^4.3.5"
+    "eslint-plugin-write-good-comments": "^0.1.3"
   },
   "devDependencies": {
-    "@alexlit/lint-kit": "latest"
+    "@alexlit/lint-kit": "latest",
+    "typescript": "^4.4.2"
   }
 }
