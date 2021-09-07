@@ -136,6 +136,7 @@ module.exports = defineConfig({
 
     'padding-line-between-statements': [
       'warn',
+      // always
       { blankLine: 'always', next: '*', prev: 'block-like' },
       { blankLine: 'always', next: '*', prev: 'case' },
       { blankLine: 'always', next: '*', prev: 'cjs-export' },
@@ -167,19 +168,19 @@ module.exports = defineConfig({
       { blankLine: 'always', next: 'multiline-var', prev: '*' },
       { blankLine: 'always', next: 'return', prev: '*' },
       { blankLine: 'always', next: 'switch', prev: '*' },
-
+      // any
       { blankLine: 'any', next: 'expression', prev: 'expression' },
-
-      { blankLine: 'never', next: 'cjs-export', prev: 'cjs-export' },
-      { blankLine: 'never', next: 'cjs-import', prev: 'cjs-import' },
-      { blankLine: 'never', next: 'directive', prev: 'directive' },
       {
-        blankLine: 'never',
+        blankLine: 'any',
         next: 'singleline-const',
         prev: 'singleline-const',
       },
-      { blankLine: 'never', next: 'singleline-let', prev: 'singleline-let' },
-      { blankLine: 'never', next: 'singleline-var', prev: 'singleline-var' },
+      { blankLine: 'any', next: 'singleline-let', prev: 'singleline-let' },
+      { blankLine: 'any', next: 'singleline-var', prev: 'singleline-var' },
+      // never
+      { blankLine: 'never', next: 'cjs-export', prev: 'cjs-export' },
+      { blankLine: 'never', next: 'cjs-import', prev: 'cjs-import' },
+      { blankLine: 'never', next: 'directive', prev: 'directive' },
     ],
 
     quotes: ['error', 'single'],
