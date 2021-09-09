@@ -207,11 +207,7 @@ module.exports = {
 
     '@typescript-eslint/no-shadow': ['error'],
 
-    '@typescript-eslint/no-unused-vars': [
-      'error',
-      { args: 'all', argsIgnorePattern: '^_' },
-    ],
-
+    '@typescript-eslint/no-unused-vars': 'off', // delegate to eslint-plugin-unused-imports
     '@typescript-eslint/no-use-before-define': ['warn'],
     '@typescript-eslint/no-var-requires': 'off',
     '@typescript-eslint/sort-type-union-intersection-members': ['error'],

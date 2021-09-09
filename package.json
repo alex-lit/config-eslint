@@ -82,6 +82,7 @@
     "eslint-plugin-testing-library": "^4.12.2",
     "eslint-plugin-typescript-sort-keys": "^1.8.0",
     "eslint-plugin-unicorn": "^35.0.0",
+    "eslint-plugin-unused-imports": "^1.1.4",
     "eslint-plugin-vue": "^7.17.0",
     "eslint-plugin-vuejs-accessibility": "^0.7.1",
     "eslint-plugin-vuetify": "^1.0.1",

@@ -45,10 +45,11 @@ module.exports = defineConfig({
       './plugins/typescript',
       './plugins/typescript-sort-keys',
       './plugins/unicorn',
+      './plugins/unused-imports',
       './plugins/vue',
-      // './plugins/no-inferred-method-name', // buggy
       './plugins/vuejs-accessibility',
       './plugins/write-good-comments',
+      // './plugins/no-inferred-method-name', // buggy
 
       /* prettier */
       './plugins/prettier',
@@ -132,6 +133,8 @@ module.exports = defineConfig({
     'no-return-await': 'off',
     'no-shadow': 'off',
     'no-underscore-dangle': 'off',
+    'no-unused-vars': 'off', // delegate to eslint-plugin-unused-imports
+
     'no-use-before-define': 'off',
 
     'padding-line-between-statements': [
