@@ -1,3 +1,10 @@
+# [19.0.0](https://github.com/alex-lit/config-eslint/compare/v18.3.1...v19.0.0) (2021-09-09)
+
+### Features
+
+- **plugin:** add unused-imports
+  ([c083934](https://github.com/alex-lit/config-eslint/commit/c083934439fc2f402403bc079acb8a9b8c2d90ab))
+
 ## [18.3.1](https://github.com/alex-lit/config-eslint/compare/v18.3.0...v18.3.1) (2021-09-09)
 
 # [18.3.0](https://github.com/alex-lit/config-eslint/compare/v18.2.1...v18.3.0) (2021-09-08)
