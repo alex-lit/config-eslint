@@ -20,8 +20,7 @@ module.exports = {
           i18n: true,
         },
 
-        // delegate to eslint-plugin-filenames
-        checkFilenames: false,
+        checkFilenames: false, // delegate to eslint-plugin-filenames
 
         replacements: {
           index18n: {

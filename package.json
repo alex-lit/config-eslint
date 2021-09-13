@@ -81,7 +81,7 @@
     "eslint-plugin-svelte3": "^3.2.1",
     "eslint-plugin-testing-library": "^4.12.2",
     "eslint-plugin-typescript-sort-keys": "^1.8.0",
-    "eslint-plugin-unicorn": "^35.0.0",
+    "eslint-plugin-unicorn": "^36.0.0",
     "eslint-plugin-unused-imports": "^1.1.4",
     "eslint-plugin-vue": "^7.17.0",
     "eslint-plugin-vuejs-accessibility": "^0.7.1",
@@ -90,6 +90,6 @@
   },
   "devDependencies": {
     "@alexlit/lint-kit": "latest",
-    "typescript": "^4.4.2"
+    "typescript": "^4.4.3"
   }
 }
