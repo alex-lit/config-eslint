@@ -120,9 +120,7 @@ module.exports = {
     '@typescript-eslint/naming-convention': [
       'error',
 
-      /**
-       * ESLint's camelcase conventions
-       */
+      // ESLint's camelcase conventions
       {
         format: ['camelCase'],
         selector: 'default',
@@ -147,10 +145,6 @@ module.exports = {
         selector: 'typeLike',
       },
 
-      /**
-       * Custom
-       */
-
       // interface
       {
         custom: {
@@ -164,32 +158,32 @@ module.exports = {
 
       // objectLiteralProperty
       {
-        format: ['camelCase', 'PascalCase', 'snake_case', 'UPPER_CASE'],
+        format: ['camelCase', 'UPPER_CASE'],
         leadingUnderscore: 'allow',
         selector: 'objectLiteralProperty',
       },
 
       // objectLiteralMethod
       {
-        format: ['camelCase', 'PascalCase', 'UPPER_CASE'],
+        format: ['camelCase', 'UPPER_CASE'],
         selector: 'objectLiteralMethod',
       },
 
       // parameter
       {
-        format: ['camelCase', 'PascalCase'],
+        format: ['camelCase'],
         modifiers: ['destructured'],
         selector: 'parameter',
       },
 
       // variable
       {
-        format: ['camelCase', 'PascalCase', 'UPPER_CASE'],
+        format: ['camelCase', 'UPPER_CASE'],
         modifiers: ['const'],
         selector: 'variable',
       },
       {
-        format: ['camelCase', 'PascalCase', 'UPPER_CASE', 'snake_case'],
+        format: ['camelCase'],
         leadingUnderscore: 'allow',
         modifiers: ['destructured'],
         selector: 'variable',
@@ -206,7 +200,6 @@ module.exports = {
     ],
 
     '@typescript-eslint/no-shadow': ['error'],
-
     '@typescript-eslint/no-unused-vars': 'off', // delegate to eslint-plugin-unused-imports
     '@typescript-eslint/no-use-before-define': ['warn'],
     '@typescript-eslint/no-var-requires': 'off',
