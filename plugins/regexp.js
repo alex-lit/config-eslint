@@ -5,4 +5,8 @@ module.exports = {
   extends: ['plugin:regexp/recommended'],
 
   plugins: ['regexp'],
+
+  rules: {
+    'regexp/strict': 'off', // conflicts with unicorn/better-regex
+  },
 };
