@@ -1,5 +1,6 @@
 module.exports = [
   'aave',
+  'autofocus',
   'airbnb',
   'aland',
   'alexey',
