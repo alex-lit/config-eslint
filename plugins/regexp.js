@@ -6,7 +6,5 @@ module.exports = {
 
   plugins: ['regexp'],
 
-  rules: {
-    'regexp/strict': 'off', // conflicts with unicorn/better-regex
-  },
+  rules: {},
 };
