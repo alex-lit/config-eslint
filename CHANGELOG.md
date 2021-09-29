@@ -1,3 +1,5 @@
+# [21.0.0](https://github.com/alex-lit/config-eslint/compare/v20.6.0...v21.0.0) (2021-09-29)
+
 # [20.6.0](https://github.com/alex-lit/config-eslint/compare/v20.5.0...v20.6.0) (2021-09-27)
 
 # [20.5.0](https://github.com/alex-lit/config-eslint/compare/v20.4.0...v20.5.0) (2021-09-26)
