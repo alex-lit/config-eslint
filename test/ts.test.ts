@@ -18,7 +18,7 @@ export interface Xxx {
  * Ts
  */
 export default class Ts {
-  a = /\[.*]/;
+  a = /\[.*\]/;
 
   z = 1;
 }
