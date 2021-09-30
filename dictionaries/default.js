@@ -259,6 +259,7 @@ module.exports = [
   'rewriter',
   'robohash',
   'rollup',
+  'samsung',
   'sberbank',
   'scalable',
   'scannable',
