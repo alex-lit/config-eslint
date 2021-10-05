@@ -23,6 +23,11 @@ module.exports = {
       },
     ],
 
+    // 'vue/component-api-style': [
+    //   'error',
+    //   ['script-setup', 'composition', 'options'],
+    // ],
+
     'vue/component-definition-name-casing': ['error', 'kebab-case'],
 
     'vue/component-name-in-template-casing': [
@@ -77,29 +82,55 @@ module.exports = {
     ],
 
     'vue/new-line-between-multi-line-property': ['error'],
+
     'vue/next-tick-style': ['error', 'promise'],
+
     'vue/no-deprecated-scope-attribute': ['error'],
+
     'vue/no-deprecated-slot-attribute': ['error'],
+
     'vue/no-deprecated-slot-scope-attribute': ['error'],
+
     'vue/no-empty-component-block': ['error'],
+
     'vue/no-invalid-model-keys': ['error'],
+
     'vue/no-irregular-whitespace': ['error'],
+
     'vue/no-multiple-objects-in-class': ['error'],
+
     'vue/no-parsing-error': ['error'],
+
     'vue/no-potential-component-option-typo': ['error'],
+
     'vue/no-reserved-component-names': ['error'],
+
     'vue/no-restricted-component-options': ['error'],
+
     'vue/no-restricted-props': ['error'],
+
     'vue/no-this-in-before-route-enter': ['error'],
+
     'vue/no-unsupported-features': ['error'],
+
     'vue/no-unused-components': ['error'],
+
     'vue/no-unused-refs': ['warn'],
+
     'vue/no-use-computed-property-like-method': ['error'],
+
     'vue/no-useless-mustaches': ['error'],
+
+    'vue/no-useless-template-attributes': ['error'],
+
     'vue/no-useless-v-bind': ['error'],
+
     'vue/no-v-html': ['error'],
+
     'vue/no-v-text': ['error'],
+
     'vue/padding-line-between-blocks': ['error'],
+
     'vue/require-direct-export': 'off',
 
     'vue/sort-keys': [
