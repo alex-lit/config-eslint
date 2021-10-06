@@ -27,6 +27,7 @@ module.exports = defineConfig({
       './plugins/jsdoc',
       './plugins/jsx-a11y',
       './plugins/lit',
+      './plugins/lit-a11y',
       './plugins/more',
       './plugins/no-constructor-bind',
       './plugins/no-loops',
@@ -48,6 +49,7 @@ module.exports = defineConfig({
       './plugins/unused-imports',
       './plugins/vue',
       './plugins/vuejs-accessibility',
+      './plugins/wc',
       './plugins/write-good-comments',
       // './plugins/no-inferred-method-name', // buggy
 

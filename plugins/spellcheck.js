@@ -16,10 +16,9 @@ module.exports = {
         skipIfMatch: ['^@.*', '^plugin:.*'],
 
         skipWordIfMatch: [
-          // HEX colors
-          '^[0-9a-f]{3,6}$',
-          // eslint-disable-next-line prettier/prettier
-          "^'",
+          '^[0-9a-f]{3,6}$', // HEX colors
+          /* prettier-ignore */
+          '^\'',
         ],
 
         skipWords,
