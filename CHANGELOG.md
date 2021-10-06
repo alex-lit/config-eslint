@@ -1,3 +1,10 @@
+# [22.0.0](https://github.com/alex-lit/config-eslint/compare/v21.3.0...v22.0.0) (2021-10-06)
+
+### Features
+
+- support web components
+  ([38283db](https://github.com/alex-lit/config-eslint/commit/38283dbcde18cf01c9b4ee721906f7703db2068f))
+
 # [21.3.0](https://github.com/alex-lit/config-eslint/compare/v21.2.0...v21.3.0) (2021-10-05)
 
 # [21.2.0](https://github.com/alex-lit/config-eslint/compare/v21.1.0...v21.2.0) (2021-10-05)
