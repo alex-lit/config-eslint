@@ -1,5 +1,8 @@
 import { bb } from './export';
 
+/**
+ * Валидность данных bic 'formData.bic'
+ */
 console.log(bb);
 
 const array = [...'example'].map((char) => char.charCodeAt(0));

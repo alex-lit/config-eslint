@@ -27,6 +27,7 @@ module.exports = [
   'basedir',
   'behance',
   'bestchange',
+  'bic',
   'bilderlings',
   'bilibili',
   'bitcointalk',

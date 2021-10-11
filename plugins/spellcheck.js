@@ -12,15 +12,8 @@ module.exports = {
       {
         ignoreRequire: true,
         minLength: 4,
-
         skipIfMatch: ['^@.*', '^plugin:.*'],
-
-        skipWordIfMatch: [
-          '^[0-9a-f]{3,6}$', // HEX colors
-          /* prettier-ignore */
-          '^\'',
-        ],
-
+        skipWordIfMatch: [/^[\da-f]{3,6}$/, /^'/, /'$/],
         skipWords,
       },
     ],
