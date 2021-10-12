@@ -19,7 +19,7 @@ module.exports = defineConfig({
     ...[
       './plugins/array-func',
       './plugins/compat',
-      './plugins/decorator-position',
+      // './plugins/decorator-position', // wait for eslint@8 support
       './plugins/eslint-comments',
       './plugins/ext',
       './plugins/filenames',
@@ -44,7 +44,7 @@ module.exports = defineConfig({
       './plugins/spellcheck',
       './plugins/sql',
       './plugins/typescript',
-      './plugins/typescript-sort-keys',
+      // './plugins/typescript-sort-keys', // wait for eslint@8 support
       './plugins/unicorn',
       './plugins/unused-imports',
       './plugins/vue',
@@ -88,11 +88,12 @@ module.exports = defineConfig({
         'global-require': 'off',
       },
     },
-    {
-      extends: [require.resolve('./plugins/testing-library')],
+    // wait for eslint@8 support
+    // {
+    //   extends: [require.resolve('./plugins/testing-library')],
 
-      files: ['*.test.ts', '*.test.js', '*.spec.ts', '*.spec.js'],
-    },
+    //   files: ['*.test.ts', '*.test.js', '*.spec.ts', '*.spec.js'],
+    // },
   ],
 
   parserOptions: {
