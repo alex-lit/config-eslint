@@ -1,3 +1,10 @@
+## [24.0.1](https://github.com/alex-lit/config-eslint/compare/v23.0.2...v24.0.1) (2021-10-13)
+
+### Features
+
+- migrate to eslint v8
+  ([6e0a1da](https://github.com/alex-lit/config-eslint/commit/6e0a1daf7574c8b31b8d51942a7f5dcbef7a455f))
+
 # 24.0.0 (2021-10-12)
 
 ### Bug Fixes
