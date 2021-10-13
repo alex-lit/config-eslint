@@ -158,20 +158,20 @@ module.exports = {
 
       // objectLiteralProperty
       {
-        format: ['camelCase', 'UPPER_CASE', 'PascalCase'],
+        format: ['camelCase', 'UPPER_CASE', 'PascalCase', 'snake_case'],
         leadingUnderscore: 'allow',
         selector: 'objectLiteralProperty',
       },
 
       // objectLiteralMethod
       {
-        format: ['camelCase', 'UPPER_CASE'],
+        format: ['camelCase', 'UPPER_CASE', 'PascalCase'],
         selector: 'objectLiteralMethod',
       },
 
       // parameter
       {
-        format: ['camelCase'],
+        format: ['camelCase', 'PascalCase'],
         modifiers: ['destructured'],
         selector: 'parameter',
       },
