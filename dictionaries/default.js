@@ -168,6 +168,7 @@ module.exports = [
   'localdomain',
   'localhost',
   'lockfile',
+  'lockfilelint',
   'lockfiles',
   'lumen',
   'markdownlint',
