@@ -44,7 +44,7 @@ module.exports = defineConfig({
       './plugins/spellcheck',
       './plugins/sql',
       './plugins/typescript',
-      // './plugins/typescript-sort-keys', // wait for eslint@8 support
+      './plugins/typescript-sort-keys',
       './plugins/unicorn',
       './plugins/unused-imports',
       './plugins/vue',
