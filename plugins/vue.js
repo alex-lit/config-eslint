@@ -103,7 +103,13 @@ module.exports = {
 
     'vue/no-potential-component-option-typo': ['error'],
 
-    'vue/no-reserved-component-names': ['error'],
+    'vue/no-reserved-component-names': [
+      'error',
+      {
+        disallowVue3BuiltInComponents: true,
+        disallowVueBuiltInComponents: true,
+      },
+    ],
 
     'vue/no-restricted-component-options': ['error'],
 
@@ -144,12 +150,19 @@ module.exports = {
     ],
 
     'vue/static-class-names-order': 'off',
+
     'vue/this-in-template': ['error', 'never'],
+
     'vue/v-for-delimiter-style': ['error'],
+
     'vue/v-on-event-hyphenation': ['error'],
+
     'vue/v-on-function-call': ['error', 'always'],
+
     'vue/valid-next-tick': ['error'],
+
     'vue/valid-v-bind-sync': ['error'],
+
     'vue/valid-v-slot': ['error'],
   },
 };

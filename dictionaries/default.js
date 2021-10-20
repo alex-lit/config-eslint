@@ -325,6 +325,7 @@ module.exports = [
   'vkontakte',
   'vnode',
   'vscode',
+  'vue3',
   'vuejs',
   'vuelidate',
   'vuepress',
