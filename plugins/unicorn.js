@@ -4,6 +4,16 @@
 module.exports = {
   extends: ['plugin:unicorn/recommended'],
 
+  overrides: [
+    {
+      files: ['.stylelintrc.js'],
+
+      rules: {
+        'eslint-disable unicorn/no-null': 'off',
+      },
+    },
+  ],
+
   plugins: ['unicorn'],
 
   rules: {
