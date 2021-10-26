@@ -8,9 +8,18 @@ module.exports = {
 
   rules: {
     'unicorn/better-regex': 'off',
+
+    'unicorn/consistent-function-scoping': [
+      'error',
+      { checkArrowFunctions: false },
+    ],
+
     'unicorn/no-array-for-each': 'off',
+
     'unicorn/no-array-reduce': 'off',
+
     'unicorn/prefer-module': 'off',
+
     'unicorn/prefer-node-protocol': 'off',
 
     'unicorn/prevent-abbreviations': [
