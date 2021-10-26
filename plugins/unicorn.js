@@ -9,7 +9,7 @@ module.exports = {
       files: ['.stylelintrc.js'],
 
       rules: {
-        'eslint-disable unicorn/no-null': 'off',
+        'unicorn/no-null': 'off',
       },
     },
   ],
