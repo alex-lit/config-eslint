@@ -88,12 +88,11 @@ module.exports = defineConfig({
         'global-require': 'off',
       },
     },
-    // wait for eslint@8 support
-    // {
-    //   extends: [require.resolve('./plugins/testing-library')],
+    {
+      extends: [require.resolve('./plugins/testing-library')],
 
-    //   files: ['*.test.ts', '*.test.js', '*.spec.ts', '*.spec.js'],
-    // },
+      files: ['*.test.ts', '*.test.js', '*.spec.ts', '*.spec.js'],
+    },
   ],
 
   parserOptions: {
