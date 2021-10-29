@@ -1,3 +1,4 @@
+/* eslint-disable spellcheck/spell-checker */
 /**
  * @see [eslint-plugin-vue](https://eslint.vuejs.org/rules/)
  */
@@ -96,6 +97,8 @@ module.exports = {
     'vue/no-invalid-model-keys': ['error'],
 
     'vue/no-irregular-whitespace': ['error'],
+
+    'vue/no-loss-of-precision': ['error'],
 
     'vue/no-multiple-objects-in-class': ['error'],
 
