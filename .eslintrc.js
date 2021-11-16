@@ -132,11 +132,25 @@ module.exports = defineConfig({
 
     'no-console': 'off',
     'no-implicit-coercion': 'error',
-    'no-return-await': 'off',
-    'no-shadow': 'off',
-    'no-underscore-dangle': 'off',
-    'no-unused-vars': 'off', // delegate to eslint-plugin-unused-imports
 
+    'no-restricted-exports': [
+      'error',
+      {
+        restrictedNamedExports: [
+          'then', // this will cause tons of confusion when your module is dynamically `import()`ed, and will break in most node ESM versions
+        ],
+      },
+    ],
+
+    'no-return-await': 'off',
+
+    'no-shadow': 'off',
+
+    'no-underscore-dangle': 'off',
+
+    'no-unused-vars': 'off',
+
+    // delegate to eslint-plugin-unused-imports
     'no-use-before-define': 'off',
 
     'padding-line-between-statements': [
