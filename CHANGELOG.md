@@ -1,3 +1,5 @@
+## [33.1.1](https://github.com/alex-lit/config-eslint/compare/v33.1.0...v33.1.1) (2021-11-16)
+
 # 33.1.0 (2021-11-16)
 
 ### Bug Fixes
