@@ -11,7 +11,14 @@ module.exports = {
 
   overrides: [
     {
-      files: ['**/.*/**', '*.stories.js', '*.stories.ts', '.*.js', '.*.ts'],
+      files: [
+        '**/.*/**',
+        '*.stories.js',
+        '*.stories.ts',
+        '.*.js',
+        '.*.ts',
+        '*.d.ts',
+      ],
 
       rules: {
         'import/no-extraneous-dependencies': 'off',

@@ -12,6 +12,13 @@ module.exports = {
         'unicorn/no-null': 'off',
       },
     },
+    {
+      files: ['*.d.ts'],
+
+      rules: {
+        'unicorn/prefer-export-from': 'off',
+      },
+    },
   ],
 
   plugins: ['unicorn'],
