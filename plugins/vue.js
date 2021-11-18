@@ -86,6 +86,8 @@ module.exports = {
 
     'vue/next-tick-style': ['error', 'promise'],
 
+    'vue/no-child-content': ['error'],
+
     'vue/no-deprecated-scope-attribute': ['error'],
 
     'vue/no-deprecated-slot-attribute': ['error'],
