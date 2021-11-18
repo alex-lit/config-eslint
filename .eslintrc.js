@@ -43,6 +43,7 @@ module.exports = defineConfig({
       './plugins/sort-keys-fix',
       './plugins/spellcheck',
       './plugins/sql',
+      './plugins/testing-library',
       './plugins/typescript',
       './plugins/typescript-sort-keys',
       './plugins/unicorn',
@@ -87,11 +88,6 @@ module.exports = defineConfig({
       rules: {
         'global-require': 'off',
       },
-    },
-    {
-      extends: [require.resolve('./plugins/testing-library')],
-
-      files: ['*.test.ts', '*.test.js', '*.spec.ts', '*.spec.js'],
     },
   ],
 
