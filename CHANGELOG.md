@@ -1,3 +1,5 @@
+# [35.5.0](https://github.com/alex-lit/config-eslint/compare/v35.4.0...v35.5.0) (2021-12-01)
+
 # [35.4.0](https://github.com/alex-lit/config-eslint/compare/v35.3.0...v35.4.0) (2021-11-29)
 
 # [35.3.0](https://github.com/alex-lit/config-eslint/compare/v35.2.0...v35.3.0) (2021-11-29)
