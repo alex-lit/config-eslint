@@ -40,6 +40,8 @@ module.exports = {
       },
     ],
 
+    'vue/component-options-name-casing': ['error', 'PascalCase'],
+
     'vue/component-tags-order': [
       'error',
       {
@@ -141,6 +143,8 @@ module.exports = {
     'vue/no-v-text': ['error'],
 
     'vue/padding-line-between-blocks': ['error'],
+
+    'vue/prefer-separate-static-class': ['error'],
 
     'vue/require-direct-export': 'off',
 
