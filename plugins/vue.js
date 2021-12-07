@@ -158,7 +158,7 @@ module.exports = {
       },
     ],
 
-    'vue/static-class-names-order': 'off',
+    'vue/static-class-names-order': ['warn'],
 
     'vue/this-in-template': ['error', 'never'],
 
