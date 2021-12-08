@@ -13,6 +13,7 @@ module.exports = [
   'alfatop',
   'algo',
   'alipay',
+  'volar',
   'angularjs',
   'apollo',
   'applescript',
