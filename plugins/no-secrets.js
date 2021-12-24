@@ -8,7 +8,7 @@ module.exports = {
     'no-secrets/no-secrets': [
       'error',
       {
-        ignoreContent: ['<', '://', '@example', 'META'],
+        ignoreContent: ['<', '://', '@example', 'META', 'I18N'],
       },
     ],
   },
