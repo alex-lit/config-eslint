@@ -5,7 +5,7 @@ import { bb } from './export';
  */
 console.log(bb);
 
-const array = [...'example'].map((char) => char.charCodeAt(0));
+const array = [...'example'].map((char) => char.codePointAt(0));
 const red = array.reduceRight((p, c) => p + c, '');
 const flattenedAndMapped = array.flat();
 

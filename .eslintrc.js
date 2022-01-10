@@ -49,6 +49,7 @@ module.exports = defineConfig({
       './plugins/unicorn',
       './plugins/unused-imports',
       './plugins/vue',
+      './plugins/vue-i18n',
       './plugins/vuejs-accessibility',
       './plugins/wc',
       './plugins/write-good-comments',
