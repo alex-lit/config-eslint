@@ -22,7 +22,8 @@ module.exports = {
       },
     ],
 
-    '@intlify/vue-i18n/no-dynamic-keys': 'error',
+    '@intlify/vue-i18n/no-dynamic-keys': 'warn',
+    '@intlify/vue-i18n/no-raw-text': 'off',
     '@intlify/vue-i18n/no-unused-keys': 'warn',
     '@intlify/vue-i18n/prefer-sfc-lang-attr': 'error',
   },
