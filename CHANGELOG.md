@@ -1,3 +1,10 @@
+# [38.0.0](https://github.com/alex-lit/config-eslint/compare/v37.2.0...v38.0.0) (2022-01-10)
+
+### Features
+
+- add vue-i18n plugin
+  ([43c5777](https://github.com/alex-lit/config-eslint/commit/43c577794025a1e502c270f68988d660f023e781))
+
 # [37.2.0](https://github.com/alex-lit/config-eslint/compare/v37.1.0...v37.2.0) (2022-01-10)
 
 # [37.1.0](https://github.com/alex-lit/config-eslint/compare/v37.0.0...v37.1.0) (2022-01-09)
