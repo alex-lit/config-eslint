@@ -35,6 +35,7 @@ module.exports = defineConfig({
       './plugins/no-use-extend-native',
       './plugins/nuxt',
       './plugins/promise',
+      './plugins/quasar',
       './plugins/regexp',
       './plugins/security',
       './plugins/simple-import-sort',
