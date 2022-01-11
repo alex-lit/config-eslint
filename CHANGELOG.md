@@ -1,3 +1,10 @@
+# [39.0.0](https://github.com/alex-lit/config-eslint/compare/v38.0.1...v39.0.0) (2022-01-11)
+
+### Features
+
+- **plugin:** add quasar
+  ([42e725a](https://github.com/alex-lit/config-eslint/commit/42e725ac9ac3ff5f62c61e4f332000c95f2d82f4))
+
 ## [38.0.1](https://github.com/alex-lit/config-eslint/compare/v38.0.0...v38.0.1) (2022-01-10)
 
 # [38.0.0](https://github.com/alex-lit/config-eslint/compare/v37.2.0...v38.0.0) (2022-01-10)
