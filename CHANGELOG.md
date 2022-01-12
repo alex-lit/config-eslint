@@ -1,3 +1,10 @@
+# [40.0.0](https://github.com/alex-lit/config-eslint/compare/v39.0.0...v40.0.0) (2022-01-12)
+
+### Features
+
+- **plugins:** add etc and explicit-type-exports plugins
+  ([f46347d](https://github.com/alex-lit/config-eslint/commit/f46347d375b911eef06f4dd9361882d42a250beb))
+
 # [39.0.0](https://github.com/alex-lit/config-eslint/compare/v38.0.1...v39.0.0) (2022-01-11)
 
 ### Features
