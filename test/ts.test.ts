@@ -1,4 +1,136 @@
+/* eslint-disable unused-imports/no-unused-vars */
 import { bb } from './export';
+
+const names = [3, 4];
+
+interface Person {
+  age: number;
+  name: string;
+}
+
+/**
+ * Foo
+ */
+// export class Example {
+//   static staticProperty;
+
+//   static staticArrowFunctionProperty = () => {};
+
+//   /**
+//    * Z
+//    */
+//   static get staticAccessorPair() {}
+
+//   /**
+//    * Z
+//    */
+//   static set staticAccessorPair(value) {}
+
+//   /**
+//    * Z
+//    */
+//   static get staticGetter() {}
+
+//   /**
+//    * Z
+//    */
+//   static set staticSetter(value) {}
+
+//   /**
+//    * Z
+//    */
+//   static staticMethod() {}
+
+//   /**
+//    * Z
+//    */
+//   static async astaticAsyncMethod() {}
+
+//   /**
+//    * Z
+//    */
+//   static async staticAsyncMethod() {}
+
+//   @decorator
+//   decoratedProperty = 'bar';
+
+//   property = 'bar';
+
+//   arrowFunctionProperty = () => {};
+
+//   /**
+//    * Z
+//    */
+//   constructor() {}
+
+//   /**
+//    * Z
+//    */
+//   get accessorPair() {}
+
+//   /**
+//    * Z
+//    */
+//   set accessorPair(value) {}
+
+//   /**
+//    * Z
+//    */
+//   get getter() {}
+
+//   /**
+//    * Z
+//    */
+//   set setter(value) {}
+
+//   /**
+//    * Z
+//    */
+//   method() {}
+
+//   /**
+//    * Z
+//    */
+//   @decorator
+//   decoratedMethod() {}
+
+//   /**
+//    * Z
+//    */
+//   @decorator
+//   async decoratedAsyncMethod() {}
+
+//   /**
+//    * Z
+//    */
+//   async asyncMethod() {}
+
+//   /**
+//    * Z
+//    */
+//   async aasyncMethod() {}
+
+//   static _staticConventionalPrivateProperty;
+
+//   /**
+//    * Z
+//    */
+//   static _staticConventionalPrivateMethod() {}
+
+//   /**
+//    * Z
+//    */
+//   static async _staticAsyncConventionalPrivateMethod() {}
+
+//   _conventionalPrivateProperty;
+
+//   /**
+//    * Z
+//    */
+//   _conventionalPrivateMethod() {}
+
+//   async _asyncConventionalPrivateMethod() {}
+// }
 
 /**
  * Валидность данных bic 'formData.bic'
@@ -15,15 +147,6 @@ console.log(red, flattenedAndMapped);
 export interface Xxx {
   a: 1;
   x: 1;
-}
-
-/**
- * Ts
- */
-export default class Ts {
-  a = /\[.*\]/;
-
-  z = 1;
 }
 
 /**

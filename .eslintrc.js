@@ -30,6 +30,7 @@ module.exports = defineConfig({
       './plugins/lit-a11y',
       './plugins/more',
       './plugins/no-constructor-bind',
+      './plugins/no-explicit-type-exports',
       './plugins/no-loops',
       './plugins/no-secrets',
       './plugins/no-use-extend-native',
@@ -40,7 +41,7 @@ module.exports = defineConfig({
       './plugins/security',
       './plugins/simple-import-sort',
       './plugins/sonar',
-      // './plugins/sort-class-members',
+      // './plugins/sort-class-members', // wip configuration
       './plugins/sort-destructure-keys',
       './plugins/sort-keys-fix',
       './plugins/spellcheck',
@@ -90,6 +91,15 @@ module.exports = defineConfig({
 
       rules: {
         'global-require': 'off',
+      },
+    },
+
+    {
+      extends: [require.resolve('./plugins/etc')],
+      files: ['*.ts', '*.tsx'],
+
+      parserOptions: {
+        project: './tsconfig.json',
       },
     },
   ],
