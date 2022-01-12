@@ -12,6 +12,8 @@ module.exports = {
     'jsdoc/require-jsdoc': [
       'warn',
       {
+        enableFixer: false,
+
         require: {
           ArrowFunctionExpression: false,
           ClassDeclaration: true,

@@ -3,7 +3,15 @@ import { bb } from './export';
 
 const names = [3, 4];
 
+function setA(a) {
+  return a;
+}
+
 interface Person {
+  //
+  /**
+   * Age
+   */
   age: number;
   name: string;
 }
@@ -12,43 +20,22 @@ interface Person {
  * Foo
  */
 // export class Example {
-//   static staticProperty;
+// static staticProperty;
 
-//   static staticArrowFunctionProperty = () => {};
+// static staticArrowFunctionProperty = () => {};
 
-//   /**
-//    * Z
-//    */
-//   static get staticAccessorPair() {}
+// static get staticAccessorPair() {}
 
-//   /**
-//    * Z
-//    */
 //   static set staticAccessorPair(value) {}
 
-//   /**
-//    * Z
-//    */
 //   static get staticGetter() {}
 
-//   /**
-//    * Z
-//    */
 //   static set staticSetter(value) {}
 
-//   /**
-//    * Z
-//    */
 //   static staticMethod() {}
 
-//   /**
-//    * Z
-//    */
 //   static async astaticAsyncMethod() {}
 
-//   /**
-//    * Z
-//    */
 //   static async staticAsyncMethod() {}
 
 //   @decorator
@@ -58,75 +45,36 @@ interface Person {
 
 //   arrowFunctionProperty = () => {};
 
-//   /**
-//    * Z
-//    */
 //   constructor() {}
 
-//   /**
-//    * Z
-//    */
 //   get accessorPair() {}
 
-//   /**
-//    * Z
-//    */
 //   set accessorPair(value) {}
 
-//   /**
-//    * Z
-//    */
 //   get getter() {}
 
-//   /**
-//    * Z
-//    */
 //   set setter(value) {}
 
-//   /**
-//    * Z
-//    */
 //   method() {}
 
-//   /**
-//    * Z
-//    */
 //   @decorator
 //   decoratedMethod() {}
 
-//   /**
-//    * Z
-//    */
 //   @decorator
 //   async decoratedAsyncMethod() {}
 
-//   /**
-//    * Z
-//    */
 //   async asyncMethod() {}
 
-//   /**
-//    * Z
-//    */
 //   async aasyncMethod() {}
 
 //   static _staticConventionalPrivateProperty;
 
-//   /**
-//    * Z
-//    */
 //   static _staticConventionalPrivateMethod() {}
 
-//   /**
-//    * Z
-//    */
 //   static async _staticAsyncConventionalPrivateMethod() {}
 
 //   _conventionalPrivateProperty;
 
-//   /**
-//    * Z
-//    */
 //   _conventionalPrivateMethod() {}
 
 //   async _asyncConventionalPrivateMethod() {}
