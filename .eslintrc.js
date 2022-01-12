@@ -40,6 +40,7 @@ module.exports = defineConfig({
       './plugins/security',
       './plugins/simple-import-sort',
       './plugins/sonar',
+      // './plugins/sort-class-members',
       './plugins/sort-destructure-keys',
       './plugins/sort-keys-fix',
       './plugins/spellcheck',
