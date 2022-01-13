@@ -11,7 +11,7 @@ const isSfdsad = true;
 
 const names = [3, 4];
 
-function setA(a) {
+function alightHello(a) {
   return a;
 }
 

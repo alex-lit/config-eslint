@@ -48,7 +48,7 @@ module.exports = defineConfig({
       './plugins/spellcheck',
       './plugins/sql',
       './plugins/testing-library',
-      './plugins/typescript',
+      './plugins/typescript/index',
       './plugins/typescript-sort-keys',
       './plugins/unicorn',
       './plugins/unused-imports',
