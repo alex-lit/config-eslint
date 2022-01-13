@@ -17,5 +17,6 @@
     "target": "ES2018",
     "types": []
   },
-  "exclude": ["node_modules"]
+  "exclude": ["node_modules"],
+  "include": ["test/**/*", "**/*.js", ".*.js"]
 }

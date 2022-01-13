@@ -36,8 +36,9 @@ module.exports = {
 
     '@typescript-eslint/explicit-module-boundary-types': 'off',
 
+    // delegate to sort-class-members plugin
     '@typescript-eslint/member-ordering': [
-      'warn',
+      'off',
       {
         default: {
           memberTypes: [
@@ -120,7 +121,7 @@ module.exports = {
     '@typescript-eslint/naming-convention': [
       'error',
 
-      // ESLint's camelcase conventions
+      // ESLint's camelCase conventions
       {
         format: ['camelCase'],
         selector: 'default',
@@ -171,7 +172,7 @@ module.exports = {
 
       // parameter
       {
-        format: ['camelCase', 'PascalCase'],
+        format: ['camelCase', 'PascalCase', 'UPPER_CASE'],
         modifiers: ['destructured'],
         selector: 'parameter',
       },
@@ -187,6 +188,26 @@ module.exports = {
         leadingUnderscore: 'allow',
         modifiers: ['destructured'],
         selector: 'variable',
+      },
+
+      {
+        format: ['PascalCase'],
+
+        prefix: [
+          'are',
+          'can',
+          'did',
+          'does',
+          'has',
+          'is',
+          'may',
+          'must',
+          'should',
+          'will',
+        ],
+
+        selector: ['variable', 'parameter', /* 'property', */ 'accessor'],
+        types: ['boolean'],
       },
     ],
 

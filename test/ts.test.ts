@@ -1,6 +1,12 @@
 /* eslint-disable unused-imports/no-unused-vars */
 import { bb } from './export';
 
+const xxx = {
+  sdf: true,
+};
+
+const isSfdsad = true;
+
 const names = [3, 4];
 
 function setA(a) {
@@ -15,70 +21,6 @@ interface Person {
   age: number;
   name: string;
 }
-
-/**
- * Foo
- */
-// export class Example {
-// static staticProperty;
-
-// static staticArrowFunctionProperty = () => {};
-
-// static get staticAccessorPair() {}
-
-//   static set staticAccessorPair(value) {}
-
-//   static get staticGetter() {}
-
-//   static set staticSetter(value) {}
-
-//   static staticMethod() {}
-
-//   static async astaticAsyncMethod() {}
-
-//   static async staticAsyncMethod() {}
-
-//   @decorator
-//   decoratedProperty = 'bar';
-
-//   property = 'bar';
-
-//   arrowFunctionProperty = () => {};
-
-//   constructor() {}
-
-//   get accessorPair() {}
-
-//   set accessorPair(value) {}
-
-//   get getter() {}
-
-//   set setter(value) {}
-
-//   method() {}
-
-//   @decorator
-//   decoratedMethod() {}
-
-//   @decorator
-//   async decoratedAsyncMethod() {}
-
-//   async asyncMethod() {}
-
-//   async aasyncMethod() {}
-
-//   static _staticConventionalPrivateProperty;
-
-//   static _staticConventionalPrivateMethod() {}
-
-//   static async _staticAsyncConventionalPrivateMethod() {}
-
-//   _conventionalPrivateProperty;
-
-//   _conventionalPrivateMethod() {}
-
-//   async _asyncConventionalPrivateMethod() {}
-// }
 
 /**
  * Валидность данных bic 'formData.bic'

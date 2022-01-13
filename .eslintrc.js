@@ -21,6 +21,7 @@ module.exports = defineConfig({
       './plugins/compat',
       // './plugins/decorator-position', // wait for eslint@8 support
       './plugins/eslint-comments',
+      './plugins/etc',
       './plugins/ext',
       './plugins/filenames',
       './plugins/import',
@@ -41,7 +42,7 @@ module.exports = defineConfig({
       './plugins/security',
       './plugins/simple-import-sort',
       './plugins/sonar',
-      // './plugins/sort-class-members', // wip configuration
+      './plugins/sort-class-members',
       './plugins/sort-destructure-keys',
       './plugins/sort-keys-fix',
       './plugins/spellcheck',
@@ -93,20 +94,13 @@ module.exports = defineConfig({
         'global-require': 'off',
       },
     },
-
-    {
-      extends: [require.resolve('./plugins/etc')],
-      files: ['*.ts', '*.tsx'],
-
-      parserOptions: {
-        project: './tsconfig.json',
-      },
-    },
   ],
 
   parserOptions: {
     ecmaFeatures: { jsx: true },
+    extraFileExtensions: ['.vue'],
     parser: '@typescript-eslint/parser',
+    project: './tsconfig.json',
   },
 
   root: true,
