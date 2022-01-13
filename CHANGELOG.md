@@ -1,3 +1,10 @@
+# [41.0.0](https://github.com/alex-lit/config-eslint/compare/v40.0.1...v41.0.0) (2022-01-13)
+
+### Features
+
+- **plugin:** add sort-class-members plugin
+  ([32bce88](https://github.com/alex-lit/config-eslint/commit/32bce88e10cd3d4c26a9560a7fb13b6f2eb10d50))
+
 ## [40.0.1](https://github.com/alex-lit/config-eslint/compare/v40.0.0...v40.0.1) (2022-01-12)
 
 # [40.0.0](https://github.com/alex-lit/config-eslint/compare/v39.0.0...v40.0.0) (2022-01-12)
