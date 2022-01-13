@@ -7,9 +7,10 @@ module.exports = {
   plugins: ['etc'],
 
   rules: {
+    'etc/no-implicit-any-catch': 'off',
     'etc/no-misused-generics': 'error',
     'etc/no-t': 'error',
-    'etc/prefer-less-than': 'error',
+    'etc/prefer-less-than': 'off',
     'etc/underscore-internal': 'error',
   },
 };

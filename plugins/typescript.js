@@ -202,6 +202,7 @@ module.exports = {
           'is',
           'may',
           'must',
+          'need',
           'should',
           'will',
         ],

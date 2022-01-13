@@ -41,9 +41,32 @@ module.exports = {
             },
           ],
 
+          models: [
+            {
+              groupByDecorator: 'Model',
+              sort: 'alphabetical',
+              type: 'property',
+            },
+            {
+              groupByDecorator: 'ModelSync',
+              sort: 'alphabetical',
+              type: 'property',
+            },
+            {
+              groupByDecorator: 'VModel',
+              sort: 'alphabetical',
+              type: 'property',
+            },
+          ],
+
           props: [
             {
               groupByDecorator: 'Prop',
+              sort: 'alphabetical',
+              type: 'property',
+            },
+            {
+              groupByDecorator: 'PropSync',
               sort: 'alphabetical',
               type: 'property',
             },
@@ -57,6 +80,14 @@ module.exports = {
             },
             {
               groupByDecorator: 'ProvideReactive',
+              sort: 'alphabetical',
+              type: 'property',
+            },
+          ],
+
+          refs: [
+            {
+              groupByDecorator: 'Ref',
               sort: 'alphabetical',
               type: 'property',
             },
@@ -197,6 +228,11 @@ module.exports = {
               sort: 'alphabetical',
               type: 'property',
             },
+            {
+              groupByDecorator: '(namespace',
+              sort: 'alphabetical',
+              type: 'property',
+            },
           ],
 
           watches: [
@@ -215,12 +251,16 @@ module.exports = {
           '[static-methods]',
           '[static-async-methods]',
 
-          // properties
+          // decorated properties
           '[vuex]',
           '[injects]',
-          '[provides]',
           '[props]',
+          '[models]',
+          '[provides]',
           '[emits]',
+          '[refs]',
+
+          // properties
           '[sorted-properties]',
           '[arrow-function-properties]',
 
