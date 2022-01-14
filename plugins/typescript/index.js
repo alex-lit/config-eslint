@@ -68,7 +68,7 @@ module.exports = {
       },
       {
         format: ['PascalCase'],
-        selector: 'typeLike',
+        selector: ['typeLike', 'enumMember'],
       },
 
       {
@@ -82,7 +82,7 @@ module.exports = {
       },
 
       {
-        format: ['camelCase', 'UPPER_CASE', 'PascalCase', 'snake_case'],
+        format: ['camelCase', 'UPPER_CASE', 'PascalCase' /* 'snake_case' */],
         leadingUnderscore: 'allow',
         selector: 'objectLiteralProperty',
       },

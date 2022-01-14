@@ -32,6 +32,7 @@ module.exports = [
   // other
   'enabled',
   'invalid',
+  'loading',
   'valid',
   'value',
 ];
