@@ -46,7 +46,6 @@ module.exports = {
 
     '@typescript-eslint/naming-convention': [
       'error',
-
       {
         format: ['camelCase'],
         selector: 'default',
@@ -70,7 +69,6 @@ module.exports = {
         format: ['PascalCase'],
         selector: ['typeLike', 'enumMember'],
       },
-
       {
         custom: {
           match: false,
@@ -80,24 +78,20 @@ module.exports = {
         format: ['PascalCase'],
         selector: 'interface',
       },
-
       {
         format: ['camelCase', 'UPPER_CASE', 'PascalCase', 'snake_case'],
         leadingUnderscore: 'allow',
         selector: 'objectLiteralProperty',
       },
-
       {
         format: ['camelCase', 'UPPER_CASE', 'PascalCase'],
         selector: 'objectLiteralMethod',
       },
-
       {
         format: ['camelCase', 'PascalCase', 'UPPER_CASE'],
         modifiers: ['destructured'],
         selector: 'parameter',
       },
-
       {
         format: ['camelCase', 'UPPER_CASE', 'PascalCase'],
         modifiers: ['const'],
@@ -109,7 +103,6 @@ module.exports = {
         modifiers: ['destructured'],
         selector: 'variable',
       },
-
       {
         filter: {
           match: false,
@@ -122,22 +115,16 @@ module.exports = {
 
         prefix: BOOLEAN_PREFIXES,
 
-        selector: ['variable', 'parameter', 'property', 'accessor'],
+        selector: ['variable', 'parameter', /* 'property', */ 'accessor'],
 
         types: ['boolean'],
       },
-
       {
         format: ['PascalCase'],
 
         leadingUnderscore: 'allow',
 
-        prefix: [
-          ...ENGLISH_VERBS,
-          ...ENGLISH_VERBS.map((verb) => `re${verb}`),
-
-          'on',
-        ],
+        prefix: [...ENGLISH_VERBS, 'on'],
 
         selector: [
           'function',

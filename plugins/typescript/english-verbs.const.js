@@ -1,4 +1,4 @@
-module.exports = [
+const ENGLISH_VERBS = [
   'abandon',
   'abash',
   'abate',
@@ -447,6 +447,7 @@ module.exports = [
   'camouflage',
   'camp',
   'campaign',
+  'can',
   'cancel',
   'canvass',
   'cap',
@@ -2499,6 +2500,7 @@ module.exports = [
   'return',
   'reunite',
   'reuse',
+  'rev',
   'revamp',
   'reveal',
   'revel',
@@ -3356,4 +3358,11 @@ module.exports = [
   'zinc',
   'zip',
   'zoom',
+]
+  .sort()
+  .reverse();
+
+module.exports = [
+  ...ENGLISH_VERBS,
+  ...ENGLISH_VERBS.map((verb) => `re${verb}`),
 ];
