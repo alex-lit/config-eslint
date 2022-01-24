@@ -238,6 +238,7 @@ module.exports = {
           watches: [
             { name: '/handle[A-Z].*/', sort: 'alphabetical', type: 'method' },
             { name: '/on[A-Z].*/', sort: 'alphabetical', type: 'method' },
+            { name: '/watch[A-Z].*/', sort: 'alphabetical', type: 'method' },
           ],
         },
 
