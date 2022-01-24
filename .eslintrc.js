@@ -64,6 +64,7 @@ module.exports = defineConfig({
 
       /* optional */
       // './plugins/optional/jest',
+      // './plugins/optional/jest-dom',
       // './plugins/optional/jest-formatting',
       // './plugins/optional/node',
       // './plugins/optional/react',
