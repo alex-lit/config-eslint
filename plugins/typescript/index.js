@@ -16,6 +16,13 @@ module.exports = {
         '@typescript-eslint/naming-convention': 'off',
       },
     },
+    {
+      files: ['**/store/**/*', '**/vuex/**/*', '**/pinia/**/*'],
+
+      rules: {
+        '@typescript-eslint/no-shadow': 'off',
+      },
+    },
   ],
 
   plugins: ['@typescript-eslint'],

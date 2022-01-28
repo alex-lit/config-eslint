@@ -255,6 +255,7 @@ module.exports = [
   'persistedstate',
   'personalise',
   'phantomjs',
+  'pinia',
   'pipeless',
   'playsinline',
   'plist',
