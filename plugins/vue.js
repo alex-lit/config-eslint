@@ -142,9 +142,15 @@ module.exports = {
 
     'vue/no-v-text': ['error'],
 
+    'vue/no-v-text-v-html-on-component': ['error'],
+
+    'vue/object-shorthand': ['error'],
+
     'vue/padding-line-between-blocks': ['error'],
 
     'vue/prefer-separate-static-class': ['error'],
+
+    'vue/quote-props': ['error'],
 
     'vue/require-direct-export': 'off',
 
