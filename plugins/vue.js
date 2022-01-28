@@ -128,7 +128,7 @@ module.exports = {
 
     'vue/no-unused-components': ['error'],
 
-    'vue/no-unused-refs': ['warn'],
+    'vue/no-unused-refs': 'off',
 
     'vue/no-use-computed-property-like-method': ['error'],
 
