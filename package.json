@@ -86,7 +86,7 @@
     "eslint-plugin-spellcheck": "^0.0.19",
     "eslint-plugin-sql": "^2.1.0",
     "eslint-plugin-svelte3": "^3.4.0",
-    "eslint-plugin-testing-library": "^5.0.4",
+    "eslint-plugin-testing-library": "^5.0.5",
     "eslint-plugin-typescript-sort-keys": "^2.1.0",
     "eslint-plugin-unicorn": "^40.1.0",
     "eslint-plugin-unused-imports": "^2.0.0",

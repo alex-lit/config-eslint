@@ -234,12 +234,6 @@ module.exports = {
               type: 'property',
             },
           ],
-
-          watches: [
-            { name: '/handle[A-Z].*/', sort: 'alphabetical', type: 'method' },
-            { name: '/on[A-Z].*/', sort: 'alphabetical', type: 'method' },
-            { name: '/watch[A-Z].*/', sort: 'alphabetical', type: 'method' },
-          ],
         },
 
         order: [
@@ -288,7 +282,6 @@ module.exports = {
           '[vue-activated]',
 
           // methods
-          '[watches]',
           '[sorted-methods]',
           '[async-methods]',
 
