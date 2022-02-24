@@ -150,6 +150,8 @@ module.exports = {
 
     'vue/prefer-separate-static-class': ['error'],
 
+    'vue/prefer-true-attribute-shorthand': ['error'],
+
     'vue/quote-props': ['error', 'as-needed'],
 
     'vue/require-direct-export': 'off',
