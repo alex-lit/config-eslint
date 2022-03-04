@@ -1,5 +1,5 @@
 <script lang="ts">
-  //
+  /* eslint-disable filenames/match-exported */
   /**
    * ID
    */
