@@ -5,17 +5,6 @@
 module.exports = {
   overrides: [
     {
-      files: [
-        '**/.*.*',
-        '**/pages/**/{0,1,2,3,4,5,6,7,8,9}*.vue',
-        '**/pages/index.vue',
-      ],
-
-      rules: {
-        'filenames/match-exported': 'off',
-      },
-    },
-    {
       files: ['**/layouts/**/*.vue'],
 
       rules: {
@@ -27,6 +16,18 @@ module.exports = {
 
       rules: {
         'filenames/match-exported': ['error', 'kebab', /^_/],
+      },
+    },
+    // off
+    {
+      files: [
+        '**/.*.*',
+        '**/pages/**/{0,1,2,3,4,5,6,7,8,9}*.vue',
+        '**/pages/index.vue',
+      ],
+
+      rules: {
+        'filenames/match-exported': 'off',
       },
     },
   ],

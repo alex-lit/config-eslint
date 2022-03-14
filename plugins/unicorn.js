@@ -6,7 +6,7 @@ module.exports = {
 
   overrides: [
     {
-      files: ['.stylelintrc.js'],
+      files: ['.*'],
 
       rules: {
         'unicorn/no-null': 'off',

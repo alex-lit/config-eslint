@@ -1,3 +1,5 @@
+/* eslint-disable unicorn/no-null */
+
 const ALLOW_BOOLEAN_PROPERTY_LIST = require('./allow-boolean-property-list.const');
 const BOOLEAN_PREFIXES = require('./boolean-prefixes.const');
 const ENGLISH_VERBS = require('./english-verbs.const');
@@ -10,7 +12,7 @@ module.exports = {
 
   overrides: [
     {
-      files: ['*.d.ts'],
+      files: ['*.d.ts', '.*'],
 
       rules: {
         '@typescript-eslint/naming-convention': 'off',
@@ -58,7 +60,7 @@ module.exports = {
         selector: 'default',
       },
       {
-        format: ['camelCase' /* 'UPPER_CASE' */],
+        format: ['camelCase'],
         selector: 'variable',
       },
       {
@@ -86,28 +88,22 @@ module.exports = {
         selector: 'interface',
       },
       {
-        format: ['camelCase', 'UPPER_CASE', 'PascalCase', 'snake_case'],
+        format: null,
         leadingUnderscore: 'allow',
         selector: 'objectLiteralProperty',
       },
       {
-        format: ['camelCase', 'UPPER_CASE', 'PascalCase'],
+        format: null,
         selector: 'objectLiteralMethod',
       },
       {
-        format: ['camelCase', 'PascalCase', 'UPPER_CASE'],
+        format: null,
         modifiers: ['destructured'],
         selector: 'parameter',
       },
       {
         format: ['camelCase', 'UPPER_CASE', 'PascalCase'],
         modifiers: ['const'],
-        selector: 'variable',
-      },
-      {
-        format: ['camelCase'],
-        leadingUnderscore: 'allow',
-        modifiers: ['destructured'],
         selector: 'variable',
       },
       {
@@ -122,7 +118,7 @@ module.exports = {
 
         prefix: BOOLEAN_PREFIXES,
 
-        selector: ['variable', 'parameter', /* 'property', */ 'accessor'],
+        selector: ['accessor', 'parameter', 'variable'],
 
         types: ['boolean'],
       },
@@ -133,12 +129,7 @@ module.exports = {
 
         prefix: [...ENGLISH_VERBS, 'on'],
 
-        selector: [
-          'function',
-          'classMethod',
-          // 'objectLiteralMethod',
-          // 'typeMethod',
-        ],
+        selector: ['classMethod', 'function'],
       },
     ],
 
