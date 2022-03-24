@@ -95,6 +95,13 @@ module.exports = defineConfig({
         'global-require': 'off',
       },
     },
+    {
+      files: ['**/store/**/*', '**/vuex/**/*', '**/pinia/**/*'],
+
+      rules: {
+        'no-param-reassign': 'off',
+      },
+    },
   ],
 
   parserOptions: {
