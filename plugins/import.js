@@ -13,11 +13,12 @@ module.exports = {
     {
       files: [
         '**/.*/**',
+        '**/types/**',
+        '*.d.ts',
         '*.stories.js',
         '*.stories.ts',
         '.*.js',
         '.*.ts',
-        '*.d.ts',
       ],
 
       rules: {
@@ -65,7 +66,7 @@ module.exports = {
         ],
       },
 
-      node: { extensions: ['.mjs', '.js', '.json', '.ts', '.d.ts'] },
+      node: { extensions: ['.d.ts', '.js', '.json', '.mjs', '.mts', '.ts'] },
     },
   },
 };
