@@ -148,6 +148,8 @@ module.exports = {
 
     'vue/padding-line-between-blocks': ['error'],
 
+    'vue/prefer-prop-type-boolean-first': ['error'],
+
     'vue/prefer-separate-static-class': ['error'],
 
     'vue/prefer-true-attribute-shorthand': ['error'],
