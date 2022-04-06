@@ -1,3 +1,5 @@
+# [44.1.0](https://github.com/alex-lit/config-eslint/compare/v44.0.0...v44.1.0) (2022-04-06)
+
 # [44.0.0](https://github.com/alex-lit/config-eslint/compare/v43.6.0...v44.0.0) (2022-04-04)
 
 # [43.6.0](https://github.com/alex-lit/config-eslint/compare/v43.5.0...v43.6.0) (2022-04-01)
