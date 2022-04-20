@@ -141,7 +141,7 @@ module.exports = defineConfig({
       },
     ],
 
-    'no-console': 'off',
+    'no-console': 'warn',
     'no-implicit-coercion': 'error',
 
     'no-restricted-exports': [
