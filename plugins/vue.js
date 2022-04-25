@@ -77,6 +77,8 @@ module.exports = {
 
     'vue/match-component-file-name': ['error'],
 
+    'vue/match-component-import-name': ['error'],
+
     'vue/max-attributes-per-line': [
       'error',
       {
