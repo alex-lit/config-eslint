@@ -76,7 +76,11 @@ module.exports = {
       },
       {
         format: ['PascalCase'],
-        selector: ['typeLike', 'enumMember'],
+        selector: ['typeLike'],
+      },
+      {
+        format: ['UPPER_CASE'],
+        selector: ['enumMember'],
       },
       {
         custom: {
