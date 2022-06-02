@@ -1,3 +1,5 @@
+# [47.4.0](https://github.com/alex-lit/config-eslint/compare/v47.3.0...v47.4.0) (2022-06-02)
+
 # [47.3.0](https://github.com/alex-lit/config-eslint/compare/v47.2.1...v47.3.0) (2022-05-31)
 
 ## [47.2.1](https://github.com/alex-lit/config-eslint/compare/v47.2.0...v47.2.1) (2022-05-26)
