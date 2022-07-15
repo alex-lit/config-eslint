@@ -19,7 +19,7 @@ module.exports = defineConfig({
     ...[
       './plugins/array-func',
       './plugins/compat',
-      // './plugins/decorator-position', // wait for eslint@8 support
+      './plugins/decorator-position',
       './plugins/eslint-comments',
       './plugins/etc',
       './plugins/ext',
