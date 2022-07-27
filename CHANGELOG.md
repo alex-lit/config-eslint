@@ -1,3 +1,5 @@
+# [49.2.0](https://github.com/alex-lit/config-eslint/compare/v49.1.1...v49.2.0) (2022-07-27)
+
 ## [49.1.1](https://github.com/alex-lit/config-eslint/compare/v49.1.0...v49.1.1) (2022-07-20)
 
 # [49.1.0](https://github.com/alex-lit/config-eslint/compare/v49.0.0...v49.1.0) (2022-07-18)
