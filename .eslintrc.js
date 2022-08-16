@@ -30,6 +30,7 @@ module.exports = defineConfig({
       './plugins/lit',
       './plugins/lit-a11y',
       './plugins/more',
+      './plugins/no-await-in-promise',
       './plugins/no-constructor-bind',
       './plugins/no-explicit-type-exports',
       './plugins/no-loops',

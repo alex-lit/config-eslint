@@ -15,6 +15,8 @@ function alightHello(a) {
   return a;
 }
 
+await Promise.all([alightHello(1), alightHello(3)]);
+
 interface Person {
   //
   /**
