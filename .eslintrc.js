@@ -115,6 +115,7 @@ module.exports = defineConfig({
 
   rules: {
     'class-methods-use-this': 'off',
+    curly: 'error',
     'func-style': ['error', 'declaration', { allowArrowFunctions: true }],
     'grouped-accessor-pairs': ['error', 'getBeforeSet'],
 
