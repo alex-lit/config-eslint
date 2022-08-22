@@ -47,7 +47,7 @@ module.exports = defineConfig({
       './plugins/sort-destructure-keys',
       './plugins/sort-keys-fix',
       './plugins/spellcheck',
-      './plugins/sql',
+      // './plugins/sql',
       './plugins/testing-library',
       './plugins/typescript/index',
       './plugins/typescript-sort-keys',
