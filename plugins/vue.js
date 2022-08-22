@@ -26,7 +26,7 @@ module.exports = {
 
     // 'vue/component-api-style': [
     //   'error',
-    //   ['script-setup', 'composition', 'options'],
+    //   ['script-setup', 'composition', 'composition-vue2', 'options'],
     // ],
 
     'vue/component-definition-name-casing': ['error', 'kebab-case'],
@@ -46,6 +46,13 @@ module.exports = {
       'error',
       {
         order: ['script', 'template', 'style'],
+      },
+    ],
+
+    'vue/define-macros-order': [
+      'error',
+      {
+        order: ['defineProps', 'defineEmits'],
       },
     ],
 
