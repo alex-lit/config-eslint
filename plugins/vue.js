@@ -24,10 +24,7 @@ module.exports = {
       },
     ],
 
-    // 'vue/component-api-style': [
-    //   'error',
-    //   ['script-setup', 'composition', 'composition-vue2', 'options'],
-    // ],
+    'vue/component-api-style': ['error', ['script-setup']],
 
     'vue/component-definition-name-casing': ['error', 'kebab-case'],
 
@@ -49,12 +46,16 @@ module.exports = {
       },
     ],
 
+    'vue/define-emits-declaration': ['error'],
+
     'vue/define-macros-order': [
       'error',
       {
         order: ['defineProps', 'defineEmits'],
       },
     ],
+
+    'vue/define-props-declaration': ['error'],
 
     'vue/eqeqeq': ['error'],
 
@@ -119,6 +120,8 @@ module.exports = {
 
     'vue/no-potential-component-option-typo': ['error'],
 
+    'vue/no-ref-object-destructure': ['error'],
+
     'vue/no-reserved-component-names': [
       'error',
       {
@@ -156,6 +159,17 @@ module.exports = {
     'vue/object-shorthand': ['error'],
 
     'vue/padding-line-between-blocks': ['error'],
+
+    'vue/padding-line-between-tags': [
+      'error',
+      [
+        {
+          blankLine: 'always',
+          next: '*',
+          prev: '*',
+        },
+      ],
+    ],
 
     'vue/prefer-prop-type-boolean-first': ['error'],
 
