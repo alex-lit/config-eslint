@@ -122,6 +122,13 @@ module.exports = {
 
     'vue/no-ref-object-destructure': ['error'],
 
+    'vue/no-required-prop-with-default': [
+      'error',
+      {
+        autofix: true,
+      },
+    ],
+
     'vue/no-reserved-component-names': [
       'error',
       {
