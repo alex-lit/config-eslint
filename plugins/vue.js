@@ -57,6 +57,8 @@ module.exports = {
 
     'vue/define-props-declaration': ['error'],
 
+    'vue/dot-notation': ['error'],
+
     'vue/eqeqeq': ['error'],
 
     'vue/html-button-has-type': ['error'],
