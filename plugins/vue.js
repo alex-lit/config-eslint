@@ -208,7 +208,7 @@ module.exports = {
 
     'vue/v-on-event-hyphenation': ['error'],
 
-    'vue/v-on-function-call': ['error', 'always'],
+    'vue/v-on-handler-style': ['error', 'inline-function'],
 
     'vue/valid-next-tick': ['error'],
 
