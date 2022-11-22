@@ -84,7 +84,7 @@
     "eslint-plugin-sort-class-members": "^1.15.2",
     "eslint-plugin-sort-destructure-keys": "^1.4.0",
     "eslint-plugin-sort-keys-fix": "^1.1.2",
-    "eslint-plugin-spellcheck": "^0.0.19",
+    "eslint-plugin-spellcheck": "^0.0.20",
     "eslint-plugin-sql": "^2.3.2",
     "eslint-plugin-svelte3": "^4.0.0",
     "eslint-plugin-testing-library": "^5.9.1",
