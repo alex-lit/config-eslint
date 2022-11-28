@@ -190,6 +190,13 @@ module.exports = {
 
     'vue/require-direct-export': 'off',
 
+    'vue/require-prop-comment': [
+      'warn',
+      {
+        type: 'JSDoc',
+      },
+    ],
+
     'vue/sort-keys': [
       'warn',
       'asc',
