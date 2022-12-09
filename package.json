@@ -40,8 +40,8 @@
   },
   "dependencies": {
     "@intlify/eslint-plugin-vue-i18n": "^2.0.0",
-    "@typescript-eslint/eslint-plugin": "^5.45.0",
-    "@typescript-eslint/parser": "^5.45.0",
+    "@typescript-eslint/eslint-plugin": "^5.46.0",
+    "@typescript-eslint/parser": "^5.46.0",
     "eslint": "^8.29.0",
     "eslint-config-airbnb-base": "^15.0.0",
     "eslint-config-prettier": "^8.5.0",
@@ -60,7 +60,7 @@
     "eslint-plugin-jest-formatting": "^3.1.0",
     "eslint-plugin-jsdoc": "^39.6.4",
     "eslint-plugin-jsx-a11y": "^6.6.1",
-    "eslint-plugin-lit": "^1.6.1",
+    "eslint-plugin-lit": "^1.7.0",
     "eslint-plugin-lit-a11y": "^2.3.0",
     "eslint-plugin-more": "^1.0.5",
     "eslint-plugin-no-await-in-promise": "^1.1.1",
@@ -80,7 +80,7 @@
     "eslint-plugin-regexp": "^1.11.0",
     "eslint-plugin-security": "^1.5.0",
     "eslint-plugin-simple-import-sort": "^8.0.0",
-    "eslint-plugin-sonarjs": "^0.16.0",
+    "eslint-plugin-sonarjs": "^0.17.0",
     "eslint-plugin-sort-class-members": "^1.16.0",
     "eslint-plugin-sort-destructure-keys": "^1.4.0",
     "eslint-plugin-sort-keys-fix": "^1.1.2",
@@ -96,7 +96,7 @@
     "eslint-plugin-vuetify": "^1.1.0",
     "eslint-plugin-wc": "^1.4.0",
     "eslint-plugin-write-good-comments": "^0.1.4",
-    "typescript": "^4.9.3"
+    "typescript": "^4.9.4"
   },
   "devDependencies": {
     "@alexlit/lint-kit": "latest"
