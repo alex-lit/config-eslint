@@ -180,6 +180,11 @@ module.exports = {
       ],
     ],
 
+    'vue/padding-lines-in-component-definition': [
+      'error',
+      { groupSingleLineProperties: true },
+    ],
+
     'vue/prefer-prop-type-boolean-first': ['error'],
 
     'vue/prefer-separate-static-class': ['error'],
