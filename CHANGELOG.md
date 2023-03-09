@@ -1,3 +1,5 @@
+## [57.3.1](https://github.com/alex-lit/config-eslint/compare/v57.3.0...v57.3.1) (2023-03-09)
+
 # 57.3.0 (2023-03-09)
 
 ### Bug Fixes
