@@ -1,3 +1,5 @@
+# [58.6.0](https://github.com/alex-lit/config-eslint/compare/v58.5.0...v58.6.0) (2023-03-30)
+
 # [58.5.0](https://github.com/alex-lit/config-eslint/compare/v58.4.0...v58.5.0) (2023-03-22)
 
 # [58.4.0](https://github.com/alex-lit/config-eslint/compare/v57.3.1...v58.4.0) (2023-03-14)
