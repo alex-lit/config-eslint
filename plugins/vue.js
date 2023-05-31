@@ -71,6 +71,20 @@ module.exports = {
 
     'vue/html-end-tags': ['error'],
 
+    'vue/html-self-closing': [
+      'error',
+      {
+        html: {
+          component: 'always',
+          normal: 'never',
+          void: 'always',
+        },
+
+        math: 'always',
+        svg: 'always',
+      },
+    ],
+
     'vue/match-component-file-name': ['error'],
 
     'vue/match-component-import-name': ['error'],
@@ -105,6 +119,8 @@ module.exports = {
     'vue/no-loss-of-precision': ['error'],
 
     'vue/no-multiple-objects-in-class': ['error'],
+
+    'vue/no-multiple-template-root': 'off',
 
     'vue/no-parsing-error': ['error'],
 
