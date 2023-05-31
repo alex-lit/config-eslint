@@ -144,7 +144,10 @@ module.exports = defineConfig({
     ],
 
     'no-console': 'warn',
+
     'no-implicit-coercion': 'error',
+
+    'no-param-reassign': ['error', { props: false }],
 
     'no-restricted-exports': [
       'error',
@@ -165,6 +168,8 @@ module.exports = defineConfig({
 
     // delegate to eslint-plugin-unused-imports
     'no-use-before-define': 'off',
+
+    'nonblock-statement-body-position': ['error', 'below'],
 
     'padding-line-between-statements': [
       'warn',

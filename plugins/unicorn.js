@@ -33,7 +33,7 @@ module.exports = {
 
     'unicorn/no-array-for-each': 'off',
 
-    'unicorn/no-array-reduce': 'off',
+    'unicorn/no-array-reduce': ['error', { allowSimpleOperations: true }],
 
     'unicorn/prefer-module': 'off',
 
@@ -44,8 +44,13 @@ module.exports = {
       {
         allowList: {
           ProcessEnv: true,
+          args: true,
+          attrs: true,
           env: true,
           i18n: true,
+          params: true,
+          props: true,
+          ref: true,
         },
 
         checkFilenames: false, // delegate to eslint-plugin-filenames

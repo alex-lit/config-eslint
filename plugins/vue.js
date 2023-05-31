@@ -5,6 +5,16 @@
 module.exports = {
   extends: ['plugin:vue/recommended'],
 
+  overrides: [
+    {
+      files: ['**/pages/**/*', '**/layouts/**/*'],
+
+      rules: {
+        'vue/multi-word-component-names': 'off',
+      },
+    },
+  ],
+
   plugins: ['vue'],
 
   rules: {
@@ -30,9 +40,8 @@ module.exports = {
 
     'vue/component-name-in-template-casing': [
       'error',
-      'kebab-case',
+      'PascalCase',
       {
-        ignores: [],
         registeredComponentsOnly: false,
       },
     ],
@@ -48,42 +57,19 @@ module.exports = {
 
     'vue/define-emits-declaration': ['error'],
 
-    'vue/define-macros-order': [
-      'error',
-      {
-        order: ['defineProps', 'defineEmits'],
-      },
-    ],
+    'vue/define-macros-order': ['error'],
 
     'vue/define-props-declaration': ['error'],
 
     'vue/dot-notation': ['error'],
-
     'vue/eqeqeq': ['error'],
-
     'vue/html-button-has-type': ['error'],
-
     'vue/html-comment-content-newline': ['warn'],
-
     'vue/html-comment-content-spacing': ['warn'],
 
     'vue/html-comment-indent': ['warn'],
 
     'vue/html-end-tags': ['error'],
-
-    'vue/html-self-closing': [
-      'error',
-      {
-        html: {
-          component: 'never',
-          normal: 'never',
-          void: 'always',
-        },
-
-        math: 'always',
-        svg: 'always',
-      },
-    ],
 
     'vue/match-component-file-name': ['error'],
 
@@ -107,6 +93,8 @@ module.exports = {
     'vue/no-deprecated-slot-attribute': ['error'],
 
     'vue/no-deprecated-slot-scope-attribute': ['error'],
+
+    'vue/no-duplicate-attr-inheritance': ['error'],
 
     'vue/no-empty-component-block': ['error'],
 
@@ -142,6 +130,8 @@ module.exports = {
     'vue/no-restricted-component-options': ['error'],
 
     'vue/no-restricted-props': ['error'],
+
+    'vue/no-root-v-if': ['error'],
 
     'vue/no-this-in-before-route-enter': ['error'],
 
@@ -185,6 +175,8 @@ module.exports = {
       { groupSingleLineProperties: true },
     ],
 
+    'vue/prefer-define-options': ['error'],
+
     'vue/prefer-prop-type-boolean-first': ['error'],
 
     'vue/prefer-separate-static-class': ['error'],
@@ -194,13 +186,6 @@ module.exports = {
     'vue/quote-props': ['error', 'as-needed'],
 
     'vue/require-direct-export': 'off',
-
-    'vue/require-prop-comment': [
-      'warn',
-      {
-        type: 'JSDoc',
-      },
-    ],
 
     'vue/sort-keys': [
       'warn',
@@ -221,6 +206,8 @@ module.exports = {
     'vue/v-on-event-hyphenation': ['error'],
 
     'vue/v-on-handler-style': ['error', 'inline-function'],
+
+    'vue/valid-define-options': ['error'],
 
     'vue/valid-next-tick': ['error'],
 
