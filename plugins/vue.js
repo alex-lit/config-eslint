@@ -3,7 +3,7 @@
  * @see [eslint-plugin-vue](https://eslint.vuejs.org/rules/)
  */
 module.exports = {
-  extends: ['plugin:vue/recommended'],
+  extends: ['plugin:vue/vue3-recommended'],
 
   overrides: [
     {
@@ -62,9 +62,13 @@ module.exports = {
     'vue/define-props-declaration': ['error'],
 
     'vue/dot-notation': ['error'],
+
     'vue/eqeqeq': ['error'],
+
     'vue/html-button-has-type': ['error'],
+
     'vue/html-comment-content-newline': ['warn'],
+
     'vue/html-comment-content-spacing': ['warn'],
 
     'vue/html-comment-indent': ['warn'],
@@ -96,11 +100,25 @@ module.exports = {
       },
     ],
 
+    'vue/max-lines-per-block': [
+      'warn',
+      {
+        script: 500,
+        skipBlankLines: true,
+        style: 500,
+        template: 500,
+      },
+    ],
+
     'vue/new-line-between-multi-line-property': ['error'],
 
     'vue/next-tick-style': ['error', 'promise'],
 
     'vue/no-child-content': ['error'],
+
+    'vue/no-console': ['error'],
+
+    'vue/no-custom-modifiers-on-v-model': 'off',
 
     'vue/no-deprecated-scope-attribute': ['error'],
 
@@ -142,6 +160,8 @@ module.exports = {
         disallowVueBuiltInComponents: true,
       },
     ],
+
+    'vue/no-restricted-component-names': ['error'],
 
     'vue/no-restricted-component-options': ['error'],
 
@@ -202,6 +222,19 @@ module.exports = {
     'vue/quote-props': ['error', 'as-needed'],
 
     'vue/require-direct-export': 'off',
+
+    'vue/require-macro-variable-name': [
+      'error',
+      {
+        defineEmits: '$emit',
+        defineProps: '$props',
+        defineSlots: '$slots',
+        useAttrs: '$attrs',
+        useSlots: '$slots',
+      },
+    ],
+
+    'vue/require-typed-ref': ['error'],
 
     'vue/sort-keys': [
       'warn',
