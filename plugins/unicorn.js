@@ -35,6 +35,8 @@ module.exports = {
 
     'unicorn/no-array-reduce': ['error', { allowSimpleOperations: true }],
 
+    'unicorn/no-empty-file': 'off',
+
     'unicorn/prefer-module': 'off',
 
     'unicorn/prefer-node-protocol': 'off',

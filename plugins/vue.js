@@ -185,7 +185,11 @@ module.exports = {
 
     'vue/no-useless-v-bind': ['error'],
 
+    'vue/no-v-for-template-key': 'off',
+
     'vue/no-v-html': ['error'],
+
+    'vue/no-v-model-argument': 'off',
 
     'vue/no-v-text': ['error'],
 
