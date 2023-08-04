@@ -57,7 +57,10 @@ module.exports = {
 
     'vue/define-emits-declaration': ['error'],
 
-    'vue/define-macros-order': ['error'],
+    'vue/define-macros-order': [
+      'error',
+      { order: ['defineOptions', 'defineProps', 'defineEmits', 'defineSlots'] },
+    ],
 
     'vue/define-props-declaration': ['error'],
 
@@ -120,6 +123,8 @@ module.exports = {
 
     'vue/no-custom-modifiers-on-v-model': 'off',
 
+    'vue/no-deprecated-model-definition': ['error'],
+
     'vue/no-deprecated-scope-attribute': ['error'],
 
     'vue/no-deprecated-slot-attribute': ['error'],
@@ -179,6 +184,8 @@ module.exports = {
 
     'vue/no-use-computed-property-like-method': ['error'],
 
+    'vue/no-use-v-else-with-v-for': ['warn'],
+
     'vue/no-useless-mustaches': ['error'],
 
     'vue/no-useless-template-attributes': ['error'],
@@ -237,6 +244,8 @@ module.exports = {
         useSlots: '$slots',
       },
     ],
+
+    'vue/require-typed-object-prop': ['error'],
 
     'vue/require-typed-ref': ['error'],
 
