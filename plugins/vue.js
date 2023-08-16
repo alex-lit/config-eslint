@@ -149,7 +149,7 @@ module.exports = {
 
     'vue/no-potential-component-option-typo': ['error'],
 
-    'vue/no-ref-object-destructure': ['error'],
+    'vue/no-ref-object-reactivity-loss': ['error'],
 
     'vue/no-required-prop-with-default': [
       'error',
@@ -173,6 +173,8 @@ module.exports = {
     'vue/no-restricted-props': ['error'],
 
     'vue/no-root-v-if': ['error'],
+
+    'vue/no-setup-props-reactivity-loss': ['error'],
 
     'vue/no-this-in-before-route-enter': ['error'],
 

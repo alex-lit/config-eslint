@@ -36,9 +36,7 @@ module.exports = defineConfig({
       './plugins/no-loops',
       './plugins/no-secrets',
       './plugins/no-use-extend-native',
-      './plugins/nuxt',
       './plugins/promise',
-      './plugins/quasar',
       './plugins/regexp',
       './plugins/security',
       './plugins/simple-import-sort',
@@ -49,8 +47,8 @@ module.exports = defineConfig({
       './plugins/spellcheck',
       './plugins/sql',
       './plugins/testing-library',
-      './plugins/typescript/index',
       './plugins/typescript-sort-keys',
+      './plugins/typescript/index',
       './plugins/unicorn',
       './plugins/unused-imports',
       './plugins/vue',
@@ -58,20 +56,12 @@ module.exports = defineConfig({
       './plugins/vuejs-accessibility',
       './plugins/wc',
       './plugins/write-good-comments',
-      // './plugins/no-inferred-method-name', // buggy
+
+      /* optional */
+      './plugins/optional/node',
 
       /* prettier */
       './plugins/prettier',
-
-      /* optional */
-      // './plugins/optional/jest',
-      // './plugins/optional/jest-dom',
-      // './plugins/optional/jest-formatting',
-      // './plugins/optional/node',
-      // './plugins/optional/react',
-      // './plugins/optional/react-hooks',
-      // './plugins/optional/svelte',
-      // './plugins/optional/vuetify',
     ].map((config) => require.resolve(config)),
   ],
 
