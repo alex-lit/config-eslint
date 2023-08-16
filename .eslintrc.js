@@ -58,7 +58,7 @@ module.exports = defineConfig({
       './plugins/write-good-comments',
 
       /* optional */
-      './plugins/optional/node',
+      // './plugins/optional/node',
 
       /* prettier */
       './plugins/prettier',
