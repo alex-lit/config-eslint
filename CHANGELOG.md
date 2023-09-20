@@ -1,3 +1,8 @@
+## 66.0.0 (2023-09-20)
+
+- chore: preparing for version update
+  ([a46a1b1](https://github.com/alex-lit/config-eslint/commit/a46a1b1))
+
 # [65.1.0](https://github.com/alex-lit/config-eslint/compare/v65.0.0...v65.1.0) (2023-09-12)
 
 # [65.0.0](https://github.com/alex-lit/config-eslint/compare/v64.1.0...v65.0.0) (2023-09-05)
