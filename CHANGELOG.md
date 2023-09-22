@@ -1,3 +1,8 @@
+## <small>66.0.1 (2023-09-22)</small>
+
+- chore: preparing for version update
+  ([a053e3b](https://github.com/alex-lit/config-eslint/commit/a053e3b))
+
 ## 66.0.0 (2023-09-20)
 
 - chore: preparing for version update
