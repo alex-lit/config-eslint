@@ -10,9 +10,7 @@ module.exports = defineConfig({
   },
 
   extends: [
-    /**
-     * @see [eslint-config-airbnb-base](https://github.com/airbnb/javascript/tree/master/packages/eslint-config-airbnb-base)
-     */
+    /** @see [eslint-config-airbnb-base](https://github.com/airbnb/javascript/tree/master/packages/eslint-config-airbnb-base) */
     'airbnb-base',
 
     /* plugins */
@@ -46,11 +44,13 @@ module.exports = defineConfig({
       './plugins/sort-keys-fix',
       './plugins/spellcheck',
       './plugins/sql',
+      './plugins/tanstack-query',
       './plugins/testing-library',
       './plugins/typescript-sort-keys',
       './plugins/typescript/index',
       './plugins/unicorn',
       './plugins/unused-imports',
+      './plugins/vitest',
       './plugins/vue',
       './plugins/vue-i18n',
       './plugins/vuejs-accessibility',

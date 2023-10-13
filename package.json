@@ -40,12 +40,13 @@
   },
   "dependencies": {
     "@intlify/eslint-plugin-vue-i18n": "^2.0.0",
-    "@typescript-eslint/eslint-plugin": "^6.7.4",
-    "@typescript-eslint/parser": "^6.7.4",
-    "eslint": "^8.50.0",
+    "@tanstack/eslint-plugin-query": "^4.36.1",
+    "@typescript-eslint/eslint-plugin": "^6.7.5",
+    "@typescript-eslint/parser": "^6.7.5",
+    "eslint": "^8.51.0",
     "eslint-config-airbnb-base": "^15.0.0",
     "eslint-config-prettier": "^9.0.0",
-    "eslint-define-config": "^1.23.0",
+    "eslint-define-config": "^1.24.1",
     "eslint-import-resolver-alias": "^1.1.2",
     "eslint-plugin-array-func": "^4.0.0",
     "eslint-plugin-compat": "^4.2.0",
@@ -67,7 +68,7 @@
     "eslint-plugin-no-secrets": "^0.8.9",
     "eslint-plugin-no-use-extend-native": "^0.5.0",
     "eslint-plugin-node": "^11.1.0",
-    "eslint-plugin-prettier": "^5.0.0",
+    "eslint-plugin-prettier": "^5.0.1",
     "eslint-plugin-promise": "^6.1.1",
     "eslint-plugin-regexp": "^1.15.0",
     "eslint-plugin-security": "^1.7.1",
@@ -78,10 +79,11 @@
     "eslint-plugin-sort-keys-fix": "^1.1.2",
     "eslint-plugin-spellcheck": "^0.0.20",
     "eslint-plugin-sql": "^2.5.0",
-    "eslint-plugin-testing-library": "^6.0.2",
+    "eslint-plugin-testing-library": "^6.1.0",
     "eslint-plugin-typescript-sort-keys": "^3.0.0",
     "eslint-plugin-unicorn": "^48.0.1",
     "eslint-plugin-unused-imports": "^3.0.0",
+    "eslint-plugin-vitest": "^0.3.2",
     "eslint-plugin-vue": "^9.17.0",
     "eslint-plugin-vuejs-accessibility": "^2.2.0",
     "eslint-plugin-wc": "^2.0.4",
@@ -89,7 +91,7 @@
     "typescript": "^5.2.2"
   },
   "devDependencies": {
-    "@alexlit/lint-kit": "^101.1.0",
+    "@alexlit/lint-kit": "^102.3.0",
     "prettier": "^3.0.3"
   },
   "engines": {
